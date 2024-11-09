@@ -1,0 +1,1042 @@
+#servicepg-wrapper{width:100%;margin:0;float:left}
+#servicepg-wrapper #service-banner-bg{width:100%;height:250px;background:url(https://www.flatworldsolutions.com/images/service-banner-bg.jpg) left top repeat;float:left;margin:auto;padding:0}
+#servicepg-wrapper #service-banner-bg.data-science{background:#0c3670 url(/data-science/images/data-science-service-banner.jpg) left top no-repeat;float:left;margin:auto;padding:0;background-size:contain}
+#servicepg-wrapper #service-banner-bg #service-banner{width:1100px;margin:0 auto}
+#servicepg-wrapper #service-banner-bg #service-banner .heading{font:normal 30px Myriad W01 Regular;color:#fff;width:60%;padding:0}
+#servicepg-wrapper #service-banner-bg #service-banner .heading{width:100%}
+#servicepg-wrapper #service-banner-bg #service-banner ul{margin:15px 0 15px 5px;padding:0;width:60%}
+#servicepg-wrapper #service-banner-bg #service-banner ul li{font:normal 18px Myriad W01 Regular;color:#fff;list-style:url(https://www.flatworldsolutions.com/images/banner-arrow.png);margin:2px 0 8px 20px;background:0;padding:0}
+#servicepg-wrapper #service-banner-bg #service-banner .content{width:100%;float:left;text-align:left;padding:25px 0 20px;height:205px}
+#servicepg-wrapper #service-banner-bg.data-science #service-banner{width:1000px}
+#servicepg-wrapper #service-banner-bg.data-science #service-banner .content{width:44%;display:inline-block;vertical-align:middle;margin-top: 4%;}
+#servicepg-wrapper #service-banner-bg.data-science #service-banner .bnr-right-panel{width:56%;display:inline-block;vertical-align:middle;margin-top:2%} 
+#servicepg-wrapper #service-banner-bg.data-science #service-banner .bnr-right-panel p{font:bold 20px Myriad W01 Regular;color:#e7ecef}
+#servicepg-wrapper #service-banner-bg.data-science #service-banner ul{width:100%}
+#servicepg-wrapper #service-banner-bg.data-science #service-banner ul li{display:inline-block;vertical-align:top;width:47%;list-style:none;color:#b4e1ff;margin:2px 0 8px 12px;font:normal 17px Myriad W01 Regular}
+#servicepg-wrapper #service-banner-bg.data-science #service-banner ul li:before{font-weight: 900;font-family: "Font Awesome 5 Free";-moz-osx-font-smoothing: grayscale;-webkit-font-smoothing: antialiased;display: inline-block;font-style: normal;font-variant: normal;text-rendering: auto;line-height: 1;font-size: 1rem;
+    content: "\f0a9";position: relative;margin-right: 7px;}
+#servicepg-wrapper #service-banner-bg #service-banner .content.creative-services{background:url(https://www.flatworldsolutions.com/creative-services/images/creative-services-banner-image.jpg) right top no-repeat}
+#servicepg-wrapper #service-banner-bg #service-banner .content.data-entry{background:url(https://www.flatworldsolutions.com/data-management/images/data-entry-banner-image.jpg) right top no-repeat}
+#servicepg-wrapper #service-banner-bg #service-banner .content.photo-editing{background:url(https://www.flatworldsolutions.com/digital-photography/images/photo-editing-banner-image.jpg) right top no-repeat}
+#servicepg-wrapper #service-banner-bg #service-banner .content.research-analysis{background:url(https://www.flatworldsolutions.com/research-analysis/images/research-analysis-banner-image.jpg) right top no-repeat}
+#servicepg-wrapper #service-banner-bg #service-banner .content.it-services{background:url(https://www.flatworldsolutions.com/IT-services/images/software-services-banner-image.jpg) right top no-repeat}
+#servicepg-wrapper #service-banner-bg #service-banner .video-banner{float:right;width:477px;text-align:right;*margin-right:37px}
+#servicepg-wrapper #service-banner-bg #service-banner .video-banner iframe{height:249px}
+#servicepg-wrapper #service-banner-bg #service-banner .content.mortgage,#servicepg-wrapper #service-banner-bg #service-banner .content.software{width:56%;*margin-left:33px;margin-top:10px}
+#servicepg-wrapper #service-banner-bg #service-banner .content.mortgage .heading-new,#servicepg-wrapper #service-banner-bg #service-banner .content.software .heading-new{float:left;color:#99bfdb;font-family:'Cabin Condensed';font-size:22px;width:100%;padding:5px 0}
+#servicepg-wrapper #service-banner-bg #service-banner .content.mortgage .heading-new-big,#servicepg-wrapper #service-banner-bg #service-banner .content.software .heading-new-big{float:left;color:#bee3ff;font-family:'Cabin Condensed';font-size:29px;font-weight:700;width:100%;padding:2px 0;line-height:33px}
+#servicepg-wrapper #service-banner-bg #service-banner .content.mortgage .heading-new-small,#servicepg-wrapper #service-banner-bg #service-banner .content.software .heading-new-small{float:left;color:#fff;font-family:'Cabin Condensed';font-size:17px;width:100%;padding:5px 0 20px}
+#servicepg-wrapper #service-banner-bg #service-banner .content.mortgage .heading-new-small span,#servicepg-wrapper #service-banner-bg #service-banner .content.software .heading-new-small span{color:#9eceeb;padding:0 7px;font-family:'Cabin Condensed';font-size:15px}
+#servicepg-wrapper #service-banner-bg #service-banner .content.mortgage .heading,#servicepg-wrapper #service-banner-bg #service-banner .content.mortgage ul,#servicepg-wrapper #service-banner-bg #service-banner .content.call-center .heading,#servicepg-wrapper #service-banner-bg #service-banner .content.call-center ul,#servicepg-wrapper #service-banner-bg #service-banner .content.software .heading,#servicepg-wrapper #service-banner-bg #service-banner .content.software ul{width:100%}
+#servicepg-wrapper #service-banner-bg #service-banner .content.engineering{background:url(https://www.flatworldsolutions.com/engineering/images/engineering-banner-image.jpg) right top no-repeat}
+#servicepg-wrapper #service-banner-bg #service-banner .content.insurance-bpo{background:url(https://www.flatworldsolutions.com/insurance-bpo/images/banner-img.jpg) right top no-repeat}
+#servicepg-wrapper #service-banner-bg #service-banner .content.healthcare{background:url(https://www.flatworldsolutions.com/healthcare/images/healthcare-banner-image.jpg) right top no-repeat}
+#servicepg-wrapper #service-banner-bg #service-banner .content.financial-services{background:url(/financial-services/images/financial-banner-image.jpg) right top no-repeat}
+#servicepg-wrapper #service-banner-bg #service-banner .content.additional-services{background:url(https://www.flatworldsolutions.com/additional-services/images/additional-banner-image.jpg) right top no-repeat}
+#servicepg-wrapper #service-banner-bg #service-banner .content.reo-services{background:url(https://www.flatworldsolutions.com/reo-services/images/reo-banner-image.jpg) right top no-repeat}
+#servicepg-wrapper #service-banner-bg #service-banner .content.webanalytics{background:url(https://www.flatworldsolutions.com/webanalytics/images/web-analytics-banner-image.jpg) right top no-repeat}
+#servicepg-wrapper #service-banner-bg #service-banner .content.transcription{background:url(https://www.flatworldsolutions.com/transcription/images/transcription-banner-image.jpg) right top no-repeat}
+#servicepg-wrapper #service-banner-bg #service-banner .content.legal-services{background:url(https://www.flatworldsolutions.com/legal-services/images/legal-banner-image.jpg) right top no-repeat}
+#servicepg-wrapper #service-banner-bg #service-banner .content.translation{background:url(https://www.flatworldsolutions.com/translation/images/translation-banner-image.jpg) right top no-repeat}
+#servicepg-wrapper #service-banner-bg #service-banner .content.logistics{background:url(https://www.flatworldsolutions.com/logistics/images/logistics-banner-image.jpg) right top no-repeat}
+#servicepg-wrapper #service-banner-bg #service-banner .content.customs-brokerage{background:url(https://www.flatworldsolutions.com/customs-brokerage/images/custom-brokerage.jpg) right top no-repeat}
+#servicepg-wrapper #service-banner-bg #service-banner .content.virtual-executive-assistant{background:url(https://www.flatworldsolutions.com/virtual-executive-assistant/images/virtual-assistant.jpg) right top no-repeat}
+#servicepg-wrapper #service-banner-bg #service-banner .content.call-center, #servicepg-wrapper #service-banner-bg #service-banner .content.insurance-bpo{width:55%;background:none}
+#servicepg-wrapper #service-banner-bg #service-banner .content.insurance-bpo ul{width:100%}
+#servicepg-wrapper #service-banner-bg #service-banner .action-btn{padding:6px 10px;background:#2aa6e2;font:normal 16px Myriad W01 Regular;color:#fffdff;text-shadow:1px 1px 1px #155f86;-webkit-box-shadow:1px 1px 3px 0 #155f86;box-shadow:1px 1px 3px 0 #155f86;float:left}
+#servicepg-wrapper #service-banner-bg #service-banner .action-btn a{font:normal 18px Myriad W01 Regular;color:#fff;text-decoration:none}
+#servicepg-wrapper #service-banner-bg #service-banner .land-pricing-btn a{padding-right:8px;background:#2aa6e2;border-top:1px solid #83d3f4;text-shadow:1px 1px 1px #155f86;-webkit-box-shadow:1px 1px 3px 0 #155f86;box-shadow:1px 1px 3px 0 #155f86;float:left;margin-left:15px;display:block;font:normal 18px/33px Myriad W01 Regular;color:#fff;text-decoration:none;height:33px}
+#servicepg-wrapper #service-banner-bg #service-banner .land-pricing-btn a:before{content:"$£€";height:33px;background-color:#2185b6;padding:0 4px 0 8px;text-shadow:1px 0 1px #333;color:#fff;font:21px/33px normal Myriad W01 Regular;letter-spacing:3px;float:left;margin-right:7px}
+@-webkit-keyframes hvr-back-pulse {
+50%{background-color:rgba(32,152,209,0.75)}
+}
+@keyframes hvr-back-pulse {
+50%{background-color:rgba(32,152,209,0.75)}
+}
+#servicepg-wrapper #service-banner-bg #service-banner .land-pricing-btn a:hover,#servicepg-wrapper #service-banner-bg #service-banner .action-btn:hover,#servicepg-wrapper #service-banner-bg #service-banner .land-pricing-btn a:active,#servicepg-wrapper #service-banner-bg #service-banner .action-btn:active,#servicepg-wrapper #service-banner-bg #service-banner .land-pricing-btn a:focus,#servicepg-wrapper #service-banner-bg #service-banner .action-btn:focus{background-color:#1191d0;animation-name:hvr-back-pulse;animation-duration:1s;animation-delay:.5s;animation-timing-function:linear;animation-iteration-count:infinite;transition-property:box-shadow;box-shadow:0 0 8px rgba(0,0,0,0.6)}
+#servicepg-wrapper #service-banner-bg #service-banner .action-btn,#servicepg-wrapper #service-banner-bg #service-banner .land-pricing-btn a{transform:translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);backface-visibility:hidden;-moz-osx-font-smoothing:grayscale;overflow:hidden;transition-duration:.5s;transition-property:color,background-color}
+#servicepg-wrapper #content-container{width:1170px;margin:0 auto;padding:0}
+#servicepg-wrapper section{width:68%;float:left;margin:3% 2% 0 0}
+section .sub-service-container{width:22%;height:145px;padding:2% 2% 0;float:left;text-align:center;margin:0 0 40px}
+section .sub-service-container.first{padding:2% 2% 0 0}
+section .sub-service-container.last{padding:2% 0 0 2%}
+section .sub-service-container .img-holder{margin:0 auto 5%;border:0;*height:80px;width:auto}
+section .sub-service-container h3{font:normal 15px Myriad W01 Regular!important;color:#454546;margin:0 auto;text-align:center;letter-spacing:0}
+section .sub-service-container h3 a{font:normal 15px Myriad W01 Regular!important;color:#454546;text-decoration:none !important;border:0}
+section .sub-service-container h3 a:hover{color:#454546;text-decoration:none;border:0}
+#creative-service-panel .sub-service-container,#photo-editing-panel .sub-service-container,#healthcare-panel .sub-service-container{margin:0}
+section .sub-service-container .audio-transcription{background-color:#d85b45;width:110px;height:110px;border-radius:50%;text-align:center;padding:10px;margin:0 auto;display:block;text-decoration:none}
+section .sub-service-container .healthcare-roundedbuttons{background-color:#daf1ff;width:116px;height:116px;border-radius:50%;text-align:center;padding:10px;margin:0 auto;display:block;text-decoration:none}
+.healthcare-roundedbuttons.HIPAA{background:url(https://www.flatworldsolutions.com/healthcare/images/hipaa-logo.png) no-repeat 6px;text-align:left!important;position:relative}
+.healthcare-roundedbuttons.HIPAA span{position:relative;left:45px;top:45px;color:#2557a7!important}
+.healthcare-roundedbuttons.HIPAA .title{font-size:20px;font-family:arial;font-weight:700}
+.healthcare-roundedbuttons.HIPAA .caption{font-size:12px;font-family:arial;font-weight:400}
+.healthcare-roundedbuttons.RBMA{background:url(https://www.flatworldsolutions.com/healthcare/images/rbma-logo.png) no-repeat 10px 50px;text-align:left!important;position:relative}
+.healthcare-roundedbuttons.RBMA span{position:relative;top:33px;color:#2557a7!important}
+.healthcare-roundedbuttons.RBMA .title{font-size:30px;font-family:Vani;font-weight:400;left:25px}
+.healthcare-roundedbuttons.RBMA .caption{left:10px;top:74px;font-size:8px;font-weight:400;position:absolute}
+.healthcare-roundedbuttons.RBMA .trademark{left:7px;top:20px;font-weight:400;font-family:arial}
+section .sub-service-container .audio-transcription span,section .sub-service-container .upload-audiofile span{text-align:center;font-size:14px;letter-spacing:0;color:#000;display:block}
+section .sub-service-container .healthcare-roundedbuttons span{font-size:16px;color:#01359a;font-weight:700}
+section .sub-service-container .audio-transcription img,section .sub-service-container .upload-audiofile img{margin-top:20px;text-align:center}
+section .sub-service-container .healthcare-roundedbuttons img{margin-top:30px;text-align:center}
+section .sub-service-container .audio-transcription a,section .sub-service-container .upload-audiofile a,section .sub-service-container .healthcare-roundedbuttons a{font-size:14px;letter-spacing:0;color:#000}
+section .sub-service-container .audio-transcription a:hover,section .sub-service-container .upload-audiofile a:hover{text-decoration:none}
+section .sub-service-container .upload-audiofile{background-color:#2dace3;width:110px;height:110px;border-radius:50%;text-align:center;margin:0 auto;padding:10px;display:block;text-decoration:none}
+.sub-service-container .upload-audiofile img{margin-top:10px!important}
+section .sub-service-container .upload-audiofile,section .sub-service-container .audio-transcription,section .sub-service-container .healthcare-roundedbuttons{-webkit-transition-duration:.2s;transition-duration:.2s;-webkit-transition-property:transform;transition-property:transform;-webkit-transform:translateZ(0);transform:translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);-webkit-box-shadow:0 0 1px rgba(0,0,0,0);-moz-box-shadow:0 0 1px rgba(0,0,0,0)}
+section .sub-service-container .upload-audiofile:hover,section .sub-service-container .audio-transcription:hover,section .sub-service-container .upload-audiofile:focus,section .sub-service-container .audio-transcription:focus,section .sub-service-container .upload-audiofile:active,section .sub-service-container .audio-transcription:active,section .sub-service-container a.healthcare-roundedbuttons:hover,section .sub-service-container a.healthcare-roundedbuttons:focus,section .sub-service-container a.healthcare-roundedbuttons:active{-webkit-transform:scale(1.1);transform:scale(1.1);opacity:1}
+.transcription-section-left,.healthcare-section-left,.customsbrokerage-section-left{width:78%;display:inline-block;float:left}
+.mortgage-section-left,.translation-section-left{width:70%;display:inline-block;float:left}
+.transcription-section-right,.healthcare-section-right,.customsbrokerage-section-right{width:21%;display:inline-block;float:left}
+.mortgage-section-right,.translation-section-right{width:187px;display:inline-block;float:left;margin-left:8px}
+section .healthcare-section-left .sub-service-container,section .transcription-section-left .sub-service-container,section .customsbrokerage-section-left .sub-service-container,section .mortgage-section-left .sub-service-container,section .translation-section-left .sub-service-container{width:27%;padding:2% 3% 0!important}
+section .customsbrokerage-section-right .sub-service-container{width:100%;margin-top:5px!important}
+section .mortgage-section-right .sub-service-container{width:100%;margin-top:10px!important;border:1px solid #d9d9d9;background-color:#f8f8f8;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;box-shadow:0 0 1px #b7b7b7;-webkit-box-shadow:0 0 1px #b7b7b7;-moz-box-shadow:0 0 1px #b7b7b7;height:310px}
+section .translation-section-right .sub-service-container{width:100%;margin-top:10px!important;background-color:#d0533f;border-radius:2px;-webkit-border-radius:2px;-moz-border-radius:2px;box-shadow:0 0 1px #b7b7b7;-webkit-box-shadow:0 0 1px #b7b7b7;-moz-box-shadow:0 0 1px #b7b7b7;height:310px}
+.translation-testimonials-panel{margin:15px;text-align:left}
+.translation-testimonials-panel .content{margin:20px 0;float:left;clear:both}
+.translation-testimonials-panel .content p{font-size:16px;color:#fff;line-height:18px;letter-spacing:0;margin-bottom:20px}
+.translation-testimonials-panel .content span{font-size:15px;color:#fff;opacity:.5}
+section .mortgage-section-right .sub-service-container-new{width:140px;margin-top:10px!important;border:1px solid #d9d9d9;background-color:#f8f8f8;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;box-shadow:0 0 1px #b7b7b7;-webkit-box-shadow:0 0 1px #b7b7b7;-moz-box-shadow:0 0 1px #b7b7b7;height:150px;margin-bottom:45px;margin-left:15px;display:block;text-decoration:none;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;transition-property:transform;-webkit-transform:translateZ(0);transform:translateZ(0)}
+section .mortgage-section-right .sub-service-container-new:hover{opacity:.8;box-shadow:0 0 8px rgba(0,0,0,0.6)}
+section .mortgage-section-right .mortgage-event-panel-new{margin:24px 44px;text-align:left;display:block}
+section .mortgage-section-right .bottom-new{background:#dbdbdb;padding:9px 19px;display:block;height:auto;text-align:center}
+.mortgage-event-panel{margin:10px 8px;text-align:left}
+.mortgage-event-panel h4{font-size:15px;color:#000;margin:15px 0}
+.mortgage-event-panel a{color:#0360a5;font-size:15px;display:inline-block;float:left;line-height:25px;text-decoration:none}
+.mortgage-event-panel span{font-size:15px;display:inline-block;float:left;line-height:25px}
+.mortgage-event-panel a:hover{color:#66a8da;text-decoration:underline}
+.mortgage-event-panel span.divider{font-size:10px;display:inline-block;float:left;padding:2px 5px;line-height:18px}
+.legal-services-section-one{width:100%;float:left}
+.legal-services-section-two{background-color:#f8f8f8;border:1px solid #e0e0e0;padding:10px;width:98%;float:left;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;box-shadow:0 0 1px #bfbfbf}
+.legal-services-section-two .sub-service-container{height:auto}
+.four-column.three{width:48%!important;margin:0}
+.logistics-process{border:1px solid #ddd;padding:3px;float:left;width:100%;margin-bottom:7px}
+.logistics-process .left-block{background-color:#f45640;padding:18px 10px;width:95px;text-align:center;border-radius:5px;float:left;height:33px}
+.logistics-process .left-block span{color:#fff!important;font-weight:700!important;letter-spacing:.5px;text-align:center;margin:0!important;padding:0}
+.logistics-process .right-block{float:left;height:70px;width:75%}
+.logistics-process .right-block ul{margin:0!important;padding:0!important;float:left;margin-left:15px!important;list-style-image:none!important;width:45%}
+.logistics-process .right-block ul.oneul{width:90%}
+.logistics-process .right-block ul li{margin:0!important;margin-top:3px!important;padding:0;padding-left:13px!important;font-size:14px!important;background:url(https://www.flatworldsolutions.com/logistics/images/logistics-process-arrow.gif) no-repeat left 5px!important}
+.insurance-bpo-tab{top:10px}
+.ins-bpo{position:relative}
+#ins-bpo1{border-radius:10px 10px 0 0;width:29%}
+#ins-bpo2,#ins-bpo3{border-radius:10px 10px 0 0;width:28%}
+#ins-bpo1:hover{border-radius:10px 10px 0 0!important;height:51px;box-shadow:0 -3.5px 5px -1px #dfdfdf;-webkit-box-shadow:0 -3.5px 5px -1px #dfdfdf;-moz-box-shadow:0 -3.5px 5px -1px #dfdfdf}
+#ins-bpo2:hover,#ins-bpo3:hover{border-radius:10px 10px 0 0!important;height:51px;box-shadow:0 -3.5px 5px -1px #dfdfdf;-webkit-box-shadow:0 -3.5px 5px -1px #dfdfdf;-moz-box-shadow:0 -3.5px 5px -1px #dfdfdf}
+.ins-bpo{position:relative;padding:0;margin:0;box-shadow:0 0 0 0 #dfdfdf;-webkit-box-shadow:0 0 0 0 #dfdfdf;-moz-box-shadow:0 0 0 0 #dfdfdf;border-radius:5px;float:left;width:100%}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab{position:relative;background-color:#2aa6e2;background-image:none;padding:0;width:19.7%;float:left;height:51px}
+a#mga-link span{color:#fff;font:bold 13px Myriad W01 Regular;position:relative;top:8px}
+#ins-bpo1:hover a#mga-link,#ins-bpo1:hover a#mga-link span{color:#357db8;height:50px;font:bold 13px Myriad W01 Regular!important}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab#sample-1{width:35%}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab#sample-2{width:35%}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab:hover{color:#357db8;background-color:#fff;height:51px;overflow:hidden;border-radius:0!important;-webkit-border-radius:0!important;-moz-border-radius:0!important}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab .ins-bpo-anchor:hover{color:#357db8;box-shadow:0 -3.5px 5px -1px #dfdfdf;-webkit-box-shadow:0 -3.5px 5px -1px #dfdfdf;-moz-box-shadow:0 -3.5px 5px -1px #dfdfdf}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab:first-child,.ins-bpo .ins-bpo-nav .ins-bpo-state-active:first-child .ins-bpo-anchor{border-radius:5px 0 0 0;border-left:0}
+.ins-bpo .ins-bpo-nav .ins-bpo-state-active:first-child .ins-bpo-anchor,.ins-bpo .ins-bpo-nav .ins-bpo-state-active:nth-child(5) .ins-bpo-anchor{border-radius:10px 10px 0 0!important;height:32px;box-shadow:0 -3.5px 5px -1px #dfdfdf;-webkit-box-shadow:0 -3.5px 5px -1px #dfdfdf;-moz-box-shadow:0 -3.5px 5px -1px #dfdfdf}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab:nth-child(5),.ins-bpo .ins-bpo-nav .ins-bpo-state-active:nth-child(5) .ins-bpo-anchor{border-right:0;border-radius:0 5px 0 0}
+.ins-bpo .ins-bpo-nav .ins-bpo-anchor{display:block;padding:10px 20px;text-decoration:none;font-size:13px;font-weight:700;color:#fff;letter-spacing:.2px;cursor:hand;cursor:pointer}
+.ins-bpo .ins-bpo-nav .ins-bpo-state-disabled{opacity:.5}
+.ins-bpo .ins-bpo-nav .ins-bpo-state-active .ins-bpo-anchor{color:#357db8;background-color:#fff;border:0;height:32px;border-radius:10px 10px 0 0;box-shadow:0 -3.5px 5px -1px #dfdfdf;-webkit-box-shadow:0 -3.5px 5px -1px #dfdfdf;-moz-box-shadow:0 -3.5px 5px -1px #dfdfdf}
+.ins-bpo .ins-bpo-nav .ins-bpo-state-active .ins-bpo-anchor:hover{border:0!important;height:32px;box-shadow:0 -3.5px 5px -1px #dfdfdf;-webkit-box-shadow:0 -3.5px 5px -1px #dfdfdf;-moz-box-shadow:0 -3.5px 5px -1px #dfdfdf}
+.ins-bpo .ins-bpo-nav{margin:0;padding:0;width:100.3%;float:left}
+.ins-bpo .ins-bpo-tab{display:block;margin:0;list-style:none;float:left;margin-right:5px}
+.ins-bpo .ins-bpo-panel{padding:10px;display:none;float:left}
+.ins-bpo .ins-bpo-accordion-title{display:none}
+.ins-bpo .ins-bpo-panel.ins-bpo-state-active{display:block}
+.engg-tab-panel-new{width:97%;float:left;height:299px;box-shadow:0 0 3px 1px #dfdfdf;border-radius:0 5px 5px 5px}
+.engg-tab-panel-new .sub-service-container{width:21%;height:auto;margin-bottom:14px}
+.engg-tab-panel-new .sub-service-container.three{width:29%;height:auto;padding:2% 2% 0;float:left;text-align:center}
+.engg-tab-panel-new .sub-service-container h3 a{font-size:14px;color:#7e7e7e;text-decoration:none}
+.engg-tab-panel-new .sub-service-container h3 a:hover{color:#357db8;font-size:14px}
+.engg-tab-panel-new .sub-service-container-content{padding:2% 0;text-align:justify;width:100%;margin:17% 0 0}
+.engg-tab-panel-new .sub-service-container-content h2{color:#00568b;font-weight:700;font-size:15px;letter-spacing:0;margin:1% 0;text-align:left}
+.engg-tab-panel-new .sub-service-container-content p{line-height:18px}
+.engg-tab-panel-new .view-all-services{float:right;margin-right:20px;margin-top:30px}
+@-webkit-keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(32, 152, 209, 0.75);
+  }
+}
+@keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(32, 152, 209, 0.75);
+  }
+}
+.engg-tab-panel-new .view-all-services a{width:100px;background-color:#16adfe;padding:10px;border:1px solid #0360a6;box-shadow:0 0 1px 1px #dfdfdf;display:block;float:left;text-align:center;font-size:15px;color:#fff;text-decoration:none;border-radius: 3px;  -webkit-transform: perspective(1px) translateZ(0);transform: perspective(1px) translateZ(0);box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;  -webkit-transition-duration: 0.3s; transition-duration: 0.3s; -webkit-transition-property: color, background-color;transition-property: color, background-color;  -webkit-transform: perspective(1px) translateZ(0); transform: perspective(1px) translateZ(0);box-shadow: 0 0 1px rgba(0, 0, 0, 0);-webkit-transition-duration: 0.3s;transition-duration: 0.3s; -webkit-transition-property: box-shadow;transition-property: box-shadow}
+.engg-sample-panel{float:left;width:100%;margin:16px 0}
+.engg-tab-panel-new .view-all-services a:hover{  background-color: #2098D1; box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5)}
+
+.engg-tab-panel-new.ins-tab-panel{width:97%;float:left;clear:both;height:auto;border:0;box-shadow:none}
+
+#service-columns.mortgage .four-column{width:22.5%!important;padding:0 15px;margin:0;height:420px;border:0;border-right:1px solid #e6e3e3}
+#service-columns.mortgage .four-column-last.video-section{width:24.6%}
+#service-columns.mortgage .four-column.video-section{width:29%!important;padding-left:0}
+#service-columns.mortgage .four-column:first-child{padding-left:0}
+#service-columns.mortgage .four-column-last{padding-left:30px;height:auto}
+#how-we-works,#how-we-works h2{text-align:center}
+.mortgage-workflow-diagram{width:100%;margin:10px;float:left}
+.rounded-corner-box{background-color:#e9f6fb;border:3px solid #005da2;*float:left;padding:10px;border-radius:15px;width:220px;height:30px;margin:auto}
+.mortgage-workflow-diagram .rounded-corner-box .img-holder{float:left;text-align:left;margin-right:12px;height:30px}
+.mortgage-workflow-diagram .rounded-corner-box .content{float:left;width:69%;text-align:left}
+.mortgage-workflow-diagram .rounded-corner-box .content span{color:#000!important;display:block;position:relative;bottom:-7px}
+.mortgage-workflow-diagram .rounded-corner-box .content span.multiline{bottom:0}
+.down-arrow{clear:both;text-align:center;width:174px;padding:0 10px;background:url(https://www.flatworldsolutions.com/mortgage/images/down-arrow.gif) no-repeat center top;height:14px;margin:auto}
+#reo-service-panel .sub-service-container{width:30%}
+#servicepg-wrapper aside{width:27%;float:left;margin:3% 0 0;padding:10px 0 0}
+aside #small-form{width:90%;padding:5%;float:left;margin:0 0 7px;background:#333;border-radius:5px 5px 0 0}
+aside #small-form>span{font-size:19px;color:#fff;margin:0 0 5px;float:left}
+aside #small-form span.sticky-placeholder-wrapper{font-size:0}
+aside #small-form p{font-size:13px;color:#fff;margin:0 0 12px;float:left;line-height:1.2em}
+aside #small-form p.gdpr-text{margin:0}
+aside input{height:18px;width:95%;background:#fff;border:1px solid #a6a5a6;padding:2%;margin:0 0 10px;font:normal 14px Myriad W01 Regular;color:#a0a0a0}
+aside select{width:99.5%;padding:3% 1%;margin:0 0 12px;font:normal 14px Myriad W01 Regular;color:#a0a0a0;border:1px solid #a6a5a6;background:url(https://www.flatworldsolutions.com/images/form-down-arrow.png) 99% center no-repeat #fff!important;appearance:none;overflow:hidden;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;-o-appearance:none;text-indent:.01px;outline:0}
+select::-ms-expand{display:none}
+aside option{font:normal 14px Myriad W01 Regular;color:#a0a0a0}
+aside textarea{height:36px;width:95%;min-width:95%;max-width:95%;background:#fff;border:1px solid #a6a5a6;padding:2%;margin:0 0 8px;font:normal 14px Myriad W01 Regular;color:#a0a0a0}
+aside .btn{cursor:pointer;border:0;width:260px;height:44px;background:0;box-shadow:none;margin:0;padding:0}
+#service-columns{width:100%;margin:0;padding:2% 0;clear:both;float:left;border-top:2px solid #e6e6e6}
+#service-columns .three-column{width:24%;float:left}
+#service-columns .three-column-mid{width:30%;float:left;margin:0 5%}
+#service-columns .four-column{width:23%;float:left;margin-left:0!important;margin-right:25px}
+#service-columns .four-column-last{width:23%;float:left;margin:0}
+#service-columns h2{font:normal 18px Myriad W01 Regular;color:#333}
+#service-columns h2 a{font:normal 18px Myriad W01 Regular!important;color:#333!important}
+#service-columns h2 a:hover{font:normal 18px Myriad W01 Regular!important;color:#333!important;text-decoration:underline!important}
+#service-columns ul{list-style-image:url(https://www.flatworldsolutions.com/images/circle-icon.png);margin:10px 0}
+#service-columns ul li{font:normal 15px/21px Myriad W01 Regular;color:#454546;margin:8px 0 8px 13px;background:0;padding:0;line-height:1.4em}
+#service-columns ul li a{font:normal 15px/21px Myriad W01 Regular;color:#2aaadc;text-decoration:none}
+#service-columns ul li a:hover{text-decoration:underline}
+#service-columns p{font:normal 15px Myriad W01 Regular;color:#454546;line-height:1.4em}
+#service-columns p b{font-weight:700;letter-spacing:.05em}
+#service-columns span{font:normal 15px Myriad W01 Regular;color:#0262a1}
+#service-columns #how-we-works span{font:normal 15px Myriad W01 Regular;color:#0262a1 !important}
+#service-columns span a{font:normal 15px Myriad W01 Regular;color:#0262a1;text-decoration:underline}
+#service-columns span a:hover{font:normal 15px Myriad W01 Regular;color:#0262a1;text-decoration:underline}
+#service-columns hr{font:normal 1px;color:#e6e3e3;opacity:.2;filter:Alpha(opacity=20)}
+#service-columns .customer-testimonials-lnd p{color:#666}
+#verticalTab{width:97%!important;float:left;background:#0262a1}
+#verticalTab p{font:normal 15px Myriad W01 Regular;color:#000;line-height:1.5em;margin:0;padding:0}
+#verticalTab p a{font:normal 15px Myriad W01 Regular}
+.resp-tabs-list li{font:normal 15px Myriad W01 Regular;color:#fff;display:inline-block;padding:13px 15px;margin:0;list-style-image:url(https://www.flatworldsolutions.com/images/plus-icon.png);cursor:pointer;float:left;background:0}
+.resp-tabs-container{padding:0;background-color:#f8f8f8;clear:left}
+h2.resp-accordion{cursor:pointer;padding:5px;display:none}
+.resp-tab-content{display:none;padding:15px}
+.resp-tab-active{margin-bottom:-1px!important;padding:12px 14px 14px!important;color:#000!important;background-color:#f8f8f8}
+.resp-content-active,.resp-accordion-active{display:block}
+h2.resp-accordion{font:normal 14px Myriad W01 Regular;color:#fff;margin:0;padding:10px 15px;background:#0262a1;border-bottom:1px solid #f8f8f8}
+h2.resp-tab-active{margin-bottom:0!important;padding:12px 15px 10px!important;background:#f8f8f8}
+.resp-vtabs ul.resp-tabs-list{float:left;width:29%;padding:1% 0 1% 1%}
+.resp-vtabs .resp-tabs-list li{display:block;padding:14px 14px 15px!important;margin:0;cursor:pointer;float:none}
+.resp-vtabs .resp-tabs-container{padding:0;background:#f8f8f8;float:right;width:70%;min-height:210px;clear:none}
+.resp-vtabs li.resp-tab-active{background:#f8f8f8;position:relative;z-index:1;padding:14px 14px 15px!important}
+.resp-arrow{width:0;height:0;float:right;margin-top:3px;border-left:6px solid transparent;border-right:6px solid transparent;border-top:12px solid #c1c1c1}
+h2.resp-tab-active span.resp-arrow{border:0;border-left:6px solid transparent;border-right:6px solid transparent;border-bottom:12px solid #9b9797}
+h2.resp-tab-active{background:#f8f8f8!important;font:normal 14px Myriad W01 Regular;color:#fff}
+.resp-easy-accordion h2.resp-accordion{display:block}
+.resp-jfit{width:100%;margin:0}
+.resp-tab-content-active{display:block}
+.demo{width:980px;margin:0 auto}
+.demo h1{margin:33px 0 25px}
+.demo h3{margin:10px 0}
+pre{background:#fff}
+.thumbnail-carousel-slider-panel{width:556px;float:left;margin-top:10px}
+.thumbnail-carousel-slider{position:relative;top:0;left:0;width:100%!important;height:105px!important;overflow:hidden;float:left}
+.thumbnail-carousel-slider>div{width:550px!important;transform:none!important}
+.thumbnail-carousel-slider img{height:105px}
+.it-service-landing-bottom{float:left;width:100%;clear:both;margin-top:2px;margin-left:7px}
+.it-portfolio-box{width:100%;border-radius:2px;background:transparent url(https://www.flatworldsolutions.com/IT-services/images/software-development-case-studies.png) 0 0 no-repeat;display:block;margin:0 auto;max-width:669px;height:147px}
+.it-portfolio-box .img-panel,.it-clientprojects-box .img-panel{float:left;margin:8px;margin-left:21px;clear:both}
+.it-portfolio-box .text-panel,.it-clientprojects-box .text-panel{float:left;margin:0;margin-left:21px;clear:both}
+.it-portfolio-box .img-panel h3,.it-clientprojects-box .text-panel h3{color:#fff!important;font:700 20px/23px "Open Sans",sans-serif;text-align:left!important;width:100%;display:block}
+.it-portfolio-box .text-panel .readmore{background:#008daa;color:#fff;padding:5px 10px;text-decoration:none;display:block;float:left;border-radius:2px;font:normal 13px "Open Sans",sans-serif;-webkit-transform:translateZ(0);transform:translateZ(0);box-shadow:0 0 1px transparent;-webkit-backface-visibility:hidden;backface-visibility:hidden;-moz-osx-font-smoothing:grayscale;padding-right:2.2em;-webkit-transition-duration:.3s;transition-duration:.3s;margin-top:5px}
+.it-portfolio-box .text-panel .readmore:hover{background:#036276;box-shadow:inset 0 0 0 2px #008daa,0 0 1px rgba(0,0,0,0);color:#fff}
+.it-portfolio-box .img-panel h3{margin:0;margin-top:27px!important}
+@-webkit-keyframes hvr-icon-wobble-horizontal {
+16.65%{-webkit-transform:translateX(6px);transform:translateX(6px)}
+33.3%{-webkit-transform:translateX(-5px);transform:translateX(-5px)}
+49.95%{-webkit-transform:translateX(4px);transform:translateX(4px)}
+66.6%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+83.25%{-webkit-transform:translateX(1px);transform:translateX(1px)}
+100%{-webkit-transform:translateX(0);transform:translateX(0)}
+}
+@keyframes hvr-icon-wobble-horizontal {
+16.65%{-webkit-transform:translateX(6px);transform:translateX(6px)}
+33.3%{-webkit-transform:translateX(-5px);transform:translateX(-5px)}
+49.95%{-webkit-transform:translateX(4px);transform:translateX(4px)}
+66.6%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+83.25%{-webkit-transform:translateX(1px);transform:translateX(1px)}
+100%{-webkit-transform:translateX(0);transform:translateX(0)}
+}
+.it-portfolio-box .text-panel .readmore:before{content:url(https://www.flatworldsolutions.com/IT-services/images/cs-bnr-arrow-right.png);position:absolute;right:.8em;padding:0 1px;font-family:FontAwesome;-webkit-transform:translateZ(0);transform:translateZ(0);font-weight:400;font-size:12px;padding-top:3px}
+.it-portfolio-box .text-panel .readmore:hover:before{-webkit-animation-name:hvr-icon-wobble-horizontal;animation-name:hvr-icon-wobble-horizontal;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-iteration-count:1;animation-iteration-count:1}
+#case-studies-banner-vert{background:url(/IT-services/images/software-development-case-studies.jpg) no-repeat 0 0;width:216px;height:410px;float:left;display:block;text-decoration:none;-webkit-transform:translateZ(0);transform:translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);-webkit-backface-visibility:hidden;backface-visibility:hidden;-moz-osx-font-smoothing:grayscale;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:box-shadow;transition-property:box-shadow;margin-right:18px;margin-top:4.3%;position:relative}
+#case-studies-banner-vert:hover{box-shadow:0 0 6px rgba(0,0,0,0.3)}
+#case-studies-banner-vert>div{text-align:center}
+#case-studies-banner-vert>div:first-child{margin-top:47px}
+#case-studies-banner-vert h3{color:#fff;font:bold 20px/23px "Open Sans",sans-serif;text-align:center;width:100%;display:block;margin-top:20px!important}
+#case-studies-banner-vert>div .readmore{border:1px solid #1a1027;background:#1a374b;color:#fff;padding:7px;text-decoration:none;display:inline-block;border-radius:2px;font:bold 13px "Open Sans",sans-serif;-webkit-transform:translateZ(0);transform:translateZ(0);box-shadow:0 0 1px transparent;-webkit-backface-visibility:hidden;backface-visibility:hidden;-moz-osx-font-smoothing:grayscale;padding-right:2.2em;-webkit-transition-duration:.3s;transition-duration:.3s;margin-top:79%}
+#case-studies-banner-vert>div .readmore:before{content:url(https://www.flatworldsolutions.com/IT-services/images/cs-bnr-arrow-right.png);position:absolute;right:.8em;padding:0 1px;font-family:FontAwesome;-webkit-transform:translateZ(0);transform:translateZ(0);font-weight:400;font-size:12px;padding-top:3px}
+#case-studies-banner-vert>div .readmore:hover:before{-webkit-animation-name:hvr-icon-wobble-horizontal;animation-name:hvr-icon-wobble-horizontal;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-iteration-count:1;animation-iteration-count:1}
+#case-studies-banner-vert>div .readmore:hover{background:#3573a0;border:1px solid #4d9cb3}
+@media only screen and (max-width:780px) {
+.demo{margin:5%;width:90%}
+.how-use{float:left;width:300px;display:none}
+}
+#tabInfo{display:none}
+#app-box{width:22%;margin:18px 0 30px;float:left}
+#app-box h2{font:normal 22px Myriad W01 Regular;color:#b51224}
+#app-box p{color:#454546;padding:0;font:normal 15px Myriad W01 Regular}
+#app-box span{color:#2aaadc;font:normal 15px Myriad W01 Regular;padding:0;float:left}
+#app-box span a{color:#2aaadc;font:normal 15px Myriad W01 Regular;text-decoration:none}
+.social-media{width:22%;float:left;font:normal 22px Myriad W01 Regular;color:#b51224}
+#small-device-form{width:92%;max-width:296px;padding:4%;margin:-70px 0 7px;background:#333;border-radius:5px 5px 0 0;clear:both}
+#small-device-form span{font-size:15px;color:#fff;margin:0 auto 5px;display:block}
+#small-device-form p{font-size:13px;color:#fff;margin:0 auto 15px;line-height:1.2em}
+#small-device-form input{height:18px;width:95%;background:#fff;border:1px solid #a6a5a6;padding:2%;margin:0 0 12px;font:normal 14px Myriad W01 Regular;color:#a0a0a0}
+#small-device-form select{width:99.5%;padding:3% 1%;margin:0 0 12px;font:normal 14px Myriad W01 Regular;color:#7f7f7f;border:1px solid #a6a5a6;background:url(https://www.flatworldsolutions.com/images/form-down-arrow.png) 99% center no-repeat #fff!important;appearance:none;overflow:hidden;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;-o-appearance:none;text-indent:.01px;outline:0}
+#servicepg-wrapper #content-container #small-device-form{height:378px}
+select::-ms-expand{display:none}
+#small-device-form option{font:normal 14px Myriad W01 Regular;color:#a0a0a0}
+#small-device-form textarea{height:50px;width:95%;min-width:95%;max-width:95%;background:#fff;border:1px solid #a6a5a6;padding:2%;margin:0 0 12px;font:normal 14px Myriad W01 Regular;color:#a0a0a0}
+#small-device-form .btn{cursor:pointer;border:0;width:100%;max-width:260px;height:44px;background:0;box-shadow:none;margin:0;padding:0}
+.form-blue-btn,#small-device-form .form-blue-btn,#bnr-wrapper aside input.form-blue-btn{padding:6px 10px;background:none repeat scroll 0 0 #2aa6e2;font:20px Myriad W01 Regular;color:#fff;border:1px solid #125f85;float:left;text-decoration:none;margin:0;height:39px;width:100%;cursor:pointer;cursor:hand}
+.form-blue-btn:hover,#bnr-wrapper aside input.form-blue-btn:hover{background-color:#2b9eda}
+.jcarousel-skin-tango .jcarousel-container{-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;border:0 solid red}
+.jcarousel-skin-tango ul li{list-style:none outside none!important;background-image:none;padding:0}
+.jcarousel-skin-tango .jcarousel-direction-rtl{direction:rtl}
+.jcarousel-skin-tango .jcarousel-container-horizontal{width:514px;padding:9px 20px 8px 0;border:0 solid blue}
+.jcarousel-skin-tango .jcarousel-container-vertical{width:75px;height:245px;padding:40px 20px;border:0 solid red}
+.jcarousel-skin-tango .jcarousel-clip{overflow:hidden}
+.jcarousel-skin-tango .jcarousel-clip-horizontal{width:530px;height:100px;margin:0;border:0 solid red}
+.jcarousel-skin-tango .jcarousel-clip-vertical{width:75px;height:245px}
+.jcarousel-skin-tango .jcarousel-item{width:70px;height:100px}
+.jcarousel-skin-tango .jcarousel-item-horizontal{margin:0;padding-right:0;width:116px!important;border-radius:0}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal{margin-right:0;border:0 solid red}
+.jcarousel-skin-tango .jcarousel-item-vertical{margin-bottom:10px}
+.jcarousel-skin-tango .jcarousel-item-placeholder{background:#fff;color:#000}
+.jcarousel-skin-tango .jcarousel-next-horizontal{position:absolute;top:9px;right:0;width:1px;height:104px;cursor:pointer;border:0 solid red}
+.jcarousel-skin-tango .jcarousel-next-horizontal ul li{background-image:none;list-style-type:none;list-style-image:none}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal{left:5px;right:auto}
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover,.jcarousel-skin-tango .jcarousel-next-horizontal:focus{background-position:0 0}
+.jcarousel-skin-tango .jcarousel-next-horizontal:active{background-position:0 0}
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:focus,.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active{cursor:default;background-position:-96px 0}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal{left:auto;right:5px}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover,.jcarousel-skin-tango .jcarousel-prev-horizontal:focus{background-position:-32px 0}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active{background-position:-64px 0}
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus,.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active{cursor:default;background-position:-96px 0}
+.jcarousel-skin-tango .jcarousel-next-vertical{position:absolute;bottom:5px;left:3px;width:91px;height:104px;cursor:pointer}
+.jcarousel-skin-tango .jcarousel-next-vertical:hover,.jcarousel-skin-tango .jcarousel-next-vertical:focus{background-position:0 -32px}
+.jcarousel-skin-tango .jcarousel-next-vertical:active{background-position:0 -64px}
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical,.jcarousel-skin-tango .jcarousel-next-disabled-vertical:hover,.jcarousel-skin-tango .jcarousel-next-disabled-vertical:focus,.jcarousel-skin-tango .jcarousel-next-disabled-vertical:active{cursor:default;background-position:0 -96px}
+.jcarousel-skin-tango .jcarousel-prev-vertical{position:absolute;top:5px;left:43px;width:32px;height:32px;cursor:pointer;background:transparent}
+.jcarousel-skin-tango .jcarousel-prev-vertical:hover,.jcarousel-skin-tango .jcarousel-prev-vertical:focus{background-position:0 -32px}
+.jcarousel-skin-tango .jcarousel-prev-vertical:active{background-position:0 -64px}
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical,.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:hover,.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:focus,.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:active{cursor:default;background-position:0 -96px}
+.view-more-samples{border:1px solid #b8b8b8;padding:0 10px;padding-top:37px;text-decoration:none;white-space:normal;display:block;text-align:center;width:71px;font-size:15px;height:65px;border-radius:5px;background:-moz-linear-gradient(top,#bfbfbf 0,#f0f0f0 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#efefef),color-stop(100%,#f0f0f0));background:-webkit-linear-gradient(top,#bfbfbf 0,#f0f0f0 100%);background:-o-linear-gradient(top,#bfbfbf 0,#f0f0f0 100%);background:-ms-linear-gradient(top,#bfbfbf 0,#f0f0f0 100%);background:linear-gradient(to bottom,#bfbfbf 0,#f0f0f0 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bfbfbf',endColorstr='#f0f0f0',GradientType=0)}
+.res-more-samples{border:1px solid #b8b8b8;padding:0 10px;padding-top:40px;text-decoration:none;white-space:normal;display:none;text-align:center;width:20px;font-size:16px;height:57px;border-radius:5px;background:-moz-linear-gradient(top,#bfbfbf 0,#f0f0f0 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#efefef),color-stop(100%,#f0f0f0));background:-webkit-linear-gradient(top,#bfbfbf 0,#f0f0f0 100%);background:-o-linear-gradient(top,#bfbfbf 0,#f0f0f0 100%);background:-ms-linear-gradient(top,#bfbfbf 0,#f0f0f0 100%);background:linear-gradient(to bottom,#bfbfbf 0,#f0f0f0 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bfbfbf',endColorstr='#f0f0f0',GradientType=0)}
+.viewms{float:left;margin-top:10px}
+.noborder{border:0!important}
+.sample-gallery,.software-used{width:62%;clear:both;padding:0;float:left}
+.software-used .jcarousel-skin-tango,.software-used .jcarousel-skin-tango .jcarousel-clip-horizontal,.software-used .jcarousel-skin-tango .jcarousel-container-horizontal{width:100%!important}
+.software-used .jcarousel-skin-tango{border-top:2px solid #e6e6e6;border-bottom:2px solid #e6e6e6;padding:0}
+.software-used .jcarousel-skin-tango .jcarousel-clip-horizontal{height:70px!important}
+.software-used .jcarousel-item{width:auto!important;margin-right:0;margin-left:0;text-align:left;padding-left:0;padding-top: 13px}
+.software-used .jcarousel-item img{width:120px}
+.software-used h2{font:bold 21px Myriad W01 Regular}
+.sample-gallery h2{margin-bottom:0}
+@media screen and (min-width:320px) and (max-width:767px){
+.software-used{width:100%;clear:both}}
+.CSCB-logo{border:1px solid #d2d2d2;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px transparent;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:box-shadow,transform;transition-property:box-shadow,transform;display:inline-block;padding:0;margin:0 auto;font:normal 0/0 arial}
+.CSCB-logo:hover{box-shadow:0 10px 10px -10px rgba(0,0,0,0.5);-webkit-transform:scale(1.1);transform:scale(1.1)}
+.CSCB-logo #data-security-bnr{background:url(/customs-brokerage/images/data-security-fws.png) 0 0 no-repeat;width:116px;height:138px;display:block;text-align:center}
+.CSCB-logo #data-security-bnr img{margin-top:20px}
+section .sub-service-container .CSCB-logo #data-security-bnr h3{margin-top:6px;font:normal 15px/20px Myriad W01 Regular!important;color:#fff;letter-spacing:.1px}
+#content-container #smallform .sticky-placeholder-label[for="FirstName"]{top:57px!important}
+#colorbox,#cboxContent,#cboxLoadedContent{box-sizing:content-box;-moz-box-sizing:content-box;-webkit-box-sizing:content-box}
+#cboxOverlay{background:#777}
+#colorbox{outline:0}
+#cboxTopLeft{width:25px;height:25px;background:url("https://www.outsource2india.com/imaging/images/border1.png") no-repeat 0 0}
+#cboxTopCenter{height:25px;background:url("https://www.outsource2india.com/imaging/images/border1.png") repeat-x 0 -50px}
+#cboxTopRight{width:25px;height:25px;background:url("https://www.outsource2india.com/imaging/images/border1.png") no-repeat -25px 0}
+#cboxBottomLeft{width:25px;height:25px;background:url("https://www.outsource2india.com/imaging/images/border1.png") no-repeat 0 -25px}
+#cboxBottomCenter{height:25px;background:url("https://www.outsource2india.com/imaging/images/border1.png") repeat-x 0 -75px}
+#cboxBottomRight{width:25px;height:25px;background:url("https://www.outsource2india.com/imaging/images/border1.png") no-repeat -25px -25px}
+#cboxMiddleLeft{width:25px;background:url("https://www.outsource2india.com/imaging/images/border2.png") repeat-y 0 0}
+#cboxMiddleRight{width:25px;background:url("https://www.outsource2india.com/imaging/images/border2.png") repeat-y -25px 0}
+#cboxContent{background:#fff;overflow:hidden}
+.cboxIframe{background:#fff}
+#cboxError{padding:50px;border:1px solid #ccc}
+#cboxLoadedContent{margin-top:30px;overflow:hidden !important}
+#cboxTitle{position:absolute;top:0;left:0;text-align:center;width:100%;font-weight:bold;font-size:105%;color:#333333}
+#cboxCurrent{position:absolute;top:0;left:50px;font-size:100%;font-weight:bold;color:#999999}
+#cboxLoadingOverlay{background:#fff url("https://www.outsource2india.com/imaging/images/loading.gif") no-repeat 5px 5px}
+#cboxPrevious,#cboxNext,#cboxSlideshow,#cboxClose{border:0;padding:0;margin:0;overflow:visible;width:auto}
+#cboxPrevious:active,#cboxNext:active,#cboxSlideshow:active,#cboxClose:active{outline:0}
+#cboxSlideshow{position:absolute;top:0;right:42px;color:#444}
+#cboxPrevious{border: 0;padding: 0;margin: 0;overflow: visible;position: absolute;bottom: -29px;background: #fff url(https://www.flatworldsolutions.com/images/modal-window-controls.png) no-repeat 0 0;
+    width: 18px; height: 18px;text-indent: -9999px;    left: 0;background-position: -2px -28px;top:0}
+#cboxNext{border: 0; padding: 0; margin: 0; overflow: visible; position: absolute; bottom: -29px; background: #fff url(https://www.flatworldsolutions.com/images/modal-window-controls.png) no-repeat 0 0; width: 18px;height: 18px; text-indent: -9999px;left: 27px; background-position: -26px -28px;top:0}
+#cboxClose{border: 0;padding: 0;margin: 0;overflow: visible;position: absolute;bottom: -29px;background: #fff url(https://www.flatworldsolutions.com/images/modal-window-controls.png) no-repeat 0 0;   width: 23px;height: 23px;text-indent: -9999px;right: 0;background-position: -45px -28px;top:0}
+#cboxClose:hover, #cboxPrevious:hover, #cboxNext:hover{opacity:0.6}
+
+.cboxSlideshow_on #cboxSlideshow{background-position:-125px 0;right:27px}
+.cboxSlideshow_on #cboxSlideshow:hover{background-position:-150px 0}
+.cboxSlideshow_off #cboxSlideshow{background-position:-150px -25px;right:27px}
+.cboxSlideshow_off #cboxSlideshow:hover{background-position:-125px 0}
+#servicepg-wrapper span#res-heading{display:none}
+#servicepg-wrapper #service-banner-bg #service-banner .content .heading h1{color:#fff;padding:0;font:30px Myriad W01 Regular}
+#servicepg-wrapper #service-banner-bg.data-science #service-banner .content .heading h1{font: bold 45px Myriad W01 Regular;float: none;display: inline-block;vertical-align: middle}
+.ui-autocomplete{position:absolute;cursor:default;max-height:200px;overflow-y:scroll;overflow-x:hidden;border:1px solid #adadad}
+.ui-menu{list-style:none;padding:2px;margin:0;display:block;float:left;background-color:#fff}
+.ui-menu .ui-menu{margin-top:-3px}
+.ui-menu .ui-menu-item{margin:0;padding:0;float:left;clear:left;width:100%;font-size:14px}
+.ui-menu .ui-menu-item a{text-decoration:none;display:block;padding:2px;line-height:15px;color:#666}
+.ui-menu .ui-menu-item a.ui-state-hover,.ui-menu .ui-menu-item a.ui-state-active{font-weight:400;background-color:#f2f2f2}
+.ui-combobox{position:relative;display:inline-block}
+.ui-combobox-toggle{position:absolute;top:0;bottom:0;margin-left:-1px;padding:0}
+.ui-icon-triangle-1-s{background-repeat:no-repeat;background-position:99% center;height:20px;width:5px}
+.ui-button{border:0;margin:0;padding:0;width:12px;height:20px;background-image:url(https://www.flatworldsolutions.com/images/form-down-arrow.png);background-repeat:no-repeat;background-position:0 0;background-color:transparent;float:right;top:64%!important;position:absolute;right:3%}
+.ui-button-text{position:relative;margin:0;padding:0;height:20px;top:-20px}
+#smallformresponsive .ui-button{top:54%!important}
+@media screen and (min-width:240px) and (max-width:319px) {
+#servicepg-wrapper{margin:160px 0 0}
+#servicepg-wrapper #service-banner-bg{display:none}
+#servicepg-wrapper #res-heading{padding:5%;display:block}
+#servicepg-wrapper #content-container{width:90%;padding:0 5%;float:left}
+#servicepg-wrapper section{width:100%;margin:20px 0 0;float:left}
+section .sub-service-container,section .healthcare-section-left .sub-service-container,section .transcription-section-left .sub-service-container{width:96%;padding:2% 2% 0}
+section .sub-service-container.first{padding:2% 2% 0}
+section .sub-service-container.last{padding:2% 2% 0}
+#servicepg-wrapper aside{width:100%;margin:0 0 20px;float:left;display:none}
+aside #small-form{max-width:260px;margin:0 0 20px;padding:4%;width:92%}
+aside .btn{width:100%;max-width:260px}
+aside #app-box{max-width:260px;margin:0;padding:0}
+#service-columns{margin-top:10px}
+#service-columns .four-column{margin:0 0 15px!important;width:100%!important;clear:both}
+#service-columns span{margin:0 0 10px 2px;float:left}
+#service-columns .four-column-last{width:100%;border-top:1px solid #e6e6e6;padding-top:5px}
+#service-columns .four-column-last br{display:none}
+#service-columns .four-column-last p b br{display:block}
+#service-columns span a{padding:0!important}
+#verticalTab{margin:20px 0 30px!important;width:100%!important}
+#app-box,.social-media{width:100%;margin:0 0 20px}
+.transcription-section-right,.transcription-section-left,.healthcare-section-right,.healthcare-section-left,.customsbrokerage-section-left,.customsbrokerage-section-right,.mortgage-section-left,.translation-section-left{width:100%}
+section .transcription-section-left .sub-service-container,section .healthcare-section-left .sub-service-container,section .customsbrokerage-section-left .sub-service-container,section .mortgage-section-left .sub-service-container,section .translation-section-left .sub-service-container{padding:0;width:100%}
+.translation-section-right{display:block;margin-left:auto;margin-right:auto;float:none}
+section .transcription-section-right .sub-service-container,section .healthcare-section-right .sub-service-container,section .customsbrokerage-section-right .sub-service-container{margin-bottom:10px!important;height:140px}
+section .sub-service-container .upload-audiofile:hover,section .sub-service-container .audio-transcription:hover,section .sub-service-container .upload-audiofile:focus,section .sub-service-container .audio-transcription:focus,section .sub-service-container .upload-audiofile:active,section .sub-service-container .audio-transcription:active,section .sub-service-container a.healthcare-roundedbuttons:hover,section .sub-service-container a.healthcare-roundedbuttons:focus,section .sub-service-container a.healthcare-roundedbuttons:active{-webkit-transform:none;transform:none;opacity:none}
+.res-more-samples{display:block!important}
+.view-more-samples{display:none!important}
+.sample-gallery .floatleft{width:75%;overflow:hidden}
+.sample-gallery .viewms{margin-left:10px}
+.sample-gallery h2{margin-bottom:0}
+section .sub-service-container{margin:0!important}
+.software-used .jcarousel-item{margin-right:0!important}
+#service-columns.mortgage .four-column{height:auto;width:100%!important;padding:0;border:0}
+#service-columns.mortgage .four-column-last{padding:0;height:auto;border-bottom:0}
+#how-we-works,#how-we-works h2{text-align:left}
+.legal-services-section-two{width:90%}
+.legal-services-section-two .sub-service-container{height:145px;margin-top:10px!important}
+.logistics-process .left-block{width:99.5%;padding:10px 0;height:auto}
+.logistics-process .left-block span{padding-left:10px}
+.logistics-process .right-block{height:auto;margin-bottom:7px!important}
+.logistics-process .right-block ul{margin-left:5px!important;width:100%}
+#reo-service-panel .sub-service-container{width:100%}
+section .healthcare-section-left .sub-service-container,section .transcription-section-left .sub-service-container,section .customsbrokerage-section-left .sub-service-container,section .mortgage-section-left .sub-service-container,section .translation-section-left .sub-service-container{padding:0!important}
+#cboxContent,#cboxLoadedContent,#cboxLoadedContent img,#cboxTopCenter,#cboxBottomCenter{width:218px!important}
+#colorbox{outline:0;border-radius:10px!important}
+.insurance-bpo-tab{top:10px;width:95%}
+.ins-bpo{position:relative}
+#ins-bpo1{border-radius:0 0 0 0;width:100%}
+#ins-bpo2{border-radius:0 0 0 0;width:100%}
+#ins-bpo1:hover{border-radius:0 0 0 0!important;height:52.5px;border-left:1px solid #2695cc}
+#ins-bpo2:hover{border-radius:0 0 0 0!important;height:52.5px}
+.ins-bpo{position:relative;padding:0;margin:0;box-shadow:0 0 0 0 #dfdfdf;-webkit-box-shadow:0 0 0 0 #dfdfdf;-moz-box-shadow:0 0 0 0 #dfdfdf;border-radius:5px;float:left;width:100%}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab{position:relative;background-color:#2aa6e2;background-image:none;padding:0;width:19.7%;border-right:1px solid #2695cc;border-left:1px solid #2aa6e2;float:left;height:auto}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab#sample-1{width:35%}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab#sample-2{width:35%}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab:hover{color:#357db8;background-color:#fff;border-top:1px solid #025fa5;border-left:1px solid #2695cc;height:52px;overflow:hidden;border-right:1px solid #2695cc;border-radius:0!important;-webkit-border-radius:0!important;-moz-border-radius:0!important}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab .ins-bpo-anchor:hover{color:#357db8;border-left:1px solid #2695cc}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab:first-child,.ins-bpo .ins-bpo-nav .ins-bpo-state-active:first-child .ins-bpo-anchor{border-radius:5px 0 0 0;border-left:0;border-right:1px solid #2695cc}
+.ins-bpo .ins-bpo-nav .ins-bpo-state-active:first-child .ins-bpo-anchor,.ins-bpo .ins-bpo-nav .ins-bpo-state-active:nth-child(5) .ins-bpo-anchor{border-radius:0 0 0 0!important;height:34px;border-left:1px solid #2695cc;width:78.5%}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab:nth-child(5),.ins-bpo .ins-bpo-nav .ins-bpo-state-active:nth-child(5) .ins-bpo-anchor{border-right:0;border-radius:0 5px 0 0}
+.ins-bpo .ins-bpo-nav .ins-bpo-anchor{display:block;padding:10px 28px;text-decoration:none;font-size:13px;font-weight:700;color:#fff;letter-spacing:.2px}
+.ins-bpo .ins-bpo-nav .ins-bpo-state-disabled{opacity:.5}
+.ins-bpo .ins-bpo-nav .ins-bpo-state-active .ins-bpo-anchor{color:#357db8;background-color:#fff;border:0;border-top:1px solid #025fa5;height:46px;border-radius:0 0 0 0}
+.ins-bpo .ins-bpo-nav .ins-bpo-state-active .ins-bpo-anchor:hover{border:0!important;height:35px}
+.ins-bpo .ins-bpo-nav{margin:0;padding:0;width:98.3%;float:left}
+.ins-bpo .ins-bpo-tab{display:block;margin:0;list-style:none;float:left}
+.ins-bpo .ins-bpo-panel{padding:10px;display:none;float:left}
+.ins-bpo .ins-bpo-accordion-title{display:none}
+.ins-bpo .ins-bpo-panel.ins-bpo-state-active{display:block;width:91%;border-radius:0}
+.engg-tab-panel-new{width:97%;float:left;height:auto;box-shadow:0 0 3px 1px #dfdfdf;border-radius:0 5px 5px 5px}
+.engg-tab-panel-new .sub-service-container{width:100%;height:auto;margin-bottom:14px}
+.engg-tab-panel-new .sub-service-container.three{width:29%;height:auto;padding:2% 2% 0;float:left;text-align:center}
+.engg-tab-panel-new .sub-service-container h3 a{font-size:14px;color:#7e7e7e;text-decoration:none}
+.engg-tab-panel-new .sub-service-container h3 a:hover{color:#357db8;font-size:14px}
+.engg-tab-panel-new .sub-service-container-content{padding:2% 0;text-align:justify;width:100%;margin:17% 0 0}
+.engg-tab-panel-new .sub-service-container-content h2{color:#00568b;font-weight:700;font-size:15px;letter-spacing:0;margin:1% 0;text-align:left}
+.engg-tab-panel-new .sub-service-container-content p{line-height:18px}
+.engg-tab-panel-new .view-all-services{float:right;margin-right:55px;margin-top:30px}
+.engg-tab-panel-new .view-all-services a{width:100px;background-color:#0360a6;padding:10px;border:1px solid #16adfe;box-shadow:0 0 1px 1px #dfdfdf;display:block;float:left;text-align:center;font-size:15px;color:#fff;text-decoration:none}
+.engg-sample-panel{float:left;width:100%;margin:16px 0}
+.mortgage-section-right{display:block;margin-left:30px;margin-right:auto;float:left}
+section .mortgage-section-right .sub-service-container-new{width:150px;margin-top:10px!important;border:1px solid #d9d9d9;background-color:#f8f8f8;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;box-shadow:0 0 1px #b7b7b7;-webkit-box-shadow:0 0 1px #b7b7b7;-moz-box-shadow:0 0 1px #b7b7b7;height:150px;margin-bottom:45px;margin-left:15px}
+section .mortgage-section-right .mortgage-event-panel-new{margin:24px 44px;text-align:left;float:left}
+section .mortgage-section-right .bottom-new{background:#dbdbdb;padding:13px 19px;height:17px;margin-top:107px}
+section .mortgage-section-right .bottom-new a{text-decoration:none}
+}
+@media screen and (min-width:360px) and (max-width:591px) {
+.ins-bpo .ins-bpo-nav .ins-bpo-state-active:first-child .ins-bpo-anchor,.ins-bpo .ins-bpo-nav .ins-bpo-state-active:nth-child(5) .ins-bpo-anchor{border-radius:0 0 0 0!important;height:32px!important;border-left:1px solid #2695cc;width:82.2%!important}
+}
+@media screen and (min-width:592px) and (max-width:600px) {
+.ins-bpo .ins-bpo-nav .ins-bpo-state-active:first-child .ins-bpo-anchor,.ins-bpo .ins-bpo-nav .ins-bpo-state-active:nth-child(5) .ins-bpo-anchor{border-radius:0 0 0 0!important;height:32px!important;border-left:1px solid #2695cc;width:89.2%!important}
+}
+@media screen and (min-width:320px) and (max-width:479px) {
+#servicepg-wrapper{margin:145px 0 0}
+#servicepg-wrapper #service-banner-bg{display:none}
+#servicepg-wrapper #res-heading{padding:2% 5%;display:block}
+#servicepg-wrapper #content-container{width:90%;padding:0 5%;float:left}
+#servicepg-wrapper section{width:100%;margin:20px 0 0;float:left}
+section .sub-service-container,section .healthcare-section-left .sub-service-container,section .transcription-section-left .sub-service-container{width:46%;padding:2% 2% 0;height:123px}
+section .sub-service-container.first{padding:2% 2% 0}
+section .sub-service-container.last{padding:2% 2% 0}
+#servicepg-wrapper aside{width:100%;margin:0 0 20px;float:left;display:none}
+aside .btn{width:100%;max-width:260px}
+aside #app-box{max-width:260px;margin:0;padding:0}
+#service-columns{margin-top:10px}
+#service-columns .four-column{margin:0 0 15px!important;width:100%!important;clear:both}
+#service-columns span{margin:0 0 10px 2px;float:left}
+#service-columns .four-column-last{width:100%;border-top:1px solid #e6e6e6;padding-top:5px}
+#service-columns .four-column-last br{display:none}
+#service-columns .four-column-last p b br{display:block}
+#service-columns span a{padding:0!important}
+#verticalTab{margin:20px 0 30px!important;width:100%!important}
+#app-box,.social-media{width:100%;margin:0 0 30px}
+section .sub-service-container h3 a{font:bold 15px Myriad W01 Regular!important}
+.transcription-section-right,.transcription-section-left,.healthcare-section-right,.healthcare-section-left,.customsbrokerage-section-left,.customsbrokerage-section-right,.mortgage-section-left,.translation-section-left{width:100%}
+section .transcription-section-left .sub-service-container,section .healthcare-section-left .sub-service-container,section .customsbrokerage-section-left .sub-service-container,section .mortgage-section-left .sub-service-container,section .translation-section-left .sub-service-container{padding:0;width:100%}
+.mortgage-section-right,.translation-section-right{display:block;margin-left:auto;margin-right:auto;float:none}
+section .transcription-section-right .sub-service-container,section .healthcare-section-right .sub-service-container,section .customsbrokerage-section-right .sub-service-container{margin-bottom:10px!important;height:140px}
+section .sub-service-container .upload-audiofile:hover,section .sub-service-container .audio-transcription:hover,section .sub-service-container .upload-audiofile:focus,section .sub-service-container .audio-transcription:focus,section .sub-service-container .upload-audiofile:active,section .sub-service-container .audio-transcription:active,section .sub-service-container a.healthcare-roundedbuttons:hover,section .sub-service-container a.healthcare-roundedbuttons:focus,section .sub-service-container a.healthcare-roundedbuttons:active{-webkit-transform:none;transform:none;opacity:none}
+.res-more-samples{display:block!important}
+.view-more-samples{display:none!important}
+.sample-gallery .floatleft{width:81%;overflow:hidden}
+.sample-gallery .viewms{margin-left:10px}
+.sample-gallery h2{margin-bottom:0}
+section .sub-service-container{margin:0!important}
+.software-used .jcarousel-item{margin-right:0!important}
+.insurance-bpo-tab{top:10px;width:95%}
+.ins-bpo{position:relative}
+#ins-bpo1{border-radius:0 0 0 0;width:100%}
+#ins-bpo2{border-radius:0 0 0 0;width:99.5%}
+#ins-bpo1:hover{border-radius:0 0 0 0!important;height:45px!important;border-left:1px solid #2695cc}
+#ins-bpo2:hover{border-radius:0 0 0 0!important;height:45px!important}
+.ins-bpo{position:relative;padding:0;margin:0;box-shadow:0 0 0 0 #dfdfdf;-webkit-box-shadow:0 0 0 0 #dfdfdf;-moz-box-shadow:0 0 0 0 #dfdfdf;border-radius:5px;float:left;width:100%}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab{position:relative;background-color:#2aa6e2;background-image:none;padding:0;width:19.7%;border-right:1px solid #2695cc;border-left:1px solid #2aa6e2;float:left;height:44px!important}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab#sample-1{width:35%}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab#sample-2{width:35%}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab:hover{color:#357db8;background-color:#fff;border-top:1px solid #025fa5;border-left:1px solid #2695cc;height:52px;overflow:hidden;border-right:1px solid #2695cc;border-radius:0!important;-webkit-border-radius:0!important;-moz-border-radius:0!important}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab .ins-bpo-anchor:hover{color:#357db8;border-left:1px solid #2695cc}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab:first-child,.ins-bpo .ins-bpo-nav .ins-bpo-state-active:first-child .ins-bpo-anchor{border-radius:5px 0 0 0;border-left:0}
+.ins-bpo .ins-bpo-nav .ins-bpo-state-active:first-child .ins-bpo-anchor,.ins-bpo .ins-bpo-nav .ins-bpo-state-active:nth-child(5) .ins-bpo-anchor{border-radius:0 0 0 0!important;height:32px!important;border-left:1px solid #2695cc;width:80.1%}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab:nth-child(5),.ins-bpo .ins-bpo-nav .ins-bpo-state-active:nth-child(5) .ins-bpo-anchor{border-right:0;border-radius:0 5px 0 0}
+.ins-bpo .ins-bpo-nav .ins-bpo-anchor{display:block;padding:10px 28px 0;text-decoration:none;font-size:13px;font-weight:700;color:#fff;letter-spacing:.2px;height:35px}
+.ins-bpo .ins-bpo-nav .ins-bpo-state-disabled{opacity:.5}
+.ins-bpo .ins-bpo-nav .ins-bpo-state-active .ins-bpo-anchor{color:#357db8;background-color:#fff;border:0;border-top:1px solid #025fa5;height:32px!important;border-radius:0 0 0 0}
+.ins-bpo .ins-bpo-nav .ins-bpo-state-active .ins-bpo-anchor:hover{border:0!important;height:32px!important}
+.ins-bpo .ins-bpo-nav{margin:0;padding:0;width:100%;float:left}
+.ins-bpo .ins-bpo-tab{display:block;margin:0;list-style:none;float:left}
+.ins-bpo .ins-bpo-panel{padding:10px;display:none;float:left}
+.ins-bpo .ins-bpo-accordion-title{display:none}
+.ins-bpo .ins-bpo-panel.ins-bpo-state-active{display:block;width:91%;border-radius:0}
+.engg-tab-panel-new{width:100%;float:left;height:auto;box-shadow:0 0 3px 1px #dfdfdf;border-radius:0}
+.engg-tab-panel-new .sub-service-container{width:100%;height:auto;margin-bottom:14px}
+.engg-tab-panel-new .sub-service-container.three{width:29%;height:auto;padding:2% 2% 0;float:left;text-align:center}
+.engg-tab-panel-new .sub-service-container h3 a{font-size:14px;color:#7e7e7e;text-decoration:none}
+.engg-tab-panel-new .sub-service-container h3 a:hover{color:#357db8;font-size:14px}
+.engg-tab-panel-new .sub-service-container-content{padding:2% 0;text-align:justify;width:100%;margin:17% 0 0}
+.engg-tab-panel-new .sub-service-container-content h2{color:#00568b;font-weight:700;font-size:15px;letter-spacing:0;margin:1% 0;text-align:left}
+.engg-tab-panel-new .sub-service-container-content p{line-height:18px}
+.engg-tab-panel-new .view-all-services{float:right;margin-right:85px;margin-top:20px;margin-bottom:30px}
+.engg-tab-panel-new .view-all-services a{width:100px;background-color:#0360a6;padding:10px;border:1px solid #16adfe;box-shadow:0 0 1px 1px #dfdfdf;display:block;float:left;text-align:center;font-size:15px;color:#fff;text-decoration:none}
+.engg-sample-panel{float:left;width:100%;margin:16px 0}
+#service-columns.mortgage .four-column{height:auto;width:100%!important;padding:0;border:0}
+#service-columns.mortgage .four-column-last{padding:0;height:auto;border-bottom:0}
+#how-we-works,#how-we-works h2{text-align:left}
+.legal-services-section-two{width:92%}
+.legal-services-section-two .sub-service-container{height:145px;margin-top:10px!important}
+.logistics-process .left-block{width:100%;padding:10px 0;height:auto}
+.logistics-process .left-block span{padding-left:10px}
+.logistics-process .right-block{height:auto;margin-bottom:7px!important}
+.logistics-process .right-block ul{margin-left:5px!important;width:100%}
+#reo-service-panel .sub-service-container{width:100%}
+section .healthcare-section-left .sub-service-container,section .transcription-section-left .sub-service-container,section .customsbrokerage-section-left .sub-service-container,section .mortgage-section-left .sub-service-container,section .translation-section-left .sub-service-container{padding:0!important}
+#cboxContent,#cboxLoadedContent,#cboxLoadedContent img,#cboxTopCenter,#cboxBottomCenter{width:293px!important}
+#cboxWrapper{width:321px!important}
+#colorbox{outline:0;border-radius:0!important}
+#cboxTitle{left:86px!important;width:57%!important;bottom:-25px!important;font-size:12px!important}
+#service-columns .three-column{width:90%;float:left}
+#service-columns .three-column-mid{width:90%;float:left;margin:0 5%}
+.mortgage-section-right{display:block;margin-left:auto!important;margin-right:auto!important;float:none!important;width:100%!important}
+section .mortgage-section-right .sub-service-container-new{width:150px;border:1px solid #d9d9d9;background-color:#f8f8f8;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;box-shadow:0 0 1px #b7b7b7;-webkit-box-shadow:0 0 1px #b7b7b7;-moz-box-shadow:0 0 1px #b7b7b7;height:150px;clear:both;float:none!important;margin:10px auto 45px!important}
+section .mortgage-section-right .mortgage-event-panel-new{margin:24px 44px;text-align:left;float:left}
+section .mortgage-section-right .bottom-new{background:#dbdbdb;padding:13px 19px;height:17px;margin-top:107px}
+section .mortgage-section-right .bottom-new a{text-decoration:none}
+#service-columns.mortgage .four-column-last.video-section{width:100%}
+#service-columns.mortgage .four-column.video-section{width:100%!important}
+#service-columns.mortgage .four-column-last.video-section iframe{height:161px}
+#customer-testimonials>div.quotes-panel{margin-top: 10px;margin-bottom: 10px}
+#service-columns h2{font:bold 19px Myriad W01 Regular}
+#service-columns ul li a{font:normal 16px/21px Myriad W01 Regular}
+section .sub-service-container h3 a{font:bold 16px Myriad W01 Regular!important}
+}
+@media screen and (min-width:320px) and (max-width:359px) {
+#cboxContent,#cboxLoadedContent,#cboxLoadedContent img,#cboxTopCenter,#cboxBottomCenter{width:293px!important}
+#cboxWrapper{width:321px!important}
+#cboxTitle{padding-left:10px}
+#colorbox{outline:0;border-radius:0!important}
+}
+@media screen and (min-width:360px) and (max-width:379px) {
+#cboxContent,#cboxLoadedContent,#cboxLoadedContent img,#cboxTopCenter,#cboxBottomCenter{width:331px!important}
+#cboxWrapper{width:360px!important}
+#cboxTitle{padding-left:10px}
+#colorbox{outline:0;border-radius:0!important}
+}
+@media screen and (min-width:380px) and (max-width:399px) {
+#cboxContent,#cboxLoadedContent,#cboxLoadedContent img,#cboxTopCenter,#cboxBottomCenter{width:355px!important}
+#cboxWrapper{width:385px!important}
+#cboxTitle{padding-left:10px}
+#colorbox{outline:0;border-radius:0!important}
+}
+@media screen and (min-width:480px) and (max-width:767px) {
+#servicepg-wrapper{margin:10px 0 0}
+#covid-19-panel-inner{margin:75px 0 0}
+#servicepg-wrapper #service-banner-bg{display:none}
+#servicepg-wrapper #res-heading{padding:10px 20px;display:block}
+#servicepg-wrapper #content-container{width:90%;padding:0 5%;float:left}
+#servicepg-wrapper section{width:100%;margin:20px 0 0;float:left}
+section .sub-service-container,section .healthcare-section-left .sub-service-container,section .transcription-section-left .sub-service-container{width:46%;padding:0!important}
+section .sub-service-container.first{padding:2% 2% 0}
+section .sub-service-container.last{padding:2% 2% 0}
+#servicepg-wrapper aside{width:100%;margin:0 0 20px;float:left;display:none}
+aside #small-form{max-width:260px;margin:0 20px 20px 0;padding:20px}
+aside #app-box{max-width:260px;margin:0;padding:0}
+#service-columns{margin-top:10px}
+#service-columns .four-column{margin:0 0 15px!important;width:100%!important;clear:both}
+#service-columns .four-column.three{width:100%!important}
+#service-columns span{margin:0 0 10px 2px;float:left}
+#service-columns .four-column-last{width:100%!important;padding-top:5px;border-top:1px solid #e6e6e6}
+#service-columns .four-column-last br{display:none}
+#service-columns .four-column-last p b br{display:block}
+#service-columns span a{padding:0!important}
+#verticalTab{margin:20px 0 30px!important;width:100%!important}
+#app-box,.social-media{width:100%;margin:0 0 30px}
+.transcription-section-right,.transcription-section-left,.healthcare-section-right,.healthcare-section-left,.customsbrokerage-section-left,.customsbrokerage-section-right,.mortgage-section-left,.translation-section-left{width:100%}
+section .transcription-section-left .sub-service-container,section .healthcare-section-left .sub-service-container,section .customsbrokerage-section-left .sub-service-container{padding:0}
+.mortgage-section-right{width:430px}
+.translation-section-right{width:97%}
+section .mortgage-section-right .sub-service-container,section .translation-section-right .sub-service-container{height:auto}
+.mortgage-event-panel img{float:left;margin:0 10px 12px 8px}
+.translation-testimonials-panel .content{margin:10px 20px}
+section .customsbrokerage-section-left .sub-service-container{width:27%}
+section .transcription-section-right .sub-service-container,section .healthcare-section-right .sub-service-container,section .customsbrokerage-section-right .sub-service-container{margin-bottom:10px!important;height:140px}
+section .healthcare-section-right .sub-service-container.last,section .transcription-section-right .sub-service-container.last,section .customsbrokerage-section-right .sub-service-container.last{padding:0!important}
+.transcription-section-right .clearboth,.healthcare-section-right .clearboth,.customsbrokerage-section-right .clearboth{clear:none}
+section .sub-service-container .upload-audiofile:hover,section .sub-service-container .audio-transcription:hover,section .sub-service-container .upload-audiofile:focus,section .sub-service-container .audio-transcription:focus,section .sub-service-container .upload-audiofile:active,section .sub-service-container .audio-transcription:active,section .sub-service-container a.healthcare-roundedbuttons:hover,section .sub-service-container a.healthcare-roundedbuttons:focus,section .sub-service-container a.healthcare-roundedbuttons:active{-webkit-transform:none;transform:none;opacity:none}
+section .customsbrokerage-section-right .sub-service-container.last{width:33%}
+section .sub-service-container{margin:0!important}
+section .customsbrokerage-section-right{margin-top:20px}
+#service-columns.mortgage .four-column{height:auto;width:100%!important;padding:0;border:0}
+#service-columns.mortgage .four-column-last{padding:0;height:auto;border-bottom:0}
+#how-we-works,#how-we-works h2{text-align:left}
+.legal-services-section-two{width:96%}
+.legal-services-section-two .sub-service-container{height:145px;margin-top:10px!important}
+.logistics-process .left-block{width:100%;padding:10px 0;height:auto}
+.logistics-process .left-block span{padding-left:10px}
+.logistics-process .right-block{height:auto;margin-bottom:7px!important}
+.logistics-process .right-block ul{margin-left:5px!important;width:100%}
+#reo-service-panel .sub-service-container{width:50%}
+#colorbox{outline:0;border-radius:10px!important}
+.insurance-bpo-tab{top:10px;width:95%}
+.ins-bpo{position:relative}
+#ins-bpo1{border-radius:0 0 0 0;width:100%}
+#ins-bpo2{border-radius:0 0 0 0;width:99.7%}
+#ins-bpo1:hover{border-radius:0 0 0 0!important;height:auto;border-left:1px solid #2695cc}
+#ins-bpo2:hover{border-radius:0 0 0 0!important;height:auto}
+.ins-bpo{position:relative;padding:0;margin:0;box-shadow:0 0 0 0 #dfdfdf;-webkit-box-shadow:0 0 0 0 #dfdfdf;-moz-box-shadow:0 0 0 0 #dfdfdf;border-radius:5px;float:left;width:100%}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab{position:relative;background-color:#2aa6e2;background-image:none;padding:0;width:19.7%;border-right:1px solid #2695cc;border-left:1px solid #2aa6e2;float:left;height:43px}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab#sample-1{width:35%}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab#sample-2{width:35%}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab:hover{color:#357db8;background-color:#fff;border-top:1px solid #025fa5;border-left:1px solid #2695cc;height:auto;overflow:hidden;border-right:1px solid #2695cc;border-radius:0!important;-webkit-border-radius:0!important;-moz-border-radius:0!important}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab .ins-bpo-anchor:hover{color:#357db8}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab:first-child,.ins-bpo .ins-bpo-nav .ins-bpo-state-active:first-child .ins-bpo-anchor{border-radius:5px 0 0 0;border-left:0}
+.ins-bpo .ins-bpo-nav .ins-bpo-state-active:first-child .ins-bpo-anchor,.ins-bpo .ins-bpo-nav .ins-bpo-state-active:nth-child(5) .ins-bpo-anchor{border-radius:0 0 0 0!important;border-left:0 solid #2695cc;width:87.1%}
+.ins-bpo .ins-bpo-nav .ins-bpo-tab:nth-child(5),.ins-bpo .ins-bpo-nav .ins-bpo-state-active:nth-child(5) .ins-bpo-anchor{border-right:0;border-radius:0 5px 0 0}
+.ins-bpo .ins-bpo-nav .ins-bpo-anchor{display:block;padding:10px 28px 0;text-decoration:none;font-size:13px;font-weight:700;color:#fff;letter-spacing:.2px}
+.ins-bpo .ins-bpo-nav .ins-bpo-state-disabled{opacity:.5}
+.ins-bpo .ins-bpo-nav .ins-bpo-state-active .ins-bpo-anchor{color:#357db8;background-color:#fff;border:0;border-top:1px solid #025fa5;border-radius:0 0 0 0;border-left:1px solid #2aa6e2}
+.ins-bpo .ins-bpo-nav .ins-bpo-state-active .ins-bpo-anchor:hover{border:0!important}
+.ins-bpo .ins-bpo-nav{margin:0;padding:0;width:100%;float:left}
+.ins-bpo .ins-bpo-tab{display:block;margin:0;list-style:none;float:left}
+.ins-bpo .ins-bpo-panel{padding:10px;display:none;float:left}
+.ins-bpo .ins-bpo-accordion-title{display:none}
+.ins-bpo .ins-bpo-panel.ins-bpo-state-active{display:block;width:91%;border-radius:0}
+.engg-tab-panel-new{width:100%;float:left;height:auto;box-shadow:0 0 3px 1px #dfdfdf;border-radius:0!important;padding-top:15px}
+.engg-tab-panel-new .sub-service-container{width:100%;height:auto;margin-bottom:14px}
+.engg-tab-panel-new .sub-service-container.three{width:29%;height:auto;padding:2% 2% 0;float:left;text-align:center}
+.engg-tab-panel-new .sub-service-container h3 a{font-size:14px;color:#7e7e7e;text-decoration:none}
+.engg-tab-panel-new .sub-service-container h3 a:hover{color:#357db8;font-size:14px}
+.engg-tab-panel-new .sub-service-container-content{padding:2% 0;text-align:justify;width:100%;margin:17% 0 0}
+.engg-tab-panel-new .sub-service-container-content h2{color:#00568b;font-weight:700;font-size:15px;letter-spacing:0;margin:1% 0;text-align:left}
+.engg-tab-panel-new .sub-service-container-content p{line-height:18px}
+.engg-tab-panel-new .view-all-services{float:right;margin-right:55px;margin-top:30px;width:50%;margin-bottom:20px}
+.engg-tab-panel-new .view-all-services a{width:100px;background-color:#0360a6;padding:10px;border:1px solid #16adfe;box-shadow:0 0 1px 1px #dfdfdf;display:block;float:left;text-align:center;font-size:15px;color:#fff;text-decoration:none}
+.engg-sample-panel{float:left;width:100%;margin:16px 0}
+#service-columns{width:100%;padding:2% 0;clear:both;float:left;border-top:2px solid #e6e6e6}
+#service-columns .three-column{width:100%;float:left}
+#service-columns .three-column-mid{width:100%;float:left;margin:0 5%}
+.mortgage-section-right{display:block;margin-left:0;margin-right:auto;float:left}
+section .mortgage-section-right .sub-service-container-new{width:150px;border:1px solid #d9d9d9;background-color:#f8f8f8;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;box-shadow:0 0 1px #b7b7b7;-webkit-box-shadow:0 0 1px #b7b7b7;-moz-box-shadow:0 0 1px #b7b7b7;height:150px;float:left;margin:10px 0 45px 35px !important}
+section .mortgage-section-right .mortgage-event-panel-new{margin:24px 44px;text-align:left;float:left}
+section .mortgage-section-right .bottom-new{background:#dbdbdb;padding:13px 19px;height:17px;margin-top:107px}
+section .mortgage-section-right .bottom-new a{text-decoration:none}
+#service-columns.mortgage .four-column-last.video-section{width:100%}
+#service-columns.mortgage .four-column.video-section{width:100%!important}
+#service-columns.mortgage .four-column-last.video-section iframe{height:200px}
+}
+@media screen and (min-width:768px) and (max-width:999px) {
+#servicepg-wrapper #service-banner-bg{width:99%;padding:0 1.5%;height:auto;margin:0 0 5px}
+#servicepg-wrapper #service-banner-bg #service-banner{width:100%}
+#servicepg-wrapper #service-banner-bg #service-banner ul{width:60%}
+#servicepg-wrapper #service-banner-bg #service-banner .content{width:100%;height:auto;padding:2% 0}
+#servicepg-wrapper #content-container{width:96%;padding:0 2%;float:left}
+#servicepg-wrapper section{width:100%;margin:20px 0 0;float:left}
+#servicepg-wrapper aside{width:100%;margin:0 0 20px;float:left;padding:0;display:none}
+aside #small-form{max-width:260px;margin:0 20px 20px 0;padding:20px}
+aside #app-box{max-width:260px;margin:0 0 0 20px;padding:0}
+#service-columns{width:100%;margin-top:10px}
+#service-columns .four-column{margin:0 10px 10px 20px !important;width:100%;float:left;height:auto;width:29%!important}
+#service-columns .four-column.three{width:62%!important;margin:0}
+#service-columns span{margin:0 0 10px 2px;float:left}
+#service-columns .four-column-last{width:100%;border-top:0}
+#service-columns .four-column-last br{display:none}
+#service-columns .four-column-last p b br{display:block}
+#verticalTab{margin:30px 0!important;width:100%!important}
+#app-box{width:40%;margin:0 0 30px;float:left}
+.social-media{width:28%;margin:0 0 0 30px;float:right}
+section .sub-service-container{margin:0 0 10px!important}
+#service-columns.mortgage .four-column{margin:0!important;width:29%!important;height:390px}
+#service-columns.mortgage .four-column-last{height:auto;border:0}
+#service-columns.mortgage .four-column:nth-child(3){border-right:0}
+.mortgage-workflow-diagram{width:174px;margin:10px auto;float:none}
+#how-we-works{padding:0!important;padding-right:28px!important}
+.legal-services-section-two{width:97%}
+.logistics-process .right-block{width:74%}
+.logistics-process .right-block ul:first-child{width:50%}
+.logistics-process .right-block ul:nth-child(2){width:40%}
+#servicepg-wrapper #service-banner-bg #service-banner .content.mortgage,#servicepg-wrapper #service-banner-bg #service-banner .content.software{width:100%}
+#servicepg-wrapper #service-banner-bg #service-banner .video-banner{float:right;width:323px;text-align:right;margin-right:0;background:#000}
+#servicepg-wrapper #service-banner-bg #service-banner .video-banner object{height:261px}
+#servicepg-wrapper #service-banner-bg #service-banner .content.mortgage ul li,#servicepg-wrapper #service-banner-bg #service-banner .content.software ul li{font:17px Myriad W01 Regular}
+.ins-tab-panel{width:97%;float:left;height:299px;position:relative;padding:0;margin:0;box-shadow:0 0 3px 1px #dfdfdf;-webkit-box-shadow:0 0 3px 1px #dfdfdf;-moz-box-shadow:0 0 3px 1px #dfdfdf;border-radius:0 5px 5px 5px;float:left}
+.ins-tab-panel .sub-service-container{width:21%;height:auto;margin-bottom:14px}
+.ins-tab-panel .sub-service-container.three{width:29%;height:auto;padding:2% 2% 0;float:left;text-align:center}
+.ins-tab-panel .sub-service-container h3 a{font-size:14px;color:#7e7e7e;text-decoration:none}
+.ins-tab-panel .sub-service-container h3 a:hover{color:#357db8;font-size:14px}
+.ins-tab-panel .sub-service-container-content{padding:2% 0;text-align:justify;width:100%;margin:17% 0 0}
+.ins-tab-panel .sub-service-container-content h2{color:#00568b;font-weight:700;font-size:15px;letter-spacing:0;margin:1% 0;text-align:left}
+.ins-tab-panel .sub-service-container-content p{line-height:18px}
+.ins-tab-panel .view-all-services{float:right;margin-right:20px;margin-top:30px}
+.ins-tab-panel .view-all-services a{width:100px;background-color:#0360a6;padding:10px;border:1px solid #16adfe;box-shadow:0 0 1px 1px #dfdfdf;display:block;float:left;text-align:center;font-size:15px;color:#fff;text-decoration:none}
+#servicepg-wrapper #service-banner-bg #service-banner .content.mortgage .heading-new,#servicepg-wrapper #service-banner-bg #service-banner .content.software .heading-new{float:left;color:#99bfdb;font-family:'Cabin Condensed';font-size:22px;width:100%;padding:5px 0}
+#servicepg-wrapper #service-banner-bg #service-banner .content.mortgage .heading-new-big,#servicepg-wrapper #service-banner-bg #service-banner .content.software .heading-new-big{float:left;color:#bee3ff;font-family:'Cabin Condensed';font-size:29px;font-weight:700;width:100%;padding:2px 0;line-height:33px}
+#servicepg-wrapper #service-banner-bg #service-banner .content.mortgage .heading-new-small,#servicepg-wrapper #service-banner-bg #service-banner .content.software .heading-new-small{float:left;color:#fff;font-family:'Cabin Condensed';font-size:17px;width:100%;padding:5px 0 20px}
+#servicepg-wrapper #service-banner-bg #service-banner .content.mortgage .heading-new-small span,#servicepg-wrapper #service-banner-bg #service-banner .content.software .heading-new-small span{color:#9eceeb;padding:0 7px;font-family:'Cabin Condensed';font-size:15px}
+#servicepg-wrapper #service-banner-bg #service-banner .content.mortgage .action-btn,#servicepg-wrapper #service-banner-bg #service-banner .content.software .action-btn{padding:7px 0 7px 22px;font:normal 12px Myriad W01 Regular;color:#fff;border-top:0 solid #b0cde2;text-shadow:0 0 0 #155f86!important;-webkit-box-shadow:1px 1px 3px 0 #155f86;box-shadow:1px 1px 3px 0 #155f86;float:left;width:145px;height:15px;background:url(http://cdn.flatworldsolutions.com/images/blue-arr.png) 10px 10px no-repeat #2aa5ff}
+#servicepg-wrapper #service-banner-bg #service-banner .content.mortgage .action-btn a,#servicepg-wrapper #service-banner-bg #service-banner .content.software .action-btn a{font:normal 13px Myriad W01 Regular;color:#fff;text-decoration:none}
+#servicepg-wrapper #service-banner-bg #service-banner .content.mortgage .action-btn-new,#servicepg-wrapper #service-banner-bg #service-banner .content.software .action-btn-new{padding:7px 0 7px 22px;font:normal 12px Myriad W01 Regular;color:#fff;border-top:0 solid #b0cde2;text-shadow:0 0 0 #155f86!important;-webkit-box-shadow:1px 1px 3px 0 #155f86;box-shadow:1px 1px 3px 0 #155f86;float:left;width:135px;height:15px;background:url(http://cdn.flatworldsolutions.com/images/blue-arr.png) 10px 10px no-repeat #2aa6e2;margin-left:224px}
+#servicepg-wrapper #service-banner-bg #service-banner .content.mortgage .action-btn-new a,#servicepg-wrapper #service-banner-bg #service-banner .content.software .action-btn-new a{font:normal 13px Myriad W01 Regular;color:#fff;text-decoration:none}
+#servicepg-wrapper #service-banner-bg #service-banner .floatright{display:none}
+#servicepg-wrapper #service-banner-bg #service-banner .content.mortgage,#servicepg-wrapper #service-banner-bg #service-banner .content.software{margin:0 auto;width:52%!important;display:inline-block;margin-left:4%;margin-top:20px}
+.mortgage-section-right{width:175px!important;display:inline-block;float:left;margin-left:0!important}
+section .mortgage-section-right .sub-service-container-new{width:150px;margin-top:10px!important;border:1px solid #d9d9d9;background-color:#f8f8f8;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;box-shadow:0 0 1px #b7b7b7;-webkit-box-shadow:0 0 1px #b7b7b7;-moz-box-shadow:0 0 1px #b7b7b7;height:150px;margin-bottom:15px!important;margin-left:15px}
+section .mortgage-section-right .mortgage-event-panel-new{margin:24px 44px;text-align:left;float:left}
+section .mortgage-section-right .bottom-new{background:#dbdbdb;padding:13px 19px;height:17px;margin-top:107px}
+section .mortgage-section-right .bottom-new a{text-decoration:none}
+#service-columns.mortgage .four-column.video-section,#service-columns.mortgage .four-column-last.video-section{width:22%!important}
+}
+@media screen and (min-width:480px) and (max-width:722px) {
+.res-more-samples{display:block!important}
+.view-more-samples{display:none!important}
+.sample-gallery .floatleft{width:87%;overflow:hidden}
+.sample-gallery .viewms{margin-left:10px}
+.sample-gallery h2{margin-bottom:0}
+}
+@media only screen and (max-width:768px) {
+ul.resp-tabs-list{display:none}
+h2.resp-accordion{display:block}
+.resp-vtabs .resp-tab-content{border-top:1px solid #0262a1}
+.resp-vtabs .resp-tabs-container{border:0;float:none;width:100%;min-height:initial;clear:none}
+.resp-accordion-closed{display:none!important}
+}
+@media screen and (min-width:1000px) and (max-width:1020px) {
+#servicepg-wrapper #res-heading{display:none}
+#servicepg-wrapper #service-banner-bg #service-banner{width:97%;padding:0 1.5%}
+#servicepg-wrapper #content-container{width:97%;padding:0 1.5%}
+#verticalTab{margin:30px 0;width:100%!important}
+#app-box{width:30%;margin:10px 0 30px}
+.social-media{float:right;margin:10px 0 30px}
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-width:1021px) and (max-width:1100px) {
+#servicepg-wrapper #service-banner-bg{height:auto;width:98%;padding:0 1%}
+#servicepg-wrapper #service-banner-bg #service-banner{width:100%}
+#servicepg-wrapper #content-container{width:96%;padding:0 2%}
+#verticalTab{width:100%!important}
+#app-box{width:30%;margin:10px 0 30px}
+.social-media{float:right;margin:10px 0 30px}
+}
+@media screen and (min-width:1000px) {
+#small-device-form{display:none}
+aside #small-form{display:block}
+.mortgage-section-right{width:175px!important;display:inline-block;float:left;margin-left:0!important}
+section .mortgage-section-right .sub-service-container-new{width:150px;margin-top:10px!important;border:1px solid #d9d9d9;background-color:#f8f8f8;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;box-shadow:0 0 1px #b7b7b7;-webkit-box-shadow:0 0 1px #b7b7b7;-moz-box-shadow:0 0 1px #b7b7b7;height:150px;margin-bottom:40px!important;margin-left:15px}
+section .mortgage-section-right .mortgage-event-panel-new{margin:24px 44px;text-align:left;float:left}
+section .mortgage-section-right .bottom-new{background:#dbdbdb;padding:13px 19px;height:17px;margin-top:106px}
+section .mortgage-section-right .bottom-new a{text-decoration:none}
+}
+@media screen and (min-width:1024px) {
+#small-device-form{display:none}
+section .mortgage-section-right .sub-service-container-new{width:150px;margin-top:10px!important;border:1px solid #d9d9d9;background-color:#f8f8f8;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;box-shadow:0 0 1px #b7b7b7;-webkit-box-shadow:0 0 1px #b7b7b7;-moz-box-shadow:0 0 1px #b7b7b7;height:140px!important;margin-bottom:40px!important;margin-left:15px}
+section .mortgage-section-right .mortgage-event-panel-new{margin:24px 44px;text-align:left;float:left}
+section .mortgage-section-right .bottom-new{background:#dbdbdb;padding:9px 19px;height:auto;margin-top:106px}
+section .mortgage-section-right .bottom-new a{text-decoration:none}
+}
+@media screen and (min-width:1000px) {
+section>.sub-service-container,.healthcare-section-left .sub-service-container,.mortgage-section-left .sub-service-container,#creative-service-panel .sub-service-container,#photo-editing-panel .sub-service-container,.engg-tab-panel .sub-service-container,.customsbrokerage-section-left .sub-service-container,.customsbrokerage-section-right .pricing-structure,.transcription-section-left .sub-service-container,.legal-services-section-one .sub-service-container,.legal-services-section-two .sub-service-container,.engg-tab-panel-new .sub-service-container{float:left;text-align:center;height:120px!important;position:relative;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;transition-property:transform;-webkit-transform:translateZ(0);transform:translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);margin-bottom:30px!important}
+.engg-tab-panel .sub-service-container{height:115px!important;margin-bottom:20px!important}
+section .mortgage-section-left .sub-service-container,section .transcription-section-left .sub-service-container{margin-bottom:60px!important}
+.customsbrokerage-section-right .pricing-structure{width:100%;margin-top:5px!important;padding:2% 0 0 2%}
+.customsbrokerage-section-right .pricing-structure .img-holder{margin:0 auto 1%;border:0 none;height:80px;width:auto}
+.customsbrokerage-section-right .pricing-structure h3{font:14px Myriad W01 Regular!important;color:#454546;margin:0 auto;text-align:center;letter-spacing:0}
+.customsbrokerage-section-right .pricing-structure h3 a{font:14px Myriad W01 Regular!important;color:#454546;text-decoration:none;border:0 none}
+.engg-tab-panel-new .sub-service-container,.engg-tab-panel-new .sub-service-container .img-holder{height:auto!important}
+.sub-service-container-new,#section-sub-service .sub-service-container{position:relative;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;transition-property:transform;-webkit-transform:translateZ(0);transform:translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);height:120px!important;margin-bottom:30px}
+section>.sub-service-container:before,#section-sub-service .sub-service-container:before,.sub-service-container-new:before,.healthcare-section-left .sub-service-container:before,.mortgage-section-left .sub-service-container:before,#creative-service-panel .sub-service-container:before,#creative-service-panel .sub-service-container:before,#photo-editing-panel .sub-service-container:before,.engg-tab-panel .sub-service-container:before,.customsbrokerage-section-left .sub-service-container:before,.customsbrokerage-section-right .pricing-structure:before,.transcription-section-left .sub-service-container:before,.legal-services-section-one .sub-service-container:before,.legal-services-section-two .sub-service-container:before,.engg-tab-panel-new .sub-service-container:before{pointer-events:none;position:absolute;z-index:-1;content:'';top:100%;left:5%;height:10px;width:90%;opacity:0;background:radial-gradient(ellipse at center,rgba(0,0,0,0.35) 0%,rgba(0,0,0,0) 80%);-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform,opacity;transition-property:transform,opacity}
+.sub-service-container:hover,.sub-service-container:focus,.sub-service-container:active,#section-sub-service .sub-service-container:hover,#section-sub-service .sub-service-container:focus,#section-sub-service .sub-service-container:active,.sub-service-container:hover,.sub-service-container:focus,.sub-service-container-new:active,#creative-service-panel .sub-service-container:hover,#creative-service-panel .sub-service-container:focus,#creative-service-panel .sub-service-container:active,#photo-editing-panel .sub-service-container:active,#photo-editing-panel .sub-service-container:focus,#photo-editing-panel .sub-service-container:hover,.engg-tab-panel .sub-service-container:active,.engg-tab-panel .sub-service-container:focus,.engg-tab-panel .sub-service-container:hover,.customsbrokerage-section-left .sub-service-container:hover,.customsbrokerage-section-left .sub-service-container:active,.customsbrokerage-section-left .sub-service-container:focus,.customsbrokerage-section-right .pricing-structure:focus,.customsbrokerage-section-right .pricing-structure:active,.customsbrokerage-section-right .pricing-structure:hover,.transcription-section-left .sub-service-container:hover,.transcription-section-left .sub-service-container:active,.transcription-section-left .sub-service-container:focus,.legal-services-section-one .sub-service-container:active,.legal-services-section-one .sub-service-container:focus,.legal-services-section-one .sub-service-container:hover,.legal-services-section-two .sub-service-container:active,.legal-services-section-two .sub-service-container:focus,.legal-services-section-two .sub-service-container:hover,.engg-tab-panel-new .sub-service-container:hover,.engg-tab-panel-new .sub-service-container:active,.engg-tab-panel-new .sub-service-container:focus{-webkit-transform:translateY(-5px);transform:translateY(-5px)}
+.sub-service-container:hover:before,.sub-service-container:focus:before,.sub-service-container:active:before,#section-sub-service .sub-service-container:hover:before,#section-sub-service .sub-service-container:focus:before,#section-sub-service .sub-service-container:active:before,.sub-service-container-new:hover:before,.sub-service-container-new:focus:before,.sub-service-container-new:active:before,#creative-service-panel .sub-service-container:active:before,#creative-service-panel .sub-service-container:hover:before,#creative-service-panel .sub-service-container:focus:before,#photo-editing-panel .sub-service-container:active:before,#photo-editing-panel .sub-service-container:focus:before,#photo-editing-panel .sub-service-container:hover:before,.engg-tab-panel .sub-service-container:active:before,.engg-tab-panel .sub-service-container:focus:before,.engg-tab-panel .sub-service-container:hover:before,.customsbrokerage-section-left .sub-service-container:active:before,.customsbrokerage-section-left .sub-service-container:focus:before,.customsbrokerage-section-left .sub-service-container:hover:before,.customsbrokerage-section-right .pricing-structure:focus:before,.customsbrokerage-section-right .pricing-structure:active:before,.customsbrokerage-section-right .pricing-structure:hover:before,.transcription-section-left .sub-service-container:hover:before,.transcription-section-left .sub-service-container:active:before,.transcription-section-left .sub-service-container:focus:before,.legal-services-section-one .sub-service-container:active:before,.legal-services-section-one .sub-service-container:focus:before,.legal-services-section-one .sub-service-container:hover:before,.engg-tab-panel-new .sub-service-container:hover:before,.engg-tab-panel-new .sub-service-container:active:before,.engg-tab-panel-new .sub-service-container:focus:before{opacity:1;-webkit-transform:translateY(5px);transform:translateY(5px)}
+.transcription-section-right .sub-service-container:hover,.healthcare-section-right .sub-service-container:hover,.customsbrokerage-section-right .sub-service-container:hover,.transcription-section-right .sub-service-container:active,.healthcare-section-right .sub-service-container:active,.customsbrokerage-section-right .sub-service-container:active,.transcription-section-right .sub-service-container:focus,.healthcare-section-right .sub-service-container:focus,.customsbrokerage-section-right .sub-service-container:focus,.transcription-section-right .sub-service-container:hover:before,.healthcare-section-right .sub-service-container:hover:before,.customsbrokerage-section-right .sub-service-container:hover:before,.transcription-section-right .sub-service-container:active:before,.healthcare-section-right .sub-service-container:active:before,.customsbrokerage-section-right .sub-service-container:active:before,.transcription-section-right .sub-service-container:focus:before,.healthcare-section-right .sub-service-container:focus:before,.customsbrokerage-section-right .sub-service-container:focus:before,.mortgage-section-right .sub-service-container-new:focus:before,.mortgage-section-right .sub-service-container-new:active:before,.mortgage-section-right .sub-service-container-new:hover:before,.mortgage-section-right .sub-service-container-new:hover,.mortgage-section-right .sub-service-container-new:focus,.mortgage-section-right .sub-service-container-new:active{-webkit-transform:none!important;transform:none!important;opacity:none!important}
+}
+@media screen and (min-width:320px) and (max-width:767px) {
+.it-portfolio-box{background:transparent url(https://www.flatworldsolutions.com/IT-services/images/software-development-case-studies.png) top right}
+.it-portfolio-box .img-panel h3,.it-clientprojects-box .text-panel h3{font:700 18px/23px "Open Sans",sans-serif;color:#201830!important;text-shadow:0 1px 3px #fff;text-shadow:1px 2px 0 #ffffff,-1px -1px 0 #ffffff,1px -1px 0 #ffffff,-1px 1px 0 #ffffff,1px 1px 0 #fff}
+.it-portfolio-box .img-panel,.it-portfolio-box .text-panel{margin-left:11px}
+#case-studies-banner-vert{float:none;display:inline-block}
+#servicepg-wrapper #content-container{text-align:center}
+#service-columns ul li{text-align:left}
+}
+@media screen and (min-width:320px) and (max-width:359px) {
+.it-portfolio-box .img-panel h3,.it-clientprojects-box .text-panel h3{font:700 16px/23px "Open Sans",sans-serif}
+}
+#service-columns .four-column-last.spl-lnd-cus{width:34.3%}
+#service-columns .four-column-last.spl-lnd-cus h2{margin-bottom:2%}
+#service-columns .four-column-last.spl-lnd-cus iframe{height:225px;max-width:402px}
+#service-columns .four-column-last.spl-lnd-cus #one{background:#f6f7f7 url(/images/icons/large-cus-quotes.jpg) 10px 30px no-repeat;padding:5px 10px;margin-top:10px;border-radius:3px}
+#service-columns .four-column-last.spl-lnd-cus #one p{margin-left:14%;border-left:3px solid #e9e9e9;padding-left:8px;font-style: italic;letter-spacing:0}
+#service-columns .four-column-last.spl-lnd-cus #one p b{font:bold 24px Myriad W01 Regular;font-style: italic}
+#service-columns .four-column-last.spl-lnd-cus #two{width:100%;margin:10px 0}
+#service-columns .four-column-last.spl-lnd-cus #two .cus-name{width:100%;background:url(/images/icons/cus-test-name.png)0 0 no-repeat;float:left;clear:both}
+#service-columns .four-column-last.spl-lnd-cus #two .cus-name span{padding-left:45px;text-align:left;display:inline-block;color:#737373;font:normal 15px/20px Myriad W01 Regular;padding-top:2px}
+#service-columns .four-column-last.spl-lnd-cus #two .cus-name span b{color:#454546}
+#service-columns .four-column-last.spl-lnd-cus #two .cus-link{width:100%;margin-top:10px;border-top:2px solid #757575;float:left;clear:both}
+#service-columns .four-column-last.spl-lnd-cus #two .cus-link a{float:right;background:#616161;padding:5px 10px;text-align:center;color:#fff;text-decoration:none;backface-visibility:hidden;-moz-osx-font-smoothing:grayscale;overflow:hidden;transition-duration:.5s;transition-property:color,background-color}
+#service-columns .four-column-last.spl-lnd-cus #two .cus-link a:hover{background-color:#222}
+@media screen and (min-width:320px) and (max-width:430px) {#service-columns .four-column-last.spl-lnd-cus iframe{height:190px}}
+@media screen and (min-width:320px) and (max-width:767px) {
+#service-columns .four-column-last.spl-lnd-cus{width:100%}
+#service-columns .four-column-last.spl-lnd-cus #one p{margin-left:0;border:0;padding:0;margin-top:90px}
+#service-columns .four-column-last.spl-lnd-cus #one{width:90%}
+#servicepg-wrapper span#res-heading{font:24px Myriad W01 Regular;color:#035E9E;text-align:left;letter-spacing:0;margin:0;display:block}
+}
+@media screen and (min-width:920px) {
+ul.app-container img{max-width:100%;vertical-align:middle}
+#servicepg-wrapper #service-banner-bg #service-banner ul.app-container{width:100%;float:left}
+#servicepg-wrapper #service-banner-bg #service-banner ul.app-container li{list-style:none;margin:0;float:left}
+ul.app-container li{float:left;width:33%;margin:0;list-style:none;padding:0}
+.btn{display:inline-block;padding:5px 10px;font-size:14px;color:#fff;border:2px solid #4d92d9;background-color:#4d92d9;text-decoration:none;transition:.4s}
+ul.app-container .btn:hover{background-color:transparent;color:#4d92d9;transition:.4s}
+ul.app-container .text-desc{position:absolute;left:0;top:35%;padding:20px 0;width:100%}
+ul.app-container .text-desc p{font:normal 17px Myriad W01 Regular;letter-spacing:0;text-align:center;color:#fff}
+.port-1{float:left;width:98%;position:relative;overflow:hidden;text-align:center;border:3px solid transparent;height:181px;border-radius:7px}
+.port-1#two,.port-1#three,.port-1#four,.port-1#five{width:48%}
+.port-1 .text-desc{opacity:.9;top:-100%;transition:.5s;color:#000}
+.port-1 img{transition:.5s;background:rgba(51,51,51,0.7)}
+.port-1:hover img{transform:scale(1.2)}
+.port-1.effect-1:hover .text-desc{top:20%}
+}
+@media screen and (min-width:768px) {
+#servicepg-wrapper #service-banner-bg #service-banner .content.creative-services{background:none;width:56%}
+#servicepg-wrapper #service-banner-bg #service-banner .creative-services ul{width:97%}
+}
+#super-agent{clear:both;width:100%;height:135px;box-shadow:1px 1px 3px 1px #c1c1c1;cursor:pointer;cursor:hand;border-radius:3px;display:block;background:#515151;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px transparent;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;transition-property:transform;margin:5px 0;margin-bottom:24px;display:inline-block;float:left}
+#super-agent #main-banner{clear:both;width:100%;height:143px;background:url(/call-center/images/super-agent-banner.jpg) no-repeat 0 0;cursor:pointer;cursor:hand;display:block;background-size:cover}
+#super-agent .left-panel{float:left;width:58%}
+#super-agent #sa-title{font:bold 20px Myriad W01 Regular;color:#fff;font-weight:400;padding:3% 0 0 9px;margin:10px 0 6% 16px !important;border-left:3px solid #fff;text-transform:uppercase}
+#sa-title span{font:normal 19px Myriad W01 Regular;color:#fff;font-weight:400;padding:1% 0 0 1px}
+#sa-hl{font:normal 24px Myriad W01 Regular;color:#fff;display:block;margin:3px 0}
+super-agent .calc{color:#333;background:#fff;padding:7px 19px;text-decoration:none;margin-left:5%;font-weight:100;box-shadow:2px 2px 0 #165e7c;display:inline-block;width:auto;line-height:15px;border-radius:0;font-size:17px}
+@media only screen and (max-width:999px) and (min-width:320px) {
+#super-agent #main-banner{background:url(/call-center/images/super-agent-banner.jpg) no-repeat 100% 0}
+}
+@media only screen and (max-width:640px) and (min-width:320px) {
+#super-agent .left-panel{float:left;width:90%}
+#super-agent #sa-title{padding:1% 0 0 9px;margin:15px 0 6% 11px !important}
+}
+@media only screen and (max-width:480px) and (min-width:320px) {
+#super-agent .left-panel{float:left;width:100%;height:auto}
+#sa-title span, #super-agent #sa-title{font:bold 19px Myriad W01 Regular}
+.calc{margin-left: 0% !important;font:bold 14px Myriad W01 Regular;padding:8px 11px !important}
+#super-agent #main-banner{height:inherit}
+}
+.cs-designs-slider{width:100%;display:block;float:left;clear:both;margin-top:10px}
+.cs-designs-slider h2{font:normal 21px Myriad W01 Regular;color:#236e83;text-align:left;margin-bottom:2%}
+.cs-designs-slider > ul{width:100%;float:left;clear:both;list-style-image:none;text-align:left}
+.cs-designs-slider > ul li{display:inline-block;list-style-type:none;margin:0 2px;vertical-align:top;background:none;padding:0}
+.cs-designs-slider > ul li img{border:5px solid #d5d5d5;border-radius:5px;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px transparent;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;transition-property:transform}
+.cs-designs-slider > ul li img:hover{-webkit-transform:rotate(4deg);transform:rotate(4deg);opacity:.8}
+.cs-designs-slider > ul li a span{font:bold 15px "Open Sans",sans-serif;color:#333;display:inline-block;vertical-align:top;background:url(/creative-services/images/icons/samples-design-arrow.jpg) 8px 23px no-repeat;padding-bottom:30px;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px transparent;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;transition-property:transform;position:relative;top:25px;margin-left:5px}
+.cs-designs-slider > ul li a span:hover{-webkit-transform:translateX(8px);transform:translateX(8px);opacity:.9}
+@media screen and (min-width:320px) and (max-width:517px) {
+.cs-designs-slider > ul li{width:26%;margin-right:4%}
+.cs-designs-slider > ul li img{width:100%}
+}
+
+/* LANDING PAGE TABS CSS */
+
+#landing-page-tabs p:not(:last-child) {
+  margin: 0 0 20px;
+}
+
+main {
+  max-width: 100%;
+  padding: 10px;
+  *border: 1px solid rgba(0,0,0,.2);
+  background: #fff;
+  *box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+
+#landing-page-tabs section {
+  display: none;
+  padding: 20px 0 0;
+  border: 1px solid #abc;  
+  animation: fadeEffect 2s; /* Fading effect takes 1 second */
+  width: 100%;
+  margin: 0;
+  z-index: 0;
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+#landing-page-tabs input {
+  display: none;
+}
+
+#landing-page-tabs label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #999999;
+  *border: 1px solid transparent;
+}
+
+#landing-page-tabs label:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+#landing-page-tabs label[for*='1']:before { content: '\f0f7'; }
+#landing-page-tabs label[for*='2']:before { content: '\f0f6'; }
+#landing-page-tabs label[for*='3']:before { content: '\f109'; }
+#landing-page-tabs label[for*='4']:before { content: '\f171'; }
+
+#landing-page-tabs label:hover {
+  color: #789;
+  cursor: pointer;
+}
+
+#landing-page-tabs input:checked + label {
+  color: #0af;
+  border: 1px solid #abc;
+  border-top: 2px solid #0af;
+  border-bottom: 2px solid #fff;
+  background: #ffffff;
+  *z-index: 999999;
+  position: relative;
+  display: inline-block;
+  
+}
+
+#landing-page-tabs #tab1:checked ~ #content1,
+#landing-page-tabs #tab2:checked ~ #content2,
+#landing-page-tabs #tab3:checked ~ #content3,
+#landing-page-tabs #tab4:checked ~ #content4 {
+  display: block;
+}
+#landing-page-tabs .ins-tab-panel h2{display:none}
+@media screen and (max-width: 715px) {
+  #landing-page-tabs label {
+    font-size: 0;
+  }
+  #landing-page-tabs label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+  #landing-page-tabs .ins-tab-panel h2{display:block;text-align:center;margin-bottom:5%}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  #landing-page-tabs .engg-tab-panel-new .sub-service-container {
+   display: inline-block;
+	vertical-align: top;
+	width: 35%;
+	margin:20px !important;
+	float:none
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #landing-page-tabs label {
+    padding: 13px 23px;
+  }
+}
+
+.customer-testimonials-lnd iframe{border: 3px solid #efefef;margin: 6px auto}
+.customer-testimonials-lnd span{display:block}
+
+#whitepaper-banner-small{margin: 30px auto;margin-bottom:0px;padding: 0px;position: relative;width: 36.7%;max-width: 288px;display: block;float: right;background:#085bb1 url('/healthcare/images/whitepaper-banner-small.jpg') top right no-repeat;background-size:contain;box-shadow:0px 1px 3px 0px #999999;text-decoration:none}
+#whitepaper-banner-small p{width: 70%;font: 500 15px/17px Myriad W01 Regular;margin-top: 0;color: #ffffff;letter-spacing: 0;margin:10px;text-align: left;margin-top:6px}
+#whitepaper-banner-small p b{display: block;text-transform: uppercase;font: bold 16px/21px Myriad W01 Regular;color: #ffffff;margin-bottom: 2px}
+#whitepaper-banner-small i{text-align: left;font-size: 1.2rem;color:#b4df4e;position:relative;top:3px;left:3px}
+#servicepg-wrapper #content-container > .google-captcha-text{display:none}
+.google-captcha-text{border-bottom:0px solid #efefef}
+
+@media screen and (min-width:320px) and (max-width:767px){#whitepaper-banner-small{width:100%;float:left}}
+
+
+@media screen and (min-width:320px) and (max-width:999px){#servicepg-wrapper #content-container .google-captcha-text{display:block;float:left}}
+@media screen and (min-width:320px) and (max-width:479px){#servicepg-wrapper #content-container .google-captcha-text{max-width:315px}}
+@media screen and (min-width:480px) and (max-width:767px){#servicepg-wrapper #content-container .google-captcha-text{max-width:85%}}
+@media screen and (min-width:768px) and (max-width:999px){#servicepg-wrapper #content-container .google-captcha-text{max-width:85%}}
+
+
+

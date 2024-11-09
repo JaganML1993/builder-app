@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.login-logo {
+    text-align: center; /* Aligns the content (image) in the center horizontally */
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+
+.login-logo img {
+    display: block; /* Sets the image to be a block element */
+    margin: 0 auto; /* Auto margins horizontally center the image */
+}
+
+.login-title h2 {
+    font-size:30px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+

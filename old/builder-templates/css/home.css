@@ -1,0 +1,1609 @@
+/* Home Page CSS*/
+#mnpg-wrapper{width:100%;float:left}
+#banner-bg{width:100%;float:left;background:#005e9e url('https://www.flatworldsolutions.com/images/bnr-img.jpg') bottom right no-repeat}
+/*#bnr-wrapper{width:1000px;height:388px;float:none;margin:0 auto;padding:45px 0 10px}*/
+#bnr-wrapper section{width:70%;*float:left;height:388px}
+#bnr-wrapper aside{width:30%;float:left}
+.jssor-slider{position: relative; left: 50%; width: 5000px; text-align: center; margin-left: -2500px;}
+.jssor-slider .slider-container{position: relative; margin: 0 auto; top: 0px; left: 0px; width: 635px; height: 400px;}
+.jssor-slider .slider-container .bnr-loading-panel{position: absolute; top: 0px; left: 0px;}
+.jssor-slider .slider-container .bnr-loading-panel .bnr-loading {filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;top: 0px; left: 0px; width: 100%; height: 100%;}
+.jssor-slider .slider-container .bnr-loading-panel .bnr-loading-img{position: absolute; display: block; background: url(https://www.flatworldsolutions.com/images/loading.gif) no-repeat center center;top: 0px; left: 0px; width: 100%; height: 100%;}
+.jssor-slider .slider-container .sliders{cursor: move; position: absolute; left: 0px; top: 0px; width: 635px;height: 400px; overflow: hidden}						
+.jssor-slider .slider-container .sliders .item{position: absolute; width: 480px; height: 300px; top: 10px; left: 10px;text-align: left; line-height: 1.8em; font-size: 12px;}
+.jssor-slider .slider-container .sliders .item .title h1{color:#fff;font:normal 36px "Myriad W01 Regular";margin:0;padding:0 0 5px;text-shadow:0 1px #000}
+.jssor-slider .slider-container .sliders .item .title h2{color:#fff;font:normal 36px "Myriad W01 Regular";margin:0;padding:0 0 5px;text-shadow:0 1px #000}
+.jssor-slider .slider-container .sliders .item .desc {line-height: 1.1em; font-size: 1.5em; color: #FFFFFF;}
+.jssor-slider .slider-container .sliders .item .desc p{color:#fff;font:normal 14px Myriad W01 Regular;line-height:1.4em}
+.jssor-slider .slider-container .sliders .item .desc p b{font:bold 14px Myriad W01 Regular;color:#fff}
+.jssor-slider .slider-container .sliders .item .desc p a{color:#fff;text-decoration:none}
+.jssor-slider .slider-container .sliders .item .desc p a:hover{color:#fff;text-decoration:underline}
+.jssor-slider .slider-container .sliders .item .desc ul{list-style-type:none;color:#fff;font:normal 14px Myriad W01 Regular;margin:0 0 2% 0;padding:0}
+.jssor-slider .slider-container .sliders .item .desc ul li{color:#fff;font:normal 14px Myriad W01 Regular;line-height:1.4em;background:url("https://www.flatworldsolutions.com/images/white-arrow.png") 5px 8px no-repeat;border-bottom:1px solid #67a0c5;margin:2px 0 5px 8px}
+.jssor-slider .slider-container .sliders .item .desc .links{color:#fff;font:normal 14px Myriad W01 Regular;line-height:1.4em}
+.jssor-slider .slider-container .sliders .item .button{position:relative !important;display:block;top:0;bottom:0;padding:4px 35px 4px 6px;margin:5px 0 0 0;cursor:pointer;width:auto;height:auto;background:url("https://www.flatworldsolutions.com/images/blue-bg-arrow.png") 98.5% center no-repeat #fff;font:normal 16px Myriad W01 Regular;color:#0063a2;border-radius:20px;float:left}
+.jssor-slider .slider-container .sliders .item .button a{font:normal 16px Myriad W01 Regular;color:#0063a2;text-decoration:none}
+.jssora07l, .jssora07r, .jssora07ldn, .jssora07rdn {position: absolute;cursor: pointer;display: block !important;background: url(https://www.flatworldsolutions.com/images/a07.png) no-repeat;overflow: hidden;width:28px;	height:28px;}
+.jssora07l {background-position: -135px -35px;}
+.jssora07r {background-position: -196px -35px;}
+.jssora07l:hover {background-position: -135px -35px;}
+.jssora07r:hover {background-position: -196px -35px;}
+.jssora07ldn {background-position: -135px -35px;}
+.jssora07rdn {background-position: -196px -35px;}
+
+.iosSlider{position:relative;top:0;left:0;overflow:hidden;width:635px !important;height:400px;float:left}
+.iosSlider .prevButton{position:absolute;top:140px;left:7px;width:28px;height:40px;background:url("https://www.flatworldsolutions.com/images/bnr-left-arrow.png") no-repeat 0 0;z-index:2;display: block;z-index: 99999}
+.iosSlider .nextButton{position:absolute;top:140px;right:12px;width:28px;height:40px;background:url("https://www.flatworldsolutions.com/images/bnr-right-arrow.png") no-repeat 100% 0;background-position:0 0;z-index:2;display: block;z-index: 99999}
+.iosSlider .slider{width:700px;height:100%}
+.iosSlider .slider .item{position:relative;top:0;left:0;width:100%;height:388px;margin:0}
+.iosSlider .slider .item .image{position:absolute;top:0;left:0;width:100%;height:3880px}
+.iosSlider .slider .item .text{position:absolute;bottom:0;left:0;width:87%;height:auto;padding:0 10px 0 35px;top:0;z-index:99999}
+.iphoneUI .iosSlider .slider .item .text{display:none}
+.iphoneUI .iosSlider .slider .item .text .bg{display:none}
+.iosSlider .slider .item .title{position:relative;top:0;left:0;text-indent:-1px}
+.iosSlider .slider .item .title h2{color:#fff;font:normal 36px "Myriad W01 Regular";margin:0;padding:0 0 5px;text-shadow:0 1px #000}
+.iosSlider .slider .item .title h1{color:#fff;font:normal 36px "Myriad W01 Regular";margin:0;padding:0 0 5px;text-shadow:0 1px #000}
+.iosSlider .slider .item .desc{position:relative;top:0;left:0;margin:0}
+.iosSlider .slider .item .desc p{color:#fff;font:normal 15px Myriad W01 Regular;line-height:1.3em}
+.iosSlider .slider .item .desc p b{font:bold 14px Myriad W01 Regular;color:#fff}
+.iosSlider .slider .item .desc p a{color:#fff;text-decoration:none}
+.iosSlider .slider .item .desc p a:hover{color:#fff;text-decoration:underline}
+.iosSlider .slider .item .desc ul{list-style-type:none;color:#fff;font:normal 14px Myriad W01 Regular;margin:0 0 2% 0;padding:0}
+.iosSlider .slider .item .desc ul li{color:#fff;font:normal 15px Myriad W01 Regular;line-height:1.3em;background:url("https://www.flatworldsolutions.com/images/white-arrow.png") 5px 8px no-repeat;border-bottom:1px solid #67a0c5;margin:2px 0 5px 8px}
+.iosSlider .slider .item .desc .links{color:#fff;font:normal 14px Myriad W01 Regular;line-height:1.4em}
+.iosSlider .slider .item .button{position:relative !important;top:10px;bottom:0;padding:7px 35px 4px 6px;margin:5px 0 0 0;cursor:pointer;width:175px;height:auto;background:url("https://www.flatworldsolutions.com/images/blue-bg-arrow.png") 98.5% center no-repeat #fff;font:normal 16px Myriad W01 Regular;color:#0063a2;border-radius:20px;z-index:2;text-decoration: none}
+.iosSlider .slider .item .button a{font:normal 16px Myriad W01 Regular;color:#0063a2;text-decoration:none}
+#mnpg-content-wrapper{width:100%;padding:0;float:left;padding:0}
+.mnpg-client-wrapper{background:#ffffff;background-image:none}
+aside #small-form span{color:#333333}
+
+#mnpg-content-wrapper #content-container{width:1170px;margin:15px auto;padding:0}
+#mnpg-content-wrapper #content-container .heading-container{width:100%;float:left;margin:0 0 13px}
+#mnpg-content-wrapper #content-container .line{background:url('https://www.flatworldsolutions.com/images/line.png') center left repeat-x;height:32px;float:left;width:19%}
+#mnpg-content-wrapper #content-container .line2{background:url('https://www.flatworldsolutions.com/images/line.png') center left repeat-x;height:32px;float:left;width:19%}
+#mnpg-content-wrapper #content-container .heading,#mnpg-content-wrapper #content-container .heading a{font:normal 25px Myriad W01 Regular;color:#da0425;background:0;padding:0 10px;float:left;text-decoration:none}
+#mnpg-content-wrapper #content-container .heading a:hover{text-decoration:underline}
+/*#mnpg-content-wrapper #content-container span{font:normal 16px Myriad W01 Regular;color:#454546;width:100%;float:left;text-align:center}*/
+#mnpg-content-wrapper #content-container .hot-on-web a{color:#000000 !important;width:100%; height:38px; padding-top:0;font:normal 22px Myriad W01 Regular;text-align:center;padding:0}
+#mnpg-content-wrapper #content-container .hot-on-web a sup{color:#000000;font:normal 15px Myriad W01 Regular}
+#mnpg-content-wrapper #content-container .latest-articles,#mnpg-content-wrapper #content-container .customers, #mnpg-content-wrapper #content-container .latest-articles,#mnpg-content-wrapper #content-container .customers a{color:#ffffff !important}
+#mnpg-content-wrapper #content-container .latest-articles,#mnpg-content-wrapper #content-container .latest-articles a{color:#8e4b99 !important}
+#mnpg-content-wrapper #content-container .app,#mnpg-content-wrapper #content-container .app a{color:#0060cd !important}
+#mnpg-content-wrapper #content-container .testimonial, #mnpg-content-wrapper #content-container .testimonial a{color:#1781f1 !important}
+#mnpg-content-wrapper #content-container section #fws-story-text-holder{width: 42%;text-align: right;display: inline-block;vertical-align: top;margin-right: 20px;padding: 35px 0px;border-right: 3px solid #efefef;padding-right: 15px;margin-top: 7%}
+#mnpg-content-wrapper.flatworld-story-panel{background:#efefef url('/images/wave-bg.png') bottom left repeat-x;}
+#mnpg-content-wrapper.flatworld-story-panel #content-container section{margin:3% auto}
+#mnpg-content-wrapper #content-container section #fws-story-text-holder h2{text-align:right;font: bold 39px Myriad W01 Regular;color: #141111;text-transform: uppercase}
+#mnpg-content-wrapper #content-container section #fws-story-text-holder h2 > span{font: bold 39px Myriad W01 Regular;color:#7c7676}
+#mnpg-content-wrapper #content-container section #fws-story-text-holder > span{text-align:right;font: normal 20px/22px Myriad W01 Regular;color: #db080e;margin-top:2%;display:block}
+#mnpg-content-wrapper #content-container section #fws-story-text-holder span b{*display:block}
+#mnpg-content-wrapper.cust-testimonials{background:#2a446a url(/images/black-shade.jpg) 0 0 repeat}
+#mnpg-content-wrapper.cust-testimonials h2{color: #ffffff;font: bold 39px Myriad W01 Regular;text-align: center;margin: 0 5px 3% 5px;display: block;text-transform: uppercase}
+#mnpg-content-wrapper.cust-testimonials h2 span{font: normal 39px Myriad W01 Regular;color:#acacac}
+#mnpg-content-wrapper.whats-new{background:#526e88}
+
+@media screen and (min-width:768px){#mnpg-content-wrapper.whats-new{background: -webkit-gradient(linear, left top, left bottom, from(rgba(54, 72, 90, 0.8)), to(rgba(92, 77, 66, 0.8))), url(/images/parachute-bg.jpg);background-position: center;background-repeat:repeat-x;background-size: cover}}
+
+#mnpg-content-wrapper.whats-new #content-container h2{color: #ffffff;font: bold 39px Myriad W01 Regular;text-align: center;margin: 0 5px 2% 5px;display: block;text-transform: uppercase}
+#mnpg-content-wrapper.whats-new #content-container h2 span{color: #ffffff;font: normal 39px Myriad W01 Regular}
+#mnpg-content-wrapper.whats-new #content-container .service-articles-panel{width:100%;display: inline-block;vertical-align: top;margin-top:20px}
+#mnpg-content-wrapper.whats-new #content-container .service-articles-panel h3{color: #d8dfd9;font: bold 29px Myriad W01 Regular;text-align: left;margin: 0 5px 2% 5px;display: block;text-transform: uppercase}
+#mnpg-content-wrapper.whats-new #content-container .service-articles-panel > div{width:49%;display: inline-block;vertical-align: top}
+#mnpg-content-wrapper.whats-new #content-container .service-articles-panel > div > div{margin:10px 20px 10px 0;background:rgba(0, 0, 0,0.6);padding: 15px;border-radius: 3px}
+#mnpg-content-wrapper.whats-new #content-container .service-articles-panel > div div h4{font:bold 19px Myriad W01 Regular;color:#ffffff;margin:1% 0 9px 0}
+#mnpg-content-wrapper.whats-new #content-container .service-articles-panel > div div h4:before{position: relative;display: inline-block;padding-right: 8px;border-right:1px solid #efefef;margin-right: 6px;font:bold 23px Myriad W01 Regular;color:#45aaff}
+#mnpg-content-wrapper.whats-new #content-container .service-articles-panel > div div:nth-child(2)  h4:before{content: "01"}
+#mnpg-content-wrapper.whats-new #content-container .service-articles-panel > div div:nth-child(3) h4:before{content: "02"}
+#mnpg-content-wrapper.whats-new #content-container .service-articles-panel > div div:nth-child(4) h4:before{content: "03"}
+#mnpg-content-wrapper.whats-new #content-container .service-articles-panel > div div:nth-child(5) h4:before{content: "04"}
+#mnpg-content-wrapper.whats-new #content-container .service-articles-panel > div div:nth-child(6) h4:before{content: "05"}
+#mnpg-content-wrapper.whats-new #content-container .service-articles-panel > div div p{color:#deeaf4;letter-spacing: 0;font:normal 16px Myriad W01 Regular;line-height: 21px}
+#mnpg-content-wrapper.whats-new #content-container .service-articles-panel > div div a{color:#5dacf0;text-decoration: none;font:normal 16px Myriad W01 Regular}
+#mnpg-content-wrapper.whats-new #content-container .service-articles-panel > div > div a i{color:#5dacf0}
+#mnpg-content-wrapper #content-container section #video-holder{width:39%;display:inline-block;vertical-align:top;border: 10px solid #ffffff;border-radius: 3px;max-width:initial;height: 262px}
+#mnpg-content-wrapper #content-container section #video-holder > div{width:100%;height:343px}
+#mnpg-content-wrapper #content-container section #video-holder iframe{width:100%;height:343px;margin:0 auto}
+
+/*#mnpg-content-wrapper.from-the-newsroom #content-container{margin-bottom: 0}
+  @media screen and (min-width:768px){#mnpg-content-wrapper.from-the-newsroom #content-container{background:transparent url('/images/building-bg.png') bottom left no-repeat}
+  #mnpg-content-wrapper.from-the-newsroom{background:#292728 url('/images/blk-pattern-bg.jpg') top left repeat-y;background-size:cover}
+  }
+
+#mnpg-content-wrapper.from-the-newsroom #content-container > div{margin:2% auto;text-align:center;display:inline-block;width:100%}
+#mnpg-content-wrapper.from-the-newsroom img{display:inline-block;float:left;vertical-align:top;margin:0 0.5%}
+#mnpg-content-wrapper.from-the-newsroom p{color:#ffffff;font: bold 27px/27px Myriad W01 Regular;letter-spacing:1px;display:inline-block;float:left;vertical-align:top;margin: 1% auto;padding: 2%;background:rgba(26,26,26,0.7);box-shadow: 1px 1px 0px 0px #222222;margin-right:2%;margin-left:14%;position:relative}
+#mnpg-content-wrapper.from-the-newsroom p i{display:block;font-size: 2.6rem;color: #484436;text-align:right;position: relative;top: 6px}
+#mnpg-content-wrapper.from-the-newsroom .hme-btn{vertical-align:top;margin:0;text-align:left;margin-top:2%;color:#888888;padding:5px 0}
+#mnpg-content-wrapper.from-the-newsroom .hme-btn:hover, #mnpg-content-wrapper.from-the-newsroom .hme-btn:hover i{color:#edda70}
+#mnpg-content-wrapper.from-the-newsroom .hme-btn i{color:#888888}
+#mnpg-content-wrapper.from-the-newsroom p a{text-transform:uppercase;font: bold 32px/32px Myriad W01 Regular;color:#f3bc2b;text-decoration:underline}
+#mnpg-content-wrapper.from-the-newsroom p a:hover{text-decoration:none}*/
+#mnpg-content-wrapper.from-the-newsroom #content-container{margin-bottom: 0}
+  @media screen and (min-width:768px){#mnpg-content-wrapper.from-the-newsroom #content-container{}
+  #mnpg-content-wrapper.from-the-newsroom{background:#1e1913 url('/images/banner-bg.jpg') top left repeat-y;background-size:cover}
+  }
+
+#mnpg-content-wrapper.from-the-newsroom #content-container > div{margin:2% auto;text-align:center;display:inline-block;width:70%}
+#mnpg-content-wrapper.from-the-newsroom img{display:inline-block;float:left;vertical-align:top;margin:0 0.5%}
+#mnpg-content-wrapper.from-the-newsroom p{color:#ffffff;font: bold 29px/27px Myriad W01 Regular;display:inline-block;float:left;vertical-align:top;margin: 1% auto;margin-left:14%;position:relative;letter-spacing:0;margin-bottom:2%}
+#mnpg-content-wrapper.from-the-newsroom a i{display:inline-block;font-size: 1.1rem;color: #cdcdcd;position:relative;top:1px;color:#ffffff}
+#mnpg-content-wrapper.from-the-newsroom .hme-btn{vertical-align:top;margin:0;text-align:left;margin-top:2%;color:#888888;padding:5px 0}
+#mnpg-content-wrapper.from-the-newsroom .hme-btn:hover, #mnpg-content-wrapper.from-the-newsroom .hme-btn:hover i{color:#edda70}
+#mnpg-content-wrapper.from-the-newsroom .hme-btn i{color:#888888}
+#mnpg-content-wrapper.from-the-newsroom p {font: bold 29.5px/32px Myriad W01 Regular;color:#cfd6d6}
+#mnpg-content-wrapper.from-the-newsroom p b{font: bold 32px/32px verdana;text-transform:uppercase;color:#ffffff}
+#mnpg-content-wrapper.from-the-newsroom p span{font: bold 28px/32px verdana;color:#ffffff}
+#mnpg-content-wrapper.from-the-newsroom p a{color: #ffffff;font: bold 17px/22px Myriad W01 Regular;text-decoration: none;margin-left: 3px;border: 1px solid #ffffff;
+    padding: 6px 15px;border-radius: 3px;margin-top: 20px;display: inline-block;width: auto}
+#mnpg-content-wrapper.from-the-newsroom p a:hover{background:#f1cc44;border:1px solid #f1cc44;color:#55450d}	
+#mnpg-content-wrapper.from-the-newsroom p a:hover i{color:#55450d}
+.hme-btn{font: normal 18px/18px Myriad W01 Regular;letter-spacing:0px;display:block;padding:10px 20px;text-decoration:none;border-radius:3px;width: fit-content;margin: auto}
+.hme-btn.white{background:#ffffff;color:#454546}
+.hme-btn.white:hover{background: #efefef}
+.hme-btn.blue i{color:#ffffff}
+.hme-btn.blue{background:#2d85b4;color:#ffffff}
+.hme-btn.blue:hover{background: #0e6390}
+.hme-btn, .articles-right-sec a, #mnpg-content-wrapper.whats-new #content-container .service-articles-panel > div div a{-webkit-transform: perspective(1px) translateZ(0);transform: perspective(1px) translateZ(0);box-shadow: 0 0 1px rgba(0, 0, 0, 0);-webkit-transition-duration: 0.1s;transition-duration: 0.1s;}
+.hme-btn i, .articles-right-sec a i, #mnpg-content-wrapper.whats-new #content-container .service-articles-panel > div div a i{  -webkit-transform: translateZ(0);
+  transform: translateZ(0);-webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;}
+.hme-btn:hover i, .articles-right-sec a:hover i, #mnpg-content-wrapper.whats-new #content-container .service-articles-panel > div div a:hover i{  -webkit-transform: translateX(4px);transform: translateX(4px);}
+
+
+/*#mnpg-content-wrapper.from-the-newsroom p:before{content:url('/images/iso-iec-27001-2013-certification-logo.png')}*/
+#app-wrapper #app-holder .b4-img{margin:0 5% 0 0;float:left}
+#mnpg-content-wrapper #content-container aside #hot-on-web p{font:normal 14px Myriad W01 Regular;color:#000}
+#mnpg-content-wrapper #content-container aside #hot-on-web ul li{font:normal 14px Myriad W01 Regular;color:#000;background:url('https://www.flatworldsolutions.com/images/submenu-arrow.png') left 5px no-repeat}
+#mnpg-content-wrapper #content-container aside #hot-on-web ul li a{font:normal 14px Myriad W01 Regular;color:#000}
+#mnpg-content-wrapper #content-container #article-box{width:100%;float:left;margin:0px 0 20px 0}
+#mnpg-content-wrapper #content-container #article-box .heading-container{width:100%;float:left;margin:0 0 10px}
+#mnpg-content-wrapper #content-container #customers-box{width:100%;*height:175px;float:left;margin:11px 0 20px 0}
+#mnpg-content-wrapper #content-container #customers-box h2, #mnpg-content-wrapper #content-container #customers-box h2 a{color: #484848 !important;font: bold 39px Myriad W01 Regular!important;text-align: center;margin: 0 5px 2% 5px;display: block;text-transform: uppercase}
+#mnpg-content-wrapper #content-container #customers-box h2 span{font: normal 39px Myriad W01 Regular}
+#slider1{margin:30px 0 0;overflow:hidden;position:relative;padding:0 60px 10px}
+#slider1 .viewport{height:215px;overflow:hidden;position:relative}
+#slider1 .buttons{display:block;position:absolute;top:40%;left:0;width:41px;height:41px}
+#slider1 .next{right:7px;left:auto;top:40%}
+#slider1 .disable{visibility:hidden}
+#slider1 .overview{list-style:none;position:absolute;padding:0;margin:0;width:100%;left:0;top:0;}
+#slider1 .overview li{float:left;margin:0 27px;padding:0;height:121px;width:115px;text-align:center;background:0}
+#slider1 .overview li img{height:116px;width:115px}
+#slider1 .overview li span{text-align:left !important;font:normal 15px Myriad W01 Regular !important;color:#000 !important;margin:5px 0 0}
+#slider1 .overview li span:hover{text-decoration:underline}
+#slider2{margin:30px 0 0;overflow:hidden;position:relative;padding:0 0px 10px;height:135px}
+#slider2 .viewport{height:122px;overflow:hidden;position:relative;border: 1px solid #efefef}
+#slider2 .buttons{display:block;position:absolute;left:0;width:23px;height:25px}
+#slider2 .prev{left: 1%;top: 33%}
+#slider2 .next{left: 98%;top: 33%}
+#slider2 .buttons:hover{opacity:0.5}
+#slider2 .disable{visibility:hidden}
+#slider2 .overview{list-style:none;position:absolute;padding:0;margin:0;width:100%;left:0;top:24px}
+#slider2 .overview li{float:left;margin:0 10px;padding:1px;height:auto;width:auto;text-align:center;background:0;padding-right:4px;width:12%}
+#slider2 .overview li img{*border:1px solid #e6e6e6; -webkit-transform: translateZ(0);transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); -webkit-backface-visibility: hidden;backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;-webkit-transition-duration: 0.3s; transition-duration: 0.3s;
+  -webkit-transition-property: transform; transition-property: transform;*width:144px}
+#slider2 .overview li img:hover, #slider2 .overview li img:focus, #slider2 .overview li img:active {
+    -webkit-transform: scale(1.1) rotate(4deg); transform: scale(1.1) rotate(4deg)}
+#slider2 .overview li span{text-align:left !important;font:normal 15px Myriad W01 Regular !important;color:#000 !important;margin:5px 0 0}
+#slider1 .overview li span:hover{text-decoration:underline}
+#mnpg-content-wrapper #app-wrapper{width:100%;float:left}
+#mnpg-content-wrapper #app-wrapper.featured-service{background:#f7f7f7}
+#mnpg-content-wrapper #app-wrapper section{width:100%;float:left;clear:both}
+#mnpg-content-wrapper #app-wrapper section > div #app-holder{width: 54%;background: rgba(0, 0, 0, 0.8);padding: 20px}
+#mnpg-content-wrapper #app-wrapper .line3{background:url('https://www.flatworldsotextlutions.com/images/line.png') center left repeat-x;height:32px;float:left;width:23%}
+#app-wrapper #app-holder{width:100%;  /*margin-right:auto; margin-left:auto;height:275px;padding:0 17%;float:left; background:url('https://www.flatworldsolutions.com/images/app-bg2.png') 22% top no-repeat*/}
+#app-wrapper #app-holder ul{margin-top:0px;list-style-image:none;list-style-type:none}
+#app-wrapper #app-holder ul li{font:normal 14px Myriad W01 Regular;color:#000;margin-top:10px;padding:0;background:none}
+#app-wrapper #app-holder p{font:normal 18px/23px Myriad W01 Regular;color: #000000;letter-spacing:0}
+#app-wrapper #app-holder ul li a{font: 18px/21px Myriad W01 Regular;color: #000000;letter-spacing:0}
+#mnpg-content-wrapper #content-container .mobile-app span{ width: 85%; text-align:center;float: left}
+#mnpg-content-wrapper #content-container .mobile-app span a {font: 16px Myriad W01 Regular; color: #454546; text-align: center; text-decoration: none;}
+#mnpg-content-wrapper #content-container .mobile-app span a:hover{text-decoration:underline}
+#app-wrapper #app-holder #text{width:50%;float:right;font:normal 15px Myriad W01 Regular;color:#454546;margin:5px 0 0}
+#app-wrapper #app-holder #text a{font:normal 15px Myriad W01 Regular;color:#2aaadc;text-decoration:none;margin:5px 0 25px;float:left}
+#app-wrapper #app-holder #text a:hover{font:normal 15px Myriad W01 Regular;color:#2aaadc;text-decoration:none}
+#mnpg-content-wrapper #app-wrapper #testimonial{width:100%;display:block;float:left;clear:both;margin-bottom: 30px;margin-top:20px}
+#mnpg-content-wrapper #app-wrapper #testimonial > div{width: 50%;display: inline-block;vertical-align:top;margin: 25px 50px 25px 0;border-right:1px solid #444444}
+#mnpg-content-wrapper #app-wrapper #testimonial > div:last-child{width: 31%;display: inline-block;text-align: center;border-right:0px solid #ffffff;height: 205px}
+#mnpg-content-wrapper #app-wrapper #testimonial #text{width:85%;text-align:center;padding:0px 0 0px;margin:0 auto;clear:both}
+#mnpg-content-wrapper #app-wrapper #testimonial iframe{height:205px;border:3px solid #efefef}
+#mnpg-content-wrapper #app-wrapper #testimonial #text p{font:19px/27px Myriad W01 Regular;font-style:italic;color:#acacac;text-align:center}
+#mnpg-content-wrapper #app-wrapper #testimonial #text i{font-size:39px;text-align: center;color:#ji;margin-bottom:10px}
+#mnpg-content-wrapper #app-wrapper #testimonial #text a{font:normal 15px Myriad W01 Regular;color:#2aaadc;text-decoration:none;margin:10px 0}
+#mnpg-content-wrapper #app-wrapper #testimonial #customer{width:100%;font:normal 15px Georgia;font-style:italic;color:#000;text-align:center;margin:10px auto 0}
+#mnpg-content-wrapper #app-wrapper #testimonial #customer span{margin-bottom:20px;display:block;font:normal 21px/33px Myriad W01 Regular;color:#ffffff}
+#mnpg-content-wrapper #app-wrapper #testimonial #customer span b{font:bold 22px/33px Myriad W01 Regular}
+#mnpg-content-wrapper #app-wrapper #testimonial > div:last-child > div{width:100%;height: 205px}
+#mnpg-content-wrapper #app-wrapper .line4{background:url('https://www.flatworldsolutions.com/images/line.png') center left repeat-x;height:32px;float:left;width:13%}
+#mnpg-content-wrapper #app-wrapper #testimonial #text a:hover{text-decoration:underline}
+/*#smallform .sticky-placeholder-label[for="FirstName"]{top:78px !important;}*/
+#smallform .sticky-placeholder-label[for="FirstName"]{top:auto !important}
+.form-bottom-panel{display:none;}
+.responsive-image-new{float:left; width:auto;}
+.responsive-image-new-block{display:none !important;}
+#colorbox,#cboxOverlay,#cboxWrapper{position:absolute;top:0;left:0;z-index:9999;overflow:hidden;background-color:#fff;border-radius:10px}
+#cboxOverlay{position:fixed;width:100%;height:100%}
+#cboxMiddleLeft,#cboxBottomLeft{clear:left}
+#cboxContent{position:relative;border:solid 0 red}
+#cboxLoadedContent{overflow:auto;-webkit-overflow-scrolling:touch}
+#cboxTitle{margin:0;border:solid 0 orange}
+#cboxLoadingOverlay,#cboxLoadingGraphic{position:absolute;top:0;left:0;width:100%;height:100%}
+#cboxPrevious,#cboxNext,#cboxClose,#cboxSlideshow{cursor:pointer}
+.cboxPhoto{float:left;margin:auto;border:0;display:block;max-width:none}
+.cboxIframe{width:100%;height:100%;display:block;border:0}
+#colorbox,#cboxContent,#cboxLoadedContent{box-sizing:content-box;-moz-box-sizing:content-box;-webkit-box-sizing:content-box}
+#cboxOverlay{background:#686868;opacity:.6 !important}
+#colorbox{outline:0;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px}
+#cboxTopLeft{width:14px;height:14px;background-color:#fff;border-radius:10px 0 0 0}
+#cboxTopCenter{height:14px;background-color:#fff}
+#cboxTopRight{width:14px;height:14px;background-color:#fff;border-radius:0 10px 0 0}
+#cboxBottomLeft{width:14px;height:43px;background-color:#fff;border-radius:0 0 0 10px}
+#cboxBottomCenter{height:43px;background-color:#fff}
+#cboxBottomRight{width:14px;height:43px;background-color:#fff;border-radius:0 0 10px 0}
+#cboxMiddleLeft{width:14px;background-color:#fff}
+#cboxMiddleRight{width:14px;background-color:#fff}
+#cboxContent{background:#fff;overflow:visible}
+.cboxIframe{background:#fff}
+#cboxError{padding:50px;border:1px solid #ccc}
+#cboxLoadedContent{margin-bottom:5px}
+#cboxLoadingOverlay,#cboxLoadingGraphic{background:url(https://www.flatworldsolutions.com/images/loading.gif) no-repeat center center}
+#cboxTitle{position:absolute;bottom:-25px;left:0;text-align:center;width:100%;color:#333}
+#cboxCurrent{position:absolute;bottom:-25px;left:50px;color:#333}
+#cboxPrevious,#cboxNext,#cboxSlideshow,#cboxClose{border:0;padding:0;margin:0;overflow:visible;position:absolute;bottom:-29px;background:#fff url(https://www.flatworldsolutions.com/images/modal-window-controls.png) no-repeat 0 0;width:23px;height:23px;text-indent:-9999px}
+#cboxPrevious:active,#cboxNext:active,#cboxSlideshow:active,#cboxClose:active{outline:0}
+#cboxPrevious{left:0;background-position:0 -25px}
+#cboxPrevious:hover{background-position:0 0}
+#cboxNext{left:27px;background-position:-25px -25px}
+#cboxNext:hover{background-position:-25px 0}
+#cboxClose{right:0;background-position:-45px -25px}
+#cboxClose:hover{background-position:-45px 0}
+.cboxSlideshow_on #cboxSlideshow{background-position:-125px 0;right:27px}
+.cboxSlideshow_on #cboxSlideshow:hover{background-position:-150px 0}
+.cboxSlideshow_off #cboxSlideshow{background-position:-150px -25px;right:27px}
+.cboxSlideshow_off #cboxSlideshow:hover{background-position:-125px 0}
+.home-isoc-panel{float: left;margin-right: 14px;width:192px}
+#certificate-shadow{position: relative;top: -4px;}
+#mnpg-content-wrapper #content-container aside #hot-on-web p{font: 15px Myriad W01 Regular;letter-spacing: 0px; line-height:18px; margin-bottom:20px}
+#mnpg-content-wrapper #content-container aside #hot-on-web #read-more-panel{float:left;width:100%;text-align:center;margin-top:10px}
+#mnpg-content-wrapper #content-container aside #hot-on-web{text-align:center}
+#mnpg-content-wrapper #content-container aside #hot-on-web .anniversary-img-holder{width:366px;text-align:center;margin-top:0px; margin-bottom:0px;background:#ffffff;display:inline-block;margin-left:auto;margin-right:auto; box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);}
+#mnpg-content-wrapper #content-container aside #hot-on-web .anniversary-img-holder img{-webkit-transform: translateZ(0);transform: translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0);-webkit-backface-visibility: hidden;backface-visibility: hidden;-moz-osx-font-smoothing: grayscale;-webkit-transition-duration: 0.3s;transition-duration: 0.3s;-webkit-transition-property: transform;transition-property: transform; -webkit-transition-timing-function: ease-out; transition-timing-function: ease-out;width:100%}
+  #mnpg-content-wrapper #content-container aside #hot-on-web .anniversary-img-holder img:hover{  -webkit-transform: translateY(-3px); transform: translateY(-3px)}
+  #mnpg-content-wrapper #content-container aside #hot-on-web .anniversary-img-holder p{width:95%;margin:10px auto;text-align:center;color:#333333;font:19px/22px Myriad W01 Regular}
+  #mnpg-content-wrapper #content-container aside #hot-on-web .anniversary-img-holder p span{color:#333333;font:bold 19px/22px Myriad W01 Regular;text-transform:uppercase}
+  #mnpg-content-wrapper #content-container aside #hot-on-web .anniversary-img-holder span.big-text{color:#e3bf1c;font:bold 23px/25px Myriad W01 Regular;display:inline-block;text-transform:uppercase;    border-bottom: 2px solid #fdcf00;float: none; width: auto; margin: 3px 0}
+  #mnpg-content-wrapper #content-container aside #hot-on-web .anniversary-img-holder #ban-btm-sec{width:100%;margin:15px 0;float:left;clear:both}
+  #mnpg-content-wrapper #content-container aside #hot-on-web .anniversary-img-holder #ban-btm-sec > span:first-child{display:block;width:41px;float:left;margin-left:10px}
+  
+  #mnpg-content-wrapper #content-container aside #hot-on-web .anniversary-img-holder #ban-btm-sec > span:last-child{display:block;text-align:right;width:75%;float:right}
+#mnpg-content-wrapper #content-container aside #hot-on-web .readmore{background-color:#383838; font:normal 15px Myriad W01 Regular; color:#ffffff; padding:5px 10px; text-decoration:none; -webkit-transform: translateZ(0);
+  transform: translateZ(0);box-shadow: 0 0 1px rgba(0, 0, 0, 0);-webkit-backface-visibility: hidden;
+  backface-visibility: hidden;-moz-osx-font-smoothing: grayscale;-webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;-webkit-transition-property: box-shadow;transition-property: box-shadow;width:90px;float:right;margin-right:10px;border-radius:3px} 
+  #mnpg-content-wrapper #content-container aside #hot-on-web .readmore:hover{ box-shadow: 0 0 8px rgba(0, 0, 0, 0.6)}
+#mnpg-content-wrapper #content-container aside #hot-on-web .readmore:hover{background-color:#c98600}
+#MBA-homepage-banner img{box-shadow:1px 3px 3px #9E9E9E}
+#MBA-homepage-banner{margin-bottom:30px}
+#MBA-homepage-banner img#mobile{display:none}
+.ui-autocomplete{position:absolute;cursor:default;max-height:200px;overflow-y:scroll;overflow-x:hidden;border:1px solid #adadad}
+.ui-menu{list-style:none;padding:2px;margin:0;display:block;float:left;background-color:#fff}
+.ui-menu .ui-menu{margin-top:-3px}
+.ui-menu .ui-menu-item{margin:0;padding:0;float:left;clear:left;width:100%;font-size:14px}
+.ui-menu .ui-menu-item a{text-decoration:none;display:block;padding:2px 2px;line-height:15px;color:#666}
+.ui-menu .ui-menu-item a.ui-state-hover,.ui-menu .ui-menu-item a.ui-state-active{font-weight:normal;background-color:#f2f2f2}
+.ui-combobox{position:relative;display:inline-block}
+.ui-combobox-toggle{position:absolute;top:0;bottom:0;margin-left:-1px;padding:0}
+.ui-icon-triangle-1-s{background-repeat:no-repeat;background-position:99% center;height:20px;width:5px}
+.ui-button{border:0;margin:0;padding:0;right:13px;width:12px;height:16px;background-image:url("https://www.flatworldsolutions.com/images/form-down-arrow.png");background-repeat:no-repeat;background-position:0 8px;background-color:transparent;float:right;top: 27% !important;position: absolute;right: 52%;z-index: 999999}
+.ui-button-text{position:relative;margin:0;padding:0;height:20px;top:-20px}
+#smallformresponsive .ui-button{top: 54% !important}
+@media screen and (min-width:320px) and (max-width:479px){#MBA-homepage-banner img#mobile{display:inline-block;width:95%}
+#MBA-homepage-banner img#desktop{display:none}
+#mnpg-content-wrapper.from-the-newsroom p b{font:bold 26px/26px verdana}
+#mnpg-content-wrapper.from-the-newsroom p{font:bold 24px/27px Myriad W01 Regular}
+#mnpg-content-wrapper.from-the-newsroom p span{font:bold 23px/28px verdana}
+}
+
+@media screen and (min-width:240px) and (max-width:319px){#mnpg-wrapper{margin:145px 0 0;padding:0}
+#banner-bg{margin:0px 0;background-image:none;background-color:#025fa2}
+#bnr-wrapper{width:100%;padding:10px 0;height:auto;float:left}
+#bnr-wrapper section{width:100%;height:auto;margin-top:20px}
+#bnr-wrapper aside{display:none}
+.iosSlider .slider .item .text{width:71%;padding:0 15%}
+.iosSlider{height:820px !important;width:100% !important}
+.iosSlider .slider .item .title h1{font:normal 25px "Myriad W01 Regular"}
+.iosSlider .slider .item .title h2{font:normal 25px "Myriad W01 Regular"}
+.iosSlider .slider .item .desc ul li{background:url("https://www.flatworldsolutions.com/images/white-arrow.png") 0 8px no-repeat;margin:2px 0 5px;padding:0 0 0 8px}
+.iosSlider .slider .item .button{padding:5px 35px 5px 12px;font:normal 14px Myriad W01 Regular}
+#mnpg-content-wrapper{padding:0px 0;background-image:none}
+#mnpg-content-wrapper #content-container{width:90%;padding:5% 0;*float:left;display:block}
+#mnpg-content-wrapper #content-container section{width:100%}
+#mnpg-content-wrapper #content-container .line,#mnpg-content-wrapper #content-container .line2,#mnpg-content-wrapper #content-container .line3,#mnpg-content-wrapper #content-container .line4{display:none}
+#mnpg-content-wrapper #content-container .heading-container{margin:0 0 5px 0}
+#mnpg-content-wrapper #content-container .heading,#mnpg-content-wrapper #content-container .heading a{padding:0;text-align:center;float:none;font:normal 23px Myriad W01 Regular}
+
+#mnpg-content-wrapper #content-container aside #hot-on-web{width:100%;float:left}
+#mnpg-content-wrapper #content-container aside #hot-on-web .heading-container{margin-top:10px}
+#mnpg-content-wrapper #content-container aside #hot-on-web .heading{float:none;text-align:center;padding:0;font:normal 23px Myriad W01 Regular}
+#mnpg-content-wrapper #content-container aside #hot-on-web .b4-img{float:none;text-align:center}
+#mnpg-content-wrapper #content-container aside #hot-on-web img{width:100px;height:100px}
+#app-wrapper #app-holder{width:100%;padding:0;background:0;height:auto}
+#app-wrapper #app-holder #text{width:100%;float:left}
+#app-wrapper #app-holder #text img{float:left}
+#app-wrapper #app-holder #text a{margin:5px 0 10px}
+#app-wrapper #app-holder #text img{float:left;clear:both}
+#mnpg-content-wrapper #app-wrapper #testimonial{width:100%;margin:0 0 0}
+#mnpg-content-wrapper #content-container .testimonial{font:normal 23px Myriad W01 Regular}
+#mnpg-content-wrapper #app-wrapper #testimonial #text{width:100%;font:italic 16px/18px Georgia;text-align:left}
+#mnpg-content-wrapper #content-container .testimonial{text-align:left}
+#mnpg-content-wrapper #content-container #article-box, #mnpg-content-wrapper #content-container #customers-box{height:auto}
+#slider1 .overview li span{width:80% !important;padding-left:0 !important;font-size:13px !important}
+#slider1 .overview li img{width:100px}
+#slider1 .overview li{text-align:left !important;margin:0 14px !important;position:relative;left:-15px}
+.form-bottom-panel{display:block;}
+.responsive-image-new{display:none !important;}
+.responsive-image-new-block{float:left;width:100%; display:block !important; }
+.responsive-image-new-block .mba-full{width:97%; height:auto; background:url("https://www.flatworldsolutions.com/images/green-bg.jpg") left top repeat; float:left;margin-bottom:10px; padding:5px;}
+.responsive-image-new-block .mba-full .mr-img{float:left;width:30px; height:33px; margin:15px 5px 0px 5px;}
+.responsive-image-new-block .mba-full .mr-heading{width:80%; height:auto; float:left;color:#fff;font:normal 19px Myriad W01 Regular; margin-left:3px; margin-bottom:5px; margin-top:11px;}
+.responsive-image-new-block .mba-full .mr-add{ float:left;background:#10331f; border-radius:10px; margin:2px; width:71%; color:#fff;font:normal 15px Myriad W01 Regular !important; padding:5px; margin-left:41px; }
+.responsive-image-new-block .mba-full .mr-add span{ font:normal 15px Myriad W01 Regular !important; color:#b8c5bb !important; float:left; text-align:left !important; margin-left:5px;}
+.responsive-image-new-block .mba-full .mr-add a {font:normal 12px Myriad W01 Regular !important; color:#fff !important; text-align:left !important; padding:10px 0px !important; margin-left:5px !important;}
+.responsive-image-new-block .mba-full img.logo-mba{float:left; margin:10px 0px; width:71%; color:#fff;font:normal 15px Myriad W01 Regular !important; padding:5px; margin-left:41px; }
+}
+@media screen and (min-width:320px) and (max-width:479px){#mnpg-wrapper{margin:94px 0 0;padding:0}
+#banner-bg{margin:20px 0;background-image:none;background-color:#025fa2}
+#bnr-wrapper{width:100%;padding:20px 0;height:auto;float:left}
+#bnr-wrapper section{width:100%;height:auto;margin-top:22px}
+#bnr-wrapper aside{display:none}
+.iosSlider .slider .item .text{width:75%;padding:0 13%}
+.iosSlider{height:570px !important; width:100% !important}
+.iosSlider .slider .item .title h1{font:normal 25px "Myriad W01 Regular"}
+.iosSlider .slider .item .title h2{font:normal 25px "Myriad W01 Regular"}
+.iosSlider .slider .item .desc ul li{background:url("https://www.flatworldsolutions.com/images/white-arrow.png") 0 8px no-repeat;margin:2px 0 5px;padding:0 0 0 8px}
+.iosSlider .slider .item .button{padding:5px 35px 5px 12px;font:normal 14px Myriad W01 Regular}
+#mnpg-content-wrapper{padding:0px 0;background:0}
+#mnpg-content-wrapper #content-container{width:90%;padding:5% 0;*float:left;display:block}
+#mnpg-content-wrapper #content-container section{width:100%}
+#mnpg-content-wrapper #content-container .line,#mnpg-content-wrapper #content-container .line2,#mnpg-content-wrapper #content-container .line3,#mnpg-content-wrapper #content-container .line4{display:none}
+#mnpg-content-wrapper #content-container .heading-container{margin:0 0 5px 0}
+#mnpg-content-wrapper #content-container .heading,#mnpg-content-wrapper #content-container .heading a{padding:0;text-align:center;float:none;font:normal 24px Myriad W01 Regular}
+#mnpg-content-wrapper #content-container span{text-align:center}
+#mnpg-content-wrapper #content-container section #video-holder{width:100%;float:left;height:191px}
+#mnpg-content-wrapper #content-container section #video-holder > div{width: 100%;height: 191px;background:#efefef}
+#mnpg-content-wrapper #content-container section #video-holder iframe{width:100%;height:184px}
+#mnpg-content-wrapper #content-container aside #hot-on-web{width:100%;float:none;margin:0 auto}
+#mnpg-content-wrapper #content-container aside #hot-on-web .heading-container{margin-top:10px}
+#mnpg-content-wrapper #content-container aside #hot-on-web .heading{float:none;text-align:center;padding:0}
+#mnpg-content-wrapper #content-container aside #hot-on-web .b4-img{float:none;text-align:center}
+#app-wrapper #app-holder{width:100%;padding:0;background:0;height:auto}
+#app-wrapper #app-holder #text{width:80%;float:none;clear:both;text-align:center;margin-left:auto;margin-right:auto}
+#app-wrapper #app-holder #text img{float:none;clear:both;text-align:center;margin-left:auto;margin-right:auto}
+#app-wrapper #app-holder #text a{margin:5px 0 10px;text-align:center;display:block;width:100%}
+#app-wrapper #app-holder #text>div{width:100%;clear:both;text-align:center}
+#mnpg-content-wrapper #app-wrapper #testimonial{width:100%;margin:0 0 28px}
+#mnpg-content-wrapper #content-container .testimonial{font:normal 24px Myriad W01 Regular}
+#mnpg-content-wrapper #app-wrapper #testimonial #text{width:100%;font:italic 16px Georgia;text-align:center}
+#mnpg-content-wrapper #app-wrapper #testimonial #customer{width:100%}
+.form-bottom-panel{display:block;}
+.responsive-image-new{display:none !important;}
+.responsive-image-new-block{float:left;width:100%; display:block !important; }
+.responsive-image-new-block .mba-full{width:97%; height:auto; background:url("https://www.flatworldsolutions.com/images/green-bg.jpg") left top repeat; float:left;margin-bottom:10px; padding:5px;}
+.responsive-image-new-block .mba-full .mr-img{float:left;width:30px; height:33px; margin:15px 5px 0px 5px;}
+.responsive-image-new-block .mba-full .mr-heading{width:80%; height:auto; float:left;color:#fff;font:normal 19px Myriad W01 Regular; margin-left:3px; margin-bottom:5px; margin-top:11px;}
+.responsive-image-new-block .mba-full .mr-add{ float:left;background:#10331f; border-radius:10px; margin:2px; width:75%; color:#fff;font:normal 15px Myriad W01 Regular !important; padding:5px; margin-left:41px; }
+.responsive-image-new-block .mba-full .mr-add span{ font:normal 15px Myriad W01 Regular !important; color:#b8c5bb !important; float:left; text-align:left !important; margin-left:5px;}
+.responsive-image-new-block .mba-full .mr-add a {font:normal 12px Myriad W01 Regular !important; color:#fff !important; text-align:left !important; padding:10px 0px !important; margin-left:5px !important;}
+.responsive-image-new-block .mba-full img.logo-mba{float:left; margin:10px 0px; width:71%; color:#fff;font:normal 15px Myriad W01 Regular !important; padding:5px; margin-left:41px; width:auto;}
+#mnpg-content-wrapper #content-container .hot-on-web a{width: auto; padding-top: 6px;font:normal 21px/24px Myriad W01 Regular}
+#mnpg-content-wrapper #content-container .hot-on-web a sup{color:#000000;font:normal 14px Myriad W01 Regular}
+#certificate-shadow{display:none}
+#mnpg-content-wrapper #content-container .mobile-app span{width:100%;padding-bottom:10px}
+#mnpg-content-wrapper #content-container aside #hot-on-web span{margin-top:10px}
+#app-wrapper #app-holder img{width:120px;height:120px}
+#app-wrapper #app-holder {width:90%}
+#mnpg-content-wrapper #app-wrapper{padding-top:10px}
+#app-wrapper #app-holder ul li{margin-top:13px}
+.home-isoc-panel{margin-right: auto;margin-left: auto; margin-bottom:10px; width:100%; text-align:center}
+#mnpg-content-wrapper #content-container aside #hot-on-web .readmore{}
+#read-more-panel{text-align:left}
+#cboxContent,#cboxLoadedContent,#cboxLoadedContent img,#cboxTopCenter,#cboxBottomCenter{width:293px !important}
+#cboxWrapper{width:321px !important}
+#colorbox{outline:0;border-radius:0 !important}
+#cboxTitle{left:86px !important;width:57% !important;bottom:-25px !important;font-size:12px !important}
+#slider2 .next{left:93%}#slider2 .prev{left:3%}
+#slider2{padding:0 35px 10px}}
+@media screen and (min-width:360px) and (max-width:479px){
+.iosSlider{height:551px !important;width:100% !important}}
+@media screen and (min-width:480px) and (max-width:767px){#mnpg-wrapper{margin:85px 0 0;padding:0}
+#banner-bg{margin:20px 0;background-image:none;background-color:#025fa2}
+#bnr-wrapper{width:100%;padding:20px 0;height:auto;float:left}
+#bnr-wrapper section{width:100%;height:auto;margin-top:30px}
+#bnr-wrapper aside{display:none}
+.iosSlider .slider .item .text{width:83%;padding:0 8%}
+.iosSlider{min-height:430px;width:100% !important}
+.iosSlider .slider .item .title h1{font:normal 25px "Myriad W01 Regular"}
+.iosSlider .slider .item .title h2{font:normal 25px "Myriad W01 Regular"}
+.iosSlider .slider .item .desc ul li{background:url("https://www.flatworldsolutions.com/images/white-arrow.png") 0 8px no-repeat;margin:2px 0 5px;padding:0 0 0 8px}
+.iosSlider .slider .item .button{padding:5px 35px 5px 12px;font:normal 14px Myriad W01 Regular}
+#mnpg-content-wrapper{padding:0px 0;background:0}
+#mnpg-content-wrapper #content-container{width:90%;padding:0 5%;float:left}
+#mnpg-content-wrapper #content-container section{width:100%;margin-bottom:10px}
+#mnpg-content-wrapper #content-container .line,#mnpg-content-wrapper #content-container .line2,#mnpg-content-wrapper #content-container .line3,#mnpg-content-wrapper #content-container .line4{display:none}
+#mnpg-content-wrapper #content-container .heading-container{margin:0 0 5px 0}
+#mnpg-content-wrapper #content-container .heading,#mnpg-content-wrapper #content-container .heading a{padding:0;text-align:center;float:none;font:normal 24px Myriad W01 Regular}
+#mnpg-content-wrapper #content-container span{text-align:center}
+#mnpg-content-wrapper #content-container section #video-holder{width:100%;height:auto}
+#mnpg-content-wrapper #content-container section #video-holder iframe{width:100%;height:184px}
+#mnpg-content-wrapper #content-container aside #hot-on-web{width:90%;float:none;margin:0 auto;display:block;margin-bottom:10px}
+#mnpg-content-wrapper #content-container .hot-on-web a sup{font:normal 14px Myriad W01 Regular}
+#mnpg-content-wrapper #content-container aside #hot-on-web .heading-container{margin:0;margin-top:10px}
+#mnpg-content-wrapper #content-container aside #hot-on-web .heading{float:none;text-align:center;padding:0}
+#mnpg-content-wrapper #content-container aside #hot-on-web .b4-img{float:none;text-align:center}
+#app-wrapper #app-holder{padding:0;background:0;height:auto}
+#app-wrapper #app-holder #text{width:70%;float:none;clear:both;text-align:center;margin-left:auto;margin-right:auto}
+#app-wrapper #app-holder #text img{float:none;clear:both;text-align:center;margin-left:auto;margin-right:auto}
+#app-wrapper #app-holder #text a{margin:5px 0 10px;text-align:center;display:block;width:100%}
+#app-wrapper #app-holder #text>div{width:100%;clear:both;text-align:center}
+#mnpg-content-wrapper #app-wrapper #testimonial{width:85%;margin:25px auto;float:none;clear:both;padding-top:20px}
+#mnpg-content-wrapper #content-container .testimonial{font:normal 24px Myriad W01 Regular}
+#mnpg-content-wrapper #app-wrapper #testimonial #text{width:100%;font:italic 16px Georgia;text-align:center}
+#mnpg-content-wrapper #content-container #article-box, #mnpg-content-wrapper #content-container #customers-box{margin-bottom:40px;margin-top:20px;}
+.form-bottom-panel{display:block;}
+.responsive-image-new{display:none !important;}
+.responsive-image-new-block{float:left;width:100%; display:block !important; }
+.responsive-image-new-block .mba-full{width:97%; height:auto; background:url("https://www.flatworldsolutions.com/images/green-bg.jpg") left top repeat; float:left;margin-bottom:10px; padding:5px;}
+.responsive-image-new-block .mba-full .mr-img{float:left;width:30px; height:33px; margin:15px 5px 0px 5px;}
+.responsive-image-new-block .mba-full .mr-heading{width:80%; height:auto; float:left;color:#fff;font:normal 19px Myriad W01 Regular; margin-left:3px; margin-bottom:5px; margin-top:11px;}
+.responsive-image-new-block .mba-full .mr-add{ float:left;background:#10331f; border-radius:10px; margin:2px; width:44%; color:#fff;font:normal 15px Myriad W01 Regular !important; padding:5px; margin-left:13px; }
+.responsive-image-new-block .mba-full .mr-add span{ font:normal 15px Myriad W01 Regular !important; color:#b8c5bb !important; float:left; text-align:left !important; margin-left:5px;}
+.responsive-image-new-block .mba-full .mr-add a {font:normal 12px Myriad W01 Regular !important; color:#fff !important; text-align:left !important; padding:10px 0px !important; margin-left:5px !important;}
+.responsive-image-new-block .mba-full img.logo-mba{float:left; margin:0px 0px; width:71%; color:#fff;font:normal 15px Myriad W01 Regular !important; padding:5px; margin-left:7px; width:auto;}
+#mnpg-content-wrapper #content-container .hot-on-web a{width: auto; padding-top: 6px;display:inline-block;}
+#certificate-shadow{display:block}
+#mnpg-content-wrapper #content-container .mobile-app span{width:100%;padding-bottom:10px}
+#mnpg-content-wrapper #content-container aside #hot-on-web span{margin-top:10px}
+#app-wrapper #app-holder img{width:120px;height:120px}
+#app-wrapper #app-holder {width:90%}
+#mnpg-content-wrapper #app-wrapper{padding-top:10px}
+#app-wrapper #app-holder ul li{margin-top:13px}
+#mnpg-content-wrapper #content-container aside #hot-on-web p{font:16px/20px Myriad W01 Regular}
+#mnpg-content-wrapper #content-container aside #hot-on-web .readmore{}	
+#MBA-homepage-banner img#desktop{width:90%;display:inline-block}
+#mnpg-content-wrapper #content-container #customers-box{margin-top: 30px}
+}
+@media screen and (min-width:560px) and (max-width:767px){.home-isoc-panel img{display:none}
+#certificate-shadow{display:none}}
+@media screen and (min-width:605px) and (max-width:767px){.iosSlider{top:10px !important}
+}
+@media screen and (min-width:768px) and (max-width:999px){#mnpg-wrapper{margin:0 0 0 0;padding:0;width:100%;float:left}
+#banner-bg{background:#025fa2 url("https://www.flatworldsolutions.com/images/res-banner-background.gif") no-repeat right bottom !important;padding:1%;width:100%}
+#bnr-wrapper{width:100%;padding:30px 0 10px 0;height:auto;float:left}
+#bnr-wrapper section{width:98%;height:380px;margin:0 auto;float:none}
+#bnr-wrapper aside{display:none}
+.iosSlider{width:75% !important; height:400px !important}
+.iosSlider .slider{width:100%;float:left}
+.iosSlider .slider .item .text{width:85%;padding:0 7%}
+.iosSlider .slider .item .title h1{font:normal 25px "Myriad W01 Regular"}
+.iosSlider .slider .item .title h2{font:normal 25px "Myriad W01 Regular"}
+.iosSlider .slider .item .desc ul li{background:url("https://www.flatworldsolutions.com/images/white-arrow.png") 0 8px no-repeat;margin:2px 0 5px;padding:0 0 0 8px}
+.iosSlider .slider .item .button{padding:5px 35px 5px 12px;font:normal 14px Myriad W01 Regular}
+#mnpg-content-wrapper{padding:0px 0;background:0}
+#mnpg-content-wrapper #content-container{width:98%;padding:0 1%;margin-top:10px;float:left}
+#mnpg-content-wrapper #content-container .line,#mnpg-content-wrapper #content-container .line2,#mnpg-content-wrapper #content-container .line3,#mnpg-content-wrapper #content-container .line4{display:none}
+#mnpg-content-wrapper #content-container .heading-container{margin:0 0 5px 0}
+#mnpg-content-wrapper #content-container .heading,#mnpg-content-wrapper #content-container .heading{padding:0;text-align:center;float:none;font:normal 24px Myriad W01 Regular}
+#mnpg-content-wrapper #content-container .heading.app{text-align:left}
+#mnpg-content-wrapper #content-container span{text-align:center}
+#mnpg-content-wrapper #content-container section #video-holder{width:100%;float:left;height:auto}
+#mnpg-content-wrapper #content-container section #video-holder iframe{width:100%}
+
+#mnpg-content-wrapper #content-container aside #hot-on-web .heading{float:none;text-align:center;padding:0}
+#app-wrapper #app-holder #text{width:66%}
+#app-wrapper #app-holder #text img{float:left;clear:both}
+#app-wrapper #app-holder img{width:120px;height:120px}
+#mnpg-content-wrapper #content-container #article-box{margin:30px 0 40px}
+#slider1 .buttons{top:60px}
+#mnpg-content-wrapper #content-container .testimonial, #mnpg-content-wrapper #content-container .testimonial a{text-align:center; float:none;}
+.form-bottom-panel{display:block;}
+.responsive-image-new{float:left; width:100%;}
+.responsive-image-new-block{display:none !important; }
+#certificate-shadow{display:none}
+.home-isoc-panel a img{width:100%}
+.home-isoc-panel{width:40%}
+
+#mnpg-content-wrapper #content-container .hot-on-web a sup{font:normal 14px Myriad W01 Regular}
+#app-wrapper #app-holder{width:100%}
+#mnpg-content-wrapper #content-container .mobile-app span{width:100%;padding-bottom:10px}
+#mnpg-content-wrapper #content-container aside #hot-on-web p{font:16px/19px Myriad W01 Regular}
+#MBA-homepage-banner img{width:95%}
+#MBA-homepage-banner{margin-top:10px;margin-bottom:10px}
+#slider2{padding:0 35px 10px}
+}
+@media screen and (min-width:1000px) and (max-width:1334px){#banner-bg{background:#025fa2 url("https://www.flatworldsolutions.com/images/bnr-img-small.jpg") no-repeat right bottom !important}}
+
+@media screen and (min-width:320px) and (max-width:359px){#cboxContent,#cboxLoadedContent,#cboxLoadedContent img,#cboxTopCenter,#cboxBottomCenter{width:293px !important}
+#cboxWrapper{width:321px !important}
+#cboxTitle{padding-left:10px}
+#colorbox{outline:0;border-radius:0 !important}}
+@media screen and (min-width:360px) and (max-width:379px){#cboxContent,#cboxLoadedContent,#cboxLoadedContent img,#cboxTopCenter,#cboxBottomCenter{width:331px !important}
+#cboxWrapper{width:360px !important}
+#cboxTitle{padding-left:10px}
+#colorbox{outline:0;border-radius:0 !important}}
+@media screen and (min-width:380px) and (max-width:399px){#cboxContent,#cboxLoadedContent,#cboxLoadedContent img,#cboxTopCenter,#cboxBottomCenter{width:355px !important}
+#cboxWrapper{width:385px !important}
+#cboxTitle{padding-left:10px}
+#colorbox{outline:0;border-radius:0 !important}}
+/* VIDEO BANNER CSS STARTS*/
+#banner-bg video{display:none}
+#da-slider{display:none}
+.MultiFile-wrap{display: none}	
+@media screen and (min-width:1100px){
+.iosSlider{display:none}
+#banner-bg{height: 442px;overflow: hidden;position: relative;background:#005e9e url('https://www.flatworldsolutions.com/images/banner-video-poster.jpg') bottom right no-repeat !important;background-size:cover;width:100%}
+#banner-bg video{background-size: 100% 100%;min-width: 100%;min-height: 100%;height: auto;width: auto;position: relative;
+bottom: 131px;display:block;margin-bottom:15px}
+#bnr-wrapper{position: absolute;top: 0px;margin-left: 173px}
+.da-slider{width: 100%;height: 200px;position: absolute;margin: 0 auto;bottom:20px;overflow: hidden;display:block !important;
+	-webkit-transition: background-position 1s ease-out 0.3s;-moz-transition: background-position 1s ease-out 0.3s;
+	-o-transition: background-position 1s ease-out 0.3s;-ms-transition: background-position 1s ease-out 0.3s;
+	transition: background-position 1s ease-out 0.3s;}
+.da-slide{position: absolute;width: 100%;height: 100%;top: 0px;left: 0px;font-family: 'Oswald', sans-serif;text-align: left}
+.da-slide-current{z-index: 1000}
+.da-slider-fb .da-slide{left: 100%}
+.da-slider-fb  .da-slide.da-slide-current{left: 0px}
+.da-slide h2{position: absolute;	opacity: 0;left: 110%}
+.da-slider-fb .da-slide h2{left: 10%;opacity: 1}
+.da-slide h2{color: #fff;font-size: 45px;top: 60px;white-space: nowrap;z-index: 10;text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	font-family: 'Oswald', sans-serif;text-shadow: 2px 2px #333333;line-height:55px}
+.da-dots{width: 100%;position: absolute;text-align: center;left: 0px;bottom: 20px;z-index: 2000;-moz-user-select: none;
+	-webkit-user-select: none;display:none}
+.da-dots span{display: inline-block;position: relative;width: 12px;height: 12px;border-radius: 50%;background: #e4b42d;
+	margin: 3px;cursor: pointer;box-shadow:1px 1px 1px rgba(0,0,0,0.1) inset, 1px 1px 1px rgba(255,255,255,0.1)}
+.da-dots span.da-dots-current:after{content: '';width: 8px;height: 8px;position: absolute;top: 2px;left: 2px;border-radius: 50%;
+	background: rgb(255,255,255);background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(47%,rgba(246,246,246,1)), color-stop(100%,rgba(237,237,237,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
+	background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 )}
+.da-arrows{
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+.da-arrows span{position: absolute;top: 50%;height: 30px;width: 30px;border-radius: 50%;background: #e4b42d;
+	cursor: pointer;z-index: 2000;opacity: 0;box-shadow: 1px 1px 1px rgba(0,0,0,0.1) inset, 1px 1px 1px rgba(255,255,255,0.1);
+	-webkit-transition: opacity 0.4s ease-in-out-out 0.2s;-moz-transition: opacity 0.4s ease-in-out-out 0.2s;
+	-o-transition: opacity 0.4s ease-in-out-out 0.2s;-ms-transition: opacity 0.4s ease-in-out-out 0.2s;
+	transition: opacity 0.4s ease-in-out-out 0.2s}
+.da-slider:hover .da-arrows span{opacity: 1}
+.da-arrows span:after{content: '';position: absolute;width: 20px;height: 20px;top: 5px;left: 5px;background: transparent url(https://www.flatworldsolutions.com/images/arrows.png) no-repeat top left;border-radius: 50%;box-shadow: 1px 1px 2px rgba(0,0,0,0.1)}
+.da-arrows span:hover:after{box-shadow: 1px 1px 4px rgba(0,0,0,0.3)}
+.da-arrows span:active:after{box-shadow: 1px 1px 1px rgba(255,255,255,0.1)}
+.da-arrows span.da-arrows-next:after{background-position: top right}
+.da-arrows span.da-arrows-prev{left: 15px}
+.da-arrows span.da-arrows-next{right: 15px}
+.da-slide-current h2{left: 10%;opacity: 1}
+/* Animation classes and animations */
+
+/* Slide in from the right*/
+.da-slide-fromright h2{
+	-webkit-animation: fromRightAnim1 0.6s ease-in-out 0.8s both;
+	-moz-animation: fromRightAnim1 0.6s ease-in-out 0.8s both;
+	-o-animation: fromRightAnim1 0.6s ease-in-out 0.8s both;
+	-ms-animation: fromRightAnim1 0.6s ease-in-out 0.8s both;
+	animation: fromRightAnim1 0.6s ease-in-out 0.8s both;
+}
+@-webkit-keyframes fromRightAnim1{
+	0%{ left: 110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-webkit-keyframes fromRightAnim2{
+	0%{ left: 110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-webkit-keyframes fromRightAnim3{
+	0%{ left: 110%; opacity: 0; }
+	1%{ left: 10%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-webkit-keyframes fromRightAnim4{
+	0%{ left: 110%; opacity: 0; }
+	100%{ left: 60%; opacity: 1; }
+}
+
+@-moz-keyframes fromRightAnim1{
+	0%{ left: 110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-moz-keyframes fromRightAnim2{
+	0%{ left: 110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-moz-keyframes fromRightAnim3{
+	0%{ left: 110%; opacity: 0; }
+	1%{ left: 10%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-moz-keyframes fromRightAnim4{
+	0%{ left: 110%; opacity: 0; }
+	100%{ left: 60%; opacity: 1; }
+}
+
+@-o-keyframes fromRightAnim1{
+	0%{ left: 110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-o-keyframes fromRightAnim2{
+	0%{ left: 110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-o-keyframes fromRightAnim3{
+	0%{ left: 110%; opacity: 0; }
+	1%{ left: 10%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-o-keyframes fromRightAnim4{
+	0%{ left: 110%; opacity: 0; }
+	100%{ left: 60%; opacity: 1; }
+}
+
+@-ms-keyframes fromRightAnim1{
+	0%{ left: 110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-ms-keyframes fromRightAnim2{
+	0%{ left: 110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-ms-keyframes fromRightAnim3{
+	0%{ left: 110%; opacity: 0; }
+	1%{ left: 10%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-ms-keyframes fromRightAnim4{
+	0%{ left: 110%; opacity: 0; }
+	100%{ left: 60%; opacity: 1; }
+}
+
+@keyframes fromRightAnim1{
+	0%{ left: 110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@keyframes fromRightAnim2{
+	0%{ left: 110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@keyframes fromRightAnim3{
+	0%{ left: 110%; opacity: 0; }
+	1%{ left: 10%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@keyframes fromRightAnim4{
+	0%{ left: 110%; opacity: 0; }
+	100%{ left: 60%; opacity: 1; }
+}
+/* Slide in from the left*/
+.da-slide-fromleft h2{
+	-webkit-animation: fromLeftAnim1 0.6s ease-in-out 0.6s both;
+	-moz-animation: fromLeftAnim1 0.6s ease-in-out 0.6s both;
+	-o-animation: fromLeftAnim1 0.6s ease-in-out 0.6s both;
+	-ms-animation: fromLeftAnim1 0.6s ease-in-out 0.6s both;
+	animation: fromLeftAnim1 0.6s ease-in-out 0.6s both;
+}
+@-webkit-keyframes fromLeftAnim1{
+	0%{ left: -110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-webkit-keyframes fromLeftAnim2{
+	0%{ left: -110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-webkit-keyframes fromLeftAnim3{
+	0%{ left: -110%; opacity: 0; }
+	1%{ left: 10%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-webkit-keyframes fromLeftAnim4{
+	0%{ left: -110%; opacity: 0; }
+	100%{ left: 60%; opacity: 1; }
+}
+
+@-moz-keyframes fromLeftAnim1{
+	0%{ left: -110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-moz-keyframes fromLeftAnim2{
+	0%{ left: -110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-moz-keyframes fromLeftAnim3{
+	0%{ left: -110%; opacity: 0; }
+	1%{ left: 10%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-moz-keyframes fromLeftAnim4{
+	0%{ left: -110%; opacity: 0; }
+	100%{ left: 60%; opacity: 1; }
+}
+
+@-o-keyframes fromLeftAnim1{
+	0%{ left: -110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-o-keyframes fromLeftAnim2{
+	0%{ left: -110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-o-keyframes fromLeftAnim3{
+	0%{ left: -110%; opacity: 0; }
+	1%{ left: 10%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-o-keyframes fromLeftAnim4{
+	0%{ left: -110%; opacity: 0; }
+	100%{ left: 60%; opacity: 1; }
+}
+
+@-ms-keyframes fromLeftAnim1{
+	0%{ left: -110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-ms-keyframes fromLeftAnim2{
+	0%{ left: -110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-ms-keyframes fromLeftAnim3{
+	0%{ left: -110%; opacity: 0; }
+	1%{ left: 10%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@-ms-keyframes fromLeftAnim4{
+	0%{ left: -110%; opacity: 0; }
+	100%{ left: 60%; opacity: 1; }
+}
+
+@keyframes fromLeftAnim1{
+	0%{ left: -110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@keyframes fromLeftAnim2{
+	0%{ left: -110%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@keyframes fromLeftAnim3{
+	0%{ left: -110%; opacity: 0; }
+	1%{ left: 10%; opacity: 0; }
+	100%{ left: 10%; opacity: 1; }
+}
+@keyframes fromLeftAnim4{
+	0%{ left: -110%; opacity: 0; }
+	100%{ left: 60%; opacity: 1; }
+}
+/* Slide out to the right */
+.da-slide-toright h2{
+	-webkit-animation: toRightAnim1 0.6s ease-in-out 0.6s both;
+	-moz-animation: toRightAnim1 0.6s ease-in-out 0.6s both;
+	-o-animation: toRightAnim1 0.6s ease-in-out 0.6s both;
+	-ms-animation: toRightAnim1 0.6s ease-in-out 0.6s both;
+	animation: toRightAnim1 0.6s ease-in-out 0.6s both;
+}
+@-webkit-keyframes toRightAnim1{
+	0%{ left: 10%;  opacity: 1; }
+	100%{ left: 100%; opacity: 0; }
+}
+@-webkit-keyframes toRightAnim2{
+	0%{ left: 10%;  opacity: 1; }
+	100%{ left: 100%; opacity: 0; }
+}
+@-webkit-keyframes toRightAnim3{
+	0%{ left: 10%;  opacity: 1; }
+	99%{ left: 10%; opacity: 0; }
+	100%{ left: 100%; opacity: 0; }
+}
+@-webkit-keyframes toRightAnim4{
+	0%{ left: 60%;  opacity: 1; }
+	30%{ left: 55%;  opacity: 1; }
+	100%{ left: 100%; opacity: 0; }
+}
+
+@-moz-keyframes toRightAnim1{
+	0%{ left: 10%;  opacity: 1; }
+	100%{ left: 100%; opacity: 0; }
+}
+@-moz-keyframes toRightAnim2{
+	0%{ left: 10%;  opacity: 1; }
+	100%{ left: 100%; opacity: 0; }
+}
+@-moz-keyframes toRightAnim3{
+	0%{ left: 10%;  opacity: 1; }
+	99%{ left: 10%; opacity: 0; }
+	100%{ left: 100%; opacity: 0; }
+}
+@-moz-keyframes toRightAnim4{
+	0%{ left: 60%;  opacity: 1; }
+	30%{ left: 55%;  opacity: 1; }
+	100%{ left: 100%; opacity: 0; }
+}
+
+@-o-keyframes toRightAnim1{
+	0%{ left: 10%;  opacity: 1; }
+	100%{ left: 100%; opacity: 0; }
+}
+@-o-keyframes toRightAnim2{
+	0%{ left: 10%;  opacity: 1; }
+	100%{ left: 100%; opacity: 0; }
+}
+@-o-keyframes toRightAnim3{
+	0%{ left: 10%;  opacity: 1; }
+	99%{ left: 10%; opacity: 0; }
+	100%{ left: 100%; opacity: 0; }
+}
+@-o-keyframes toRightAnim4{
+	0%{ left: 60%;  opacity: 1; }
+	30%{ left: 55%;  opacity: 1; }
+	100%{ left: 100%; opacity: 0; }
+}
+
+@-ms-keyframes toRightAnim1{
+	0%{ left: 10%;  opacity: 1; }
+	100%{ left: 100%; opacity: 0; }
+}
+@-ms-keyframes toRightAnim2{
+	0%{ left: 10%;  opacity: 1; }
+	100%{ left: 100%; opacity: 0; }
+}
+@-ms-keyframes toRightAnim3{
+	0%{ left: 10%;  opacity: 1; }
+	99%{ left: 10%; opacity: 0; }
+	100%{ left: 100%; opacity: 0; }
+}
+@-ms-keyframes toRightAnim4{
+	0%{ left: 60%;  opacity: 1; }
+	30%{ left: 55%;  opacity: 1; }
+	100%{ left: 100%; opacity: 0; }
+}
+
+@keyframes toRightAnim1{
+	0%{ left: 10%;  opacity: 1; }
+	100%{ left: 100%; opacity: 0; }
+}
+@keyframes toRightAnim2{
+	0%{ left: 10%;  opacity: 1; }
+	100%{ left: 100%; opacity: 0; }
+}
+@keyframes toRightAnim3{
+	0%{ left: 10%;  opacity: 1; }
+	99%{ left: 10%; opacity: 0; }
+	100%{ left: 100%; opacity: 0; }
+}
+@keyframes toRightAnim4{
+	0%{ left: 60%;  opacity: 1; }
+	30%{ left: 55%;  opacity: 1; }
+	100%{ left: 100%; opacity: 0; }
+}
+/* Slide out to the left*/
+.da-slide-toleft h2{
+	-webkit-animation: toLeftAnim1 0.6s ease-in-out both;
+	-moz-animation: toLeftAnim1 0.6s ease-in-out both;
+	-o-animation: toLeftAnim1 0.6s ease-in-out both;
+	-ms-animation: toLeftAnim1 0.6s ease-in-out both;
+	animation: toLeftAnim1 0.6s ease-in-out both;
+}
+
+@-webkit-keyframes toLeftAnim1{
+	0%{ left: 10%;  opacity: 1; }
+	30%{ left: 15%;  opacity: 1; }
+	100%{ left: -50%; opacity: 0; }
+}
+@-webkit-keyframes toLeftAnim2{
+	0%{ left: 10%;  opacity: 1; }
+	30%{ left: 15%;  opacity: 1; }
+	100%{ left: -50%; opacity: 0; }
+}
+@-webkit-keyframes toLeftAnim3{
+	0%{ left: 10%;  opacity: 1; }
+	100%{ left: -50%; opacity: 0; }
+}
+@-webkit-keyframes toLeftAnim4{
+	0%{ left: 60%;  opacity: 1; }
+	70%{ left: 30%;  opacity: 0; }
+	100%{ left: -50%; opacity: 0; }
+}
+
+@-moz-keyframes toLeftAnim1{
+	0%{ left: 10%;  opacity: 1; }
+	30%{ left: 15%;  opacity: 1; }
+	100%{ left: -50%; opacity: 0; }
+}
+@-moz-keyframes toLeftAnim2{
+	0%{ left: 10%;  opacity: 1; }
+	30%{ left: 15%;  opacity: 1; }
+	100%{ left: -50%; opacity: 0; }
+}
+@-moz-keyframes toLeftAnim3{
+	0%{ left: 10%;  opacity: 1; }
+	100%{ left: -50%; opacity: 0; }
+}
+@-moz-keyframes toLeftAnim4{
+	0%{ left: 60%;  opacity: 1; }
+	70%{ left: 30%;  opacity: 0; }
+	100%{ left: -50%; opacity: 0; }
+}
+
+@-o-keyframes toLeftAnim1{
+	0%{ left: 10%;  opacity: 1; }
+	30%{ left: 15%;  opacity: 1; }
+	100%{ left: -50%; opacity: 0; }
+}
+@-o-keyframes toLeftAnim2{
+	0%{ left: 10%;  opacity: 1; }
+	30%{ left: 15%;  opacity: 1; }
+	100%{ left: -50%; opacity: 0; }
+}
+@-o-keyframes toLeftAnim3{
+	0%{ left: 10%;  opacity: 1; }
+	100%{ left: -50%; opacity: 0; }
+}
+@-o-keyframes toLeftAnim4{
+	0%{ left: 60%;  opacity: 1; }
+	70%{ left: 30%;  opacity: 0; }
+	100%{ left: -50%; opacity: 0; }
+}
+
+@-ms-keyframes toLeftAnim1{
+	0%{ left: 10%;  opacity: 1; }
+	30%{ left: 15%;  opacity: 1; }
+	100%{ left: -50%; opacity: 0; }
+}
+@-ms-keyframes toLeftAnim2{
+	0%{ left: 10%;  opacity: 1; }
+	30%{ left: 15%;  opacity: 1; }
+	100%{ left: -50%; opacity: 0; }
+}
+@-ms-keyframes toLeftAnim3{
+	0%{ left: 10%;  opacity: 1; }
+	100%{ left: -50%; opacity: 0; }
+}
+@-ms-keyframes toLeftAnim4{
+	0%{ left: 60%;  opacity: 1; }
+	70%{ left: 30%;  opacity: 0; }
+	100%{ left: -50%; opacity: 0; }
+}
+
+@keyframes toLeftAnim1{
+	0%{ left: 10%;  opacity: 1; }
+	30%{ left: 15%;  opacity: 1; }
+	100%{ left: -50%; opacity: 0; }
+}
+@keyframes toLeftAnim2{
+	0%{ left: 10%;  opacity: 1; }
+	30%{ left: 15%;  opacity: 1; }
+	100%{ left: -50%; opacity: 0; }
+}
+@keyframes toLeftAnim3{
+	0%{ left: 10%;  opacity: 1; }
+	100%{ left: -50%; opacity: 0; }
+}
+@keyframes toLeftAnim4{
+	0%{ left: 60%;  opacity: 1; }
+	70%{ left: 30%;  opacity: 0; }
+	100%{ left: -50%; opacity: 0; }
+}
+#toggle-hp-short-form{display:none;width:100%}
+#small-form #expand-collapse .collapse-icon{display:none;position: absolute;top: 6px;right: 5px}
+#small-form #expand-collapse .expand-icon{position: absolute;top: 4px;right: 5px}
+#bnr-wrapper aside{right:0;bottom:0;position:absolute}
+#bnr-wrapper aside #small-form > div > span, aside #small-form > div > span{margin:0;font-size: 25px;color:#262c40;float: left;display: inline-block;vertical-align: top;font-weight: bold;border-right: 1px solid #d9dbdd;padding-right: 10px;margin-right: 10px;text-align:left}
+#bnr-wrapper aside #small-form #expand-collapse{float:right}
+#bnr-wrapper aside #small-form{padding:2% 6.5%}
+#bnr-wrapper aside #small-form #expand-collapse{cursor:pointer;cursor:hand}
+	#banner-wrapper > aside{width:100%;position:relative;margin:auto;text-align:center}
+/*#smallform .sticky-placeholder-label[for="FirstName"]{top:53px !important}*/
+#bnr-wrapper aside #small-form p{margin:6px 0 15px}
+	form#smallform{display: inline-block;vertical-align: top}	
+#bnr-wrapper aside{z-index:9999}
+#banner-bg{background:#005e9e url('https://www.flatworldsolutions.com/images/banner-video-poster.jpg') bottom right no-repeat !important;background-size: cover;margin-bottom:25px}}
+@media screen and (min-width:1000px) and (max-width:1024px){#expand-collapse, #small-form .clear{display:none}}
+/* VIDEO BANNER CSS ENDS*/
+@media screen and (min-width:320px) and (max-width:359px){#mnpg-content-wrapper #content-container aside #hot-on-web .anniversary-img-holder img{width:100%}#mnpg-content-wrapper #content-container aside #hot-on-web .anniversary-img-holder{margin-top: 0px;margin-bottom: 5px}}
+.articles-right-sec{float: right;text-align: right;clear: both;width:100%;clear:both}
+.articles-right-sec a{font:normal 18px/18px Myriad W01 Regular;color:#488fd3;text-align:right;text-decoration:none}
+.articles-right-sec a i{color: #488fd3}
+.articles-right-sec a:hover{text-decoration:underline}
+@media screen and (min-width:320px) and (max-width:380px){
+#mnpg-content-wrapper #content-container aside #hot-on-web .anniversary-img-holder, #mnpg-content-wrapper #content-container aside #hot-on-web .anniversary-img-holder img{width:100%}}
+
+#popular-services{width:100%;float:left;background:#ffffff;clear:both;position: relative;margin-bottom:20px}
+#popular-services > div{width: 1170px;margin: 20px auto;text-align: center}
+#popular-services > div h2{color: #403131;font: bold 26px Myriad W01 Regular;text-align: center;margin: 3% 5px 1% 0;display: block;text-transform: uppercase}
+#popular-services > div .heading-container .line{width: 20%;height: 1px;background: #d4d4d4;display: inline-block;position: relative;top:-7px}
+#popular-services > div #content-panel{width:100%;margin:auto;margin-top:1%;margin-bottom:3%}
+#popular-services > div #content-panel > div{max-width: 340px;width: 100%;display:inline-block;vertical-align:top;margin:0 1%;height:412px;background:#f6f6f8;padding:12px;border-radius:10px}
+/*#popular-services > div #content-panel a{width: 26%;display: inline-block;vertical-align: top;text-decoration: none;text-align: left;margin: 0 19px;margin-bottom: 30px;-webkit-transform: perspective(1px) translateZ(0);transform: perspective(1px) translateZ(0);box-shadow: 0px 2px 2px 0px #efefef;position: relative;-webkit-transition-duration: 0.3s;transition-duration: 0.3s;-webkit-transition-property: transform;transition-property: transform;border: 2px solid #f6f6f6;padding: 20px}
+#popular-services > div #content-panel a p{text-align: left;color: #737373}*/
+#popular-services > div #content-panel p{font:normal 17px/24px Myriad W01 Regular;line-height: 26px;letter-spacing:0;color:#565656}
+#popular-services > div #content-panel p a{font:normal 17px/24px Myriad W01 Regular}
+#popular-services > div > p{font:bold 20px/26px Myriad W01 Regular;line-height: 26px;letter-spacing:0;color:#253070;margin:auto;text-align:center}
+#popular-services > div #content-panel p b.caps{font:bold 24px/26px Myriad W01 Regular}
+/*#popular-services > div #content-panel a h3{text-align: left;color: #4a4a4a;font: 600 20px Myriad W01 Regular;margin-bottom: 3%;margin-top: 5%}
+#popular-services > div #content-panel a .read-more{display: block;float: right;background: #f6f6f6;padding: 8px 11px;border-radius: 4px;color:#2a2a2a;margin-top:1rem}
+#popular-services > div #content-panel a .read-more i{font-size: 1rem}*/
+
+/*#popular-services > div #content-panel a:before {pointer-events: none;position: absolute;z-index: -1; content: ''; top: 100%; left: 5%; height: 10px; width: 90%; opacity: 0; background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%); background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+-webkit-transition-duration: 0.3s; transition-duration: 0.3s; -webkit-transition-property: transform, opacity; transition-property: transform, opacity}
+#popular-services > div #content-panel a:hover{-webkit-transform: translateY(-5px);transform: translateY(-5px);background: #ea394f}
+#popular-services > div #content-panel a:hover > span i, #popular-services > div #content-panel a:hover h3, #popular-services > div #content-panel a:hover p{color:#ffffff !important}
+#popular-services > div #content-panel a:hover .read-more i{color:#2a2a2a !important}
+#popular-services > div #content-panel a:hover:before{opacity: 1;-webkit-transform: translateY(5px);transform: translateY(5px)}
+#popular-services > div #content-panel a > span{color:#175e95}
+#popular-services > div #content-panel-two{width:100%;margin:auto;margin-bottom:20px;text-align:center}
+#popular-services > div #content-panel a .fa, #popular-services > div #content-panel a .far, #popular-services > div #content-panel a .fas{font-size: 3rem;color:#ea394f}
+
+#popular-services > div #content-panel-two > a{display:inline-block;background:#fcfcfc;border:1px solid #e2e2e2;border-radius:3px;padding:7px 13px;margin:10px 7px;text-decoration:none;color:#313131;   -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;font:normal 17px Myriad W01 Regular}
+
+#popular-services > div #content-panel-two > a:before{  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ea394f;
+  border-radius: 100%;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;border-radius:10px;border:0px}
+#popular-services > div #content-panel-two > a:hover, #popular-services > div #content-panel-two > a:hover i{color:#ffffff}
+#popular-services > div #content-panel-two > a:hover:before{  -webkit-transform: scale(2);
+  transform: scale(2);}
+#popular-services > div #content-panel-two > a.more-services{text-align:center;text-transform:uppercase;text-decoration:none;display:inline-block;color:#ea394f;}
+  #popular-services > div .more-services i{color:#ee5b6e;font-size: 1rem}
+#popular-services > div #content-panel-two > a.more-services:hover{color:#ffffff}*/
+#popular-services > div .more-services:hover{  -webkit-transform: translateX(4px); transform: translateX(4px);color:#565656}
+
+#mnpg-content-wrapper #content-container section{width: 100%;float: left;clear:both}
+#mnpg-content-wrapper #content-container #customers-box .line2{background:none}
+#drop-icon{font-size: 0;font: normal 0px Myriad W01 Regular;width: 100%;position: absolute;text-align: center;bottom:7px}
+#drop-icon i{font-size: 4rem;line-height: 11px;color:#edeff3}
+	
+/* HOME PAGE BANER CSS STARTS */
+#banner-wrapper aside #small-form{width: 100%;padding: 1% 1.5%;float: none;margin: 0 auto 0 auto;background: #edeff3;max-width: 1170px;border-radius:0;display: inline-block;font-size:0;top: -35px;position:relative;box-shadow:0px 1px 6px 0px #999999}
+#banner-wrapper aside #small-form p{font-size: 16px;color: #555c78;margin: 0 0px 0px 0;float: left;line-height: 1.5em;clear:none;letter-spacing:0}
+#banner-wrapper aside #small-form p.gdpr-text{color:#999999;font-size:13px}
+#banner-wrapper aside #small-form p.gdpr-text a{font-size:13px}
+.gdpr-text > a, .gdpr-text > a:hover{font-size: 16px}
+#banner-wrapper aside #small-form>span{color:#386f96;font: bold 22px Myriad W01 Regular}
+#banner-wrapper{width:100%;overflow:hidden}
+#banner-wrapper #home-banner-content {width:100%;display:block;vertical-align:top;font-size:0;overflow:hidden;height:450px}
+#banner-wrapper #home-banner-content> div{width:1170px;margin:auto;display:block;position:relative;padding:2% 0}
+#banner-wrapper #home-banner-content > div #left-access{width:45%;display:inline-block;vertical-align:top}
+#banner-wrapper #home-banner-content > div #left-access >p {font:bold 20px/21px Myriad W01 Regular;color:#ffffff}
+#banner-wrapper #home-banner-content > div #right-access{width:45%;display:inline-block;vertical-align:top}
+#banner-wrapper #home-banner-content > div #left-access h1{font:bold 42px Myriad W01 Regular;color:#ffffff;margin-bottom: 0px;padding-bottom: 0;}
+#banner-wrapper #home-banner-content > div #left-access ul{padding:26px 0px;margin: auto;width: 99%;vertical-align: top;position: relative;font-size:0;text-align: center;padding-top:0}
+#banner-wrapper #home-banner-content > div #left-access ul li{margin: 19px 0 19px 8px;font: normal 27px/22px Arial; color: #ffffff;background:none;padding: 0;text-align: left}
+#banner-wrapper #home-banner-content > div #left-access ul li b{font: bold 37px/36px Arial}
+#banner-wrapper #home-banner-content > div #left-access ul li i{color: #9dcbff;font-size: 2rem;margin-right: 10px;width:40px}
+
+.form-blue-btn{height: 40px;width: auto;float: none;background:#313037;color:#ffffff}
+
+  @media screen and (min-width:320px) and (max-width:479px){#popular-services > div{width: 98%}
+  #popular-services > div #content-panel a{width:70%;display:inline-block;margin-left:auto;margin-right:auto;text-align:center}
+  #popular-services > div #content-panel-two > a{display: block; width: 74%;text-align: left;margin: 5% auto;padding: 3%}
+  #popular-services > div .heading-container .line{display:none}
+  #popular-services > div h2{margin:5% 5px 2% 5px} 
+  #popular-services > div #content-panel a p{font:normal 15px Myriad W01 Regular;text-align:center}  
+#popular-services > div #content-panel a > span{display:center;margin:auto;text-align:center}	
+#popular-services > div #content-panel a h3{text-align:center}
+#popular-services > div #content-panel-two > a.more-services{display:block}
+#banner-wrapper #home-banner-content > div #left-access{width:100%}
+#banner-wrapper #home-banner-content{height:auto;padding-bottom: 15px;padding-top: 15px}
+#banner-wrapper #home-banner-content > div #left-access h1{font:bold 35px Myriad W01 Regular;padding:12px;padding-bottom:0}
+}
+
+@media screen and (min-width:480px) and (max-width:579px){#popular-services > div .heading-container .line{display:none}  #popular-services > div h2{margin:5% 5px 2% 5px} #popular-services > div{width: 98%}  #popular-services > div #content-panel a{width:57%;display:inline-block;margin-left:auto;margin-right:auto}
+#banner-wrapper #home-banner-content > div #left-access h1{font:bold 35px Myriad W01 Regular;padding:12px;padding-bottom:0}
+} 
+ @media screen and (min-width:580px) and (max-width:767px){#popular-services > div .heading-container .line{display:none}  #popular-services > div h2{margin:5% 5px 2% 5px} #popular-services > div{width: 98%}  #popular-services > div #content-panel a{width:46%}#popular-services > div #content-panel-two{float:none;text-align:center}  
+ #banner-wrapper #home-banner-content > div #left-access h1{font:bold 35px Myriad W01 Regular;padding:12px;padding-bottom:0}
+ } 
+ 
+@media screen and (min-width:768px) and (max-width:999px){#popular-services > div .heading-container .line{display:none}  #popular-services > div h2{margin:5% 5px 2% 5px} #popular-services > div{width: 98%}  #popular-services > div #content-panel a{width:38%}#popular-services > div #content-panel-two{float:none;text-align:center} 
+#banner-wrapper #home-banner-content > div #left-access ul{padding:0px 0px}
+#banner-wrapper #home-banner-content > div #left-access h1{padding:12px;padding-bottom:0;width:67%}
+} 
+
+@media screen and (min-width:320px) and (max-width:1169px){#banner-wrapper, #home-page-contact-form{display:block}#bnr-wrapper{display:block;background: #025fa2;padding:4% 0}}
+@media screen and (min-width:999px) and (max-width:1169px){#banner-wrapper aside{display:block}#banner-wrapper #home-banner-content{width:100%}
+aside textarea{max-width: 17% !important;min-width: 17% !important}
+.form-blue-btn{height: 36px;font:17px Myriad W01 Regular}
+#banner-wrapper #home-banner-content > div #left-access h1{padding:12px;padding-bottom:0}
+}	
+
+aside input, aside textarea, aside select{border: 1px solid #e4e4e4;border-bottom:2px solid #ccc;padding: 1%;border-radius: 4px;width:10%; margin-right: 5px;}
+aside textarea{max-width: 19%;min-width: 19%;height: 18px;margin: 0;margin-right: 8px;top:1.2rem;position: relative}
+aside input#captcha_number{width:7%;margin-right: 5px}
+aside input#FirstName{width:8%}
+aside .form-blue-btn{margin-left:5px}
+aside #captcha1{*width: 7%;position: relative;top: 10px;border-radius: 3px;margin-right: 5px;width:94px}
+aside i{color:#999999}
+aside i:hover{color:#565656}
+@supports (-ms-ime-align:auto) {   
+	aside textarea{top:0rem}
+	.ui-button{top:17% !important}
+}
+
+@-moz-document url-prefix() {
+	aside textarea{top:0.9rem}
+	.ui-button{top:25% !important}
+	
+}
+
+aside input.ui-combobox-input{color:#666666}
+.sticky-placeholder-wrapper>label{line-height:20px !important}
+.gdpr-text {font-style:italic;margin:0 !important}
+.gdpr-text > a{color:#2aaadc;margin-top:4px;display:inline-block;font-style:italic}
+.gdpr-text >a:hover{color:#3291b6}
+/* HOME PAGE BANER CSS ENDS */
+
+/* HOME PAGE MINOR REDESIGN CSS STARTS */
+#mnpg-content-wrapper #app-wrapper #testimonial .heading-container, #mnpg-content-wrapper #content-container .testimonial{display: inline-block;float: none}
+#mnpg-content-wrapper #app-wrapper #testimonial .line4{display: inline-block;float: none}
+#mnpg-content-wrapper #app-wrapper #testimonial .heading-container{margin-left:auto;margin-right:auto;text-align:center}
+
+/*#mnpg-content-wrapper #app-wrapper #testimonial #customer span b{color:#313233;display:block;margin-bottom:5px}
+#mnpg-content-wrapper #app-wrapper #testimonial #customer span{color:#848991;margin-bottom:15px}
+#mnpg-content-wrapper #app-wrapper #testimonial #customer a{color:#1781f1;font:500 16px Myriad W01 Regular}
+#mnpg-content-wrapper #app-wrapper #testimonial #customer a:hover{text-decoration:none}
+#mnpg-content-wrapper #app-wrapper #testimonial #customer{margin:0 auto 0}*/
+
+#mnpg-content-wrapper #content-container .app{padding:0;padding-right:10px}
+#mnpg-content-wrapper #content-container .mobile-app .heading-container{margin: 0 0 7px}
+#app-wrapper #app-holder ul li{display: inline-block;width: 48%;vertical-align: top}
+#app-wrapper #app-holder ul li a, #app-wrapper #app-holder ul li a i{color:#333333}
+#mnpg-content-wrapper #content-container .margin-center .heading-container, #mnpg-content-wrapper #content-container .margin-center .line, #mnpg-content-wrapper #content-container .margin-center .heading, #mnpg-content-wrapper #content-container aside #hot-on-web .line, #mnpg-content-wrapper #content-container aside #hot-on-web .heading, #mnpg-content-wrapper #content-container aside #hot-on-web .heading-container, #mnpg-content-wrapper #content-container .line2, #mnpg-content-wrapper #content-container .latest-articles, #mnpg-content-wrapper #content-container #article-box .heading-container, #mnpg-content-wrapper #content-container #customers-box .heading-container, #mnpg-content-wrapper #content-container .customers{display: inline-block;text-align: center;float:none;vertical-align:top}
+#mnpg-content-wrapper #content-container .margin-center{margin-top:20px}
+#mnpg-content-wrapper #app-wrapper section > #app-holder{width: 49%;padding: 20px;border-radius:3px;margin-top: 0%;margin-bottom: 11%;float:right}
+#mnpg-content-wrapper #app-wrapper section > #app-holder h2{font: normal 29px Myriad W01 Regular;color: #152f4b}
+#mnpg-content-wrapper #app-wrapper section > #app-holder h3, #mnpg-content-wrapper #app-wrapper section > #app-holder h3 a{font: bold 39px Myriad W01 Regular !important;color: #000000;text-transform:uppercase;text-decoration: none}
+#mnpg-content-wrapper #app-wrapper section > #app-holder h3 a:hover{text-decoration: underline}
+#drop-icon{display: none}
+#mnpg-content-wrapper.home-bottom-form{background:#efefef}
+#responsive-banner-links{display:none}
+@media screen and (min-width:320px) and (max-width:479px){
+	#banner-wrapper #home-banner-content> div{padding: 0}
+#banner-wrapper #home-banner-content > div #left-access ul li b{font:bold 30px/36px Arial}
+#banner-wrapper #home-banner-content > div #left-access ul li{margin: 14px 0 18px 0px;font: normal 20px/22px Arial;padding:0 0 0 8px}
+#banner-wrapper #home-banner-content > div #left-access ul li i{margin-right: 0px}
+#banner-wrapper #home-banner-content{height:auto}
+#banner-wrapper #home-banner-content > div #left-access ul{padding: 13px 0px;width: 100%}
+#responsive-banner-links{display:block;margin: auto;width: 90%}
+#responsive-banner-links a{display: inline-block;background: #ffffff;padding: 8px 7px;text-decoration: none;margin-bottom:10px;margin-right:5px;font:normal 14px Myriad W01 Regular;}
+#banner-wrapper #home-banner-content > div #right-access{display:none}
+#banner-wrapper #home-banner-content> div, #banner-wrapper #home-banner-content > div #left-access{width:100%}
+}
+@media screen and (min-width:320px) and (max-width:767px){
+#mnpg-content-wrapper #app-wrapper .line3, #mnpg-content-wrapper #app-wrapper .line4, #mnpg-content-wrapper #app-wrapper .line1, #mnpg-content-wrapper #app-wrapper .line2, #mnpg-content-wrapper #content-container .margin-center .line, #mnpg-content-wrapper #content-container aside #hot-on-web .line, #mnpg-content-wrapper #app-wrapper #testimonial .line4, #mnpg-content-wrapper #content-container #customers-box .line2{display:none}
+#mnpg-content-wrapper #app-wrapper section > div img{width:100%}
+#mnpg-content-wrapper #app-wrapper section > div:last-child{width:100%;margin:0}
+#app-wrapper #app-holder ul li{width:90%}
+#mnpg-content-wrapper #app-wrapper section > div:last-child{margin-top:20px}
+#app-wrapper #app-holder{width:100%}
+#mnpg-content-wrapper #content-container .margin-center{margin-top:0}
+#mnpg-content-wrapper #content-container #customers-box{margin:5px 0 35px 0}
+#mnpg-content-wrapper #app-wrapper #testimonial > div{width:95%;margin:25px auto 25px auto;border-right:0px solid #797979;display:block}
+#mnpg-content-wrapper #app-wrapper #testimonial > div:last-child{margin:auto;border:0px solid #ffffff;width:95%;display:block; height: 264px}
+#mnpg-content-wrapper #app-wrapper #testimonial > div:last-child > div{width: 100%;height: 195px}
+#mnpg-content-wrapper #app-wrapper #testimonial iframe{height:180px}
+}
+@media screen and (min-width:480px) and (max-width:500px){#banner-wrapper #home-banner-content > div #left-access ul li{font:normal 25px/22px Arial}}
+@media screen and (min-width:320px) and (max-width:767px){#mnpg-content-wrapper #app-wrapper section > div:last-child{margin-top:0}#banner-wrapper #home-banner-content{height:auto;padding-bottom:15px}}
+@media screen and (min-width:480px) and (max-width:767px){#banner-wrapper #home-banner-content > div #left-access ul{padding:17px 0}}
+@media screen and (min-width:480px) and (max-width:640px){#responsive-banner-links{width: 90%;text-align: left}}
+@media screen and (min-width:480px) and (max-width:999px){#responsive-banner-links{display:block;margin: auto;width: 90%;text-align:left}
+
+#responsive-banner-links a{display: inline-block;background: #ffffff;padding: 10px 9px;text-decoration: none;margin-bottom:10px;margin-right:5px}
+#banner-wrapper #home-banner-content > div #right-access{display:none}
+#banner-wrapper #home-banner-content> div, #banner-wrapper #home-banner-content > div #left-access{width:100%}}
+@media screen and (min-width:768px) and (max-width:999px){#mnpg-content-wrapper #app-wrapper section > div:first-child img{width:93%}
+#mnpg-content-wrapper #app-wrapper section > #app-holder{width:100%;margin-bottom:0}
+#mnpg-content-wrapper #app-wrapper section > div:last-child{width:100%;margin:auto}#mnpg-content-wrapper #app-wrapper #testimonial .line4, #mnpg-content-wrapper #content-container #customers-box .line2{display:none}
+#mnpg-content-wrapper #content-container section{display: block;margin: auto}#mnpg-content-wrapper #content-container aside #hot-on-web, #mnpg-content-wrapper #content-container section{float:none;margin:auto}#mnpg-content-wrapper #content-container aside #hot-on-web .heading-container{margin-top:20px}
+#mnpg-content-wrapper #content-container .margin-center{margin-top:0}
+#mnpg-content-wrapper #content-container section{width:90%}
+ #mnpg-content-wrapper #content-container .margin-center .line, #mnpg-content-wrapper #content-container aside #hot-on-web .line{display:none}
+ #mnpg-content-wrapper #content-container section.mobile-app{width:84%}
+ #mnpg-content-wrapper #app-wrapper #testimonial > div:last-child{width:36%}
+ #mnpg-content-wrapper #app-wrapper #testimonial #text p{font:16px/20px Myriad W01 Regular}
+ #mnpg-content-wrapper #app-wrapper #testimonial #customer span{font:normal 17px/22px Myriad W01 Regular}
+ #mnpg-content-wrapper #app-wrapper #testimonial #customer span b{font:bold 17px/22px Myriad W01 Regular}
+ #mnpg-content-wrapper #app-wrapper #testimonial iframe{height:156px;margin-bottom:20px}
+ #responsive-banner-links{margin-top:20px}
+ #banner-wrapper #home-banner-content{height:auto}
+ }
+ @media screen and (max-width:999px){#banner-wrapper aside{display:none}}
+@media screen and (min-width:1000px) and (max-width:1024px){ #mnpg-content-wrapper #app-wrapper #testimonial > div:last-child{width:36%}
+ #mnpg-content-wrapper #app-wrapper #testimonial #text p{font:17px/20px Myriad W01 Regular}
+ #mnpg-content-wrapper #app-wrapper #testimonial #customer span{font:normal 18px/22px Myriad W01 Regular}
+ #mnpg-content-wrapper #app-wrapper #testimonial #customer span b{font:bold 18px/22px Myriad W01 Regular}
+ #mnpg-content-wrapper #app-wrapper #testimonial iframe{height:190px;margin-bottom:20px}
+ aside textarea{max-width: 17% !important;min-width: 17% !important}
+ .form-blue-btn{height: 36px;font:16px Myriad W01 Regular}
+ }
+@media screen and (min-width:1000px) and (max-width:1169px){#mnpg-content-wrapper #content-container{width:100%}#mnpg-content-wrapper #app-wrapper section > div:first-child img{width:90%}
+#mnpg-content-wrapper #app-wrapper section > div{width: 426px}
+
+#mnpg-content-wrapper #app-wrapper #testimonial #text{width:68%}}
+
+
+#abtus-contact-box{width:97%;float:left;margin:10px auto;clear:both;margin-bottom:30px;background:#ffffff;border: 7px solid #ffffff;box-shadow:0px 0px 12px 1px #cccccc;margin-top: 20px;padding-bottom:15px}
+#abtus-contact-box #form{width:58%;padding:1% 2%;float:left;;background:rgba(255,255,255,0.9)}
+#abtus-contact-box #form #btm-form h2{color:#333333;font:bold 39px Myriad W01 Regular!important;display:inline-block;margin-right: 8px}
+#abtus-contact-box #form #btm-form p.top{position: relative;top: -4px;font: normal 18px/18px Myriad W01 Regular;color: #a2a2a2;letter-spacing: 0}
+/*#abtus-contact-box #form #btm-form .txt-area{margin:0 0 6px}*/
+#abtus-contact-box #form #btm-form{width:100%;margin:auto}
+#abtus-contact-box #form #btm-form form{position:relative;margin:18px auto 5px auto}
+#abtus-contact-box #form #btm-form form .ui-button{position: absolute;right: 15px;top: 83px; width: 0; height: 0; border-left: 7px solid #ffffff; border-right: 7px solid #ffffff;  border-top: 8px solid #666666;border-bottom: transparent; padding: 0; background: #ffffff}
+  #abtus-contact-box #form #btm-form form .ui-button .ui-icon-triangle-1-s{display:none}
+#abtus-contact-box #form #btm-form input{height: 18px;width: 96%;background: #fafafafa;border: 1px solid #efefef;padding: 2% 2%;margin: 0 0 12px 0;
+    font: normal 14px Myriad W01 Regular;color: #a0a0a0;border-radius: 3px}
+#abtus-contact-box #form #btm-form input, #abtus-contact-box #form #btm-form input.ui-combobox-input, #abtus-contact-box #form #btm-form select{width:18%;margin-right:6px;height: 16px; border-radius: 3px;margin-bottom:25px;padding-left: 10px;border-bottom: 2px solid #cccccc;font:normal 14px Arial,Helvetica,sans-serif}
+#abtus-contact-box #form #btm-form select{height: 44px;width: 27%;background-color: #fafafafa !important;border: 1px solid #efefef;border-bottom: 2px solid #cccccc;}
+#abtus-contact-box #form #btm-form form #SSFEmail, #abtus-contact-box #form #btm-form input.ui-combobox-input{margin-right:0}
+#abtus-contact-box #form #btm-form input.inputs[placeholder], #abtus-contact-box #form #btm-form input.ui-combobox-input[placeholder], #abtus-contact-box #form #btm-form .txt-area[placeholder]{color:#333333}
+
+#abtus-contact-box #form #btm-form textarea{margin:0px 0 17px 0;border-radius: 3px;padding:2% 2%;height:100px;width: 93%;min-width: 93%;max-width: 93%;font:normal 14px Arial,Helvetica,sans-serif;background: #fafafafa;    border: 1px solid #efefef;border-bottom: 2px solid #cccccc;}
+#abtus-contact-box #form #btm-form input[type="submit"]{width: auto;min-width: auto;max-width: auto; padding: 10px 23px;display: inline-block;height: 44px;border-radius: 3px;background: #454545;color: #ffffff;cursor: pointer;cursor: hand;margin-right: 0;font: bold 16px/20px Myriad W01 Regular;margin-bottom: 0}
+#abtus-contact-box #form #btm-form input[type="submit"]:hover{background:#207cda}
+#abtus-contact-box #form #btm-form .selects{width:44%}
+#abtus-contact-box #form #btm-form p{margin-top:10px !important; margin-bottom:10px !important;display:inline-block}
+#abtus-contact-box #form #btm-form p.gdpr-text{font-style:italic;color:#808080;margin-left:10px !important}
+#abtus-contact-box #add{width:34%;padding:0 2%;float:left;margin-top:8rem}
+#abtus-contact-box #add>div{width:100%;float:left;padding:0 0 0 2%;clear:both;margin-bottom: 20px}
+#abtus-contact-box #add>div .info-email{width:80%}
+#abtus-contact-box #add > div > span{display: inline-block;margin-right: 10px;position: relative;border: 1px solid #3386cd;padding: 10px;border-radius: 50%;width: 28px;height: 28px;text-align: center;background: #3386cd}
+#abtus-contact-box #add > div > span i{font-size: 1.5rem;color:#ffffff;position: relative;top: 4px}
+
+#abtus-contact-box #add > div > div{display: inline-block;width: 77%;vertical-align: top}
+#abtus-contact-box #add h2 a{font:normal 19px Myriad W01 Regular !important;color:#4f4f4f !important;cursor:pointer;cursor:hand}
+#abtus-contact-box #add h2{font:bold 25px Myriad W01 Regular;color:#4f4f4f;display:inline-block;margin-top:0px !important}
+ #abtus-contact-box #add h2 a.browser-call{font:bold 25px Myriad W01 Regular !important;text-decoration:none}
+#abtus-contact-box #add h2 i{font-size: 0.7rem;color: #999999; padding: 0 5px; position: relative; top: -4px}
+#abtus-contact-box #add h2 a:hover{color:#33a0d9 !important;text-decoration:underline}
+#abtus-contact-box #add .full-width1{margin:8px 0 12px 0}
+#abtus-contact-box #add h2 img{margin:0 6px 0 0}
+#abtus-contact-box #add h4{font:bold 15px arial;color:#666666;margin:0!important}
+#abtus-contact-box #add #email-id{font:bold 18px Myriad W01 Regular;color:#197fb5;text-align:left;margin:4px 0}
+#abtus-contact-box #add #email-id a{font:bold 18px Myriad W01 Regular;color:#197fb5;text-decoration:none}
+#abtus-contact-box #add #cal-no{font:normal 33px Arial;color:#197fb5;text-align:left;float:left}
+#abtus-contact-box #add p{font:normal 14px Arial;color:#808080;line-height:20px;margin:0;*margin:3px 0 5px 0}
+
+@media screen and (min-width :768px) and (max-width:999px){#abtus-contact-box #add h2{font:bold 23px Myriad W01 Regular}#abtus-contact-box #add h2 a{font:normal 14px/17px Myriad W01 Regular !important}
+#abtus-contact-box #add p, #abtus-contact-box #form #btm-form p.gdpr-text, #abtus-contact-box #form #btm-form p.gdpr-text a, #abtus-contact-box #form #btm-form p, #abtus-contact-box #form #btm-form p a{font:normal 13px Arial}#abtus-contact-box #form #btm-form input.inputs{margin-right: 9px}#abtus-contact-box #add > div > span.address:before{display:none}}
+@media screen and (min-width :999px) and (max-width:1069px){#abtus-contact-box #form #btm-form input.inputs{margin-right:28px}}
+@media screen and (min-width :320px) and (max-width:767px){#abtus-contact-box #form #btm-form input.inputs, #abtus-contact-box #form #btm-form input.ui-combobox-input{width:93%;margin-right:0}
+#abtus-contact-box #form #btm-form textarea{width: 97%;min-width: 97%;max-width: 97%}
+#abtus-contact-box #add .left-box, .left-box2{margin-bottom:9px}
+#abtus-contact-box #add h2{font:bold 19px Myriad W01 Regular}
+#abtus-contact-box #form #btm-form p.gdpr-text{margin-left: 0px !important}
+#abtus-contact-box #add > div > span.address:before{display:none}
+}
+@media screen and (min-width :320px) and (max-width:479px){#abtus-contact-box #form #btm-form form .ui-button{top: 214px;right: 20px}
+#mnpg-content-wrapper #app-wrapper section > #app-holder h3, #mnpg-content-wrapper #content-container section #fws-story-text-holder h2, #mnpg-content-wrapper.cust-testimonials #testimonial > h2, #mnpg-content-wrapper #content-container #customers-box h2, #mnpg-content-wrapper #content-container #customers-box h2 span, #mnpg-content-wrapper #content-container #fws-story-text-holder > h2 > span, #mnpg-content-wrapper.cust-testimonials #testimonial > h2 span, #mnpg-content-wrapper.whats-new #content-container h2, #mnpg-content-wrapper #app-wrapper section > #app-holder h3 a, #popular-services > div h2{font:bold 30px/34px Myriad W01 Regular !important;margin:10px auto}
+#popular-services > div h2{margin-bottom:20px}
+#mnpg-content-wrapper.whats-new #content-container .service-articles-panel h3{font:bold 25px Myriad W01 Regular}
+#app-wrapper #app-holder ul{margin-top:0px}
+#mnpg-content-wrapper.flatworld-story-panel #content-container section{margin:0% auto}
+#mnpg-content-wrapper #content-container section #fws-story-text-holder > span{font:normal 19px/20px Myriad W01 Regular;margin-top:0;margin-bottom:2%}
+}
+@media screen and (min-width :480px) and (max-width:767px){#abtus-contact-box{max-width: 480px}#abtus-contact-box #form #btm-form form .ui-button{right: 30px;top: 214px}}
+
+@media screen and (min-width :320px) and (max-width:360px){#abtus-contact-box #add h2 a{font:normal 16px Myriad W01 Regular !important}#abtus-contact-box #add p{font:normal 13px/18px Arial}}
+
+@media screen and (min-width :320px) and (max-width:767px){#mnpg-content-wrapper #content-container section #fws-story-text-holder{width: 100%;text-align: center;display: block;vertical-align: top;margin-right: 20px;padding: 35px 0px;border-right: 3px solid #efefef;padding-right: 15px;margin-top: 7%;    margin: 0;padding: 0;border-right:0px solid #efefef}
+	#mnpg-content-wrapper #content-container section #fws-story-text-holder h2, #mnpg-content-wrapper #content-container section #fws-story-text-holder > span{text-align: center}
+	#mnpg-content-wrapper #content-container section #video-holder{width:100%;border:0px solid #ffffff;display: block;margin-top:13px;margin-bottom:25px}
+	#mnpg-content-wrapper.from-the-newsroom{padding: 0px 0;background:#222222}
+	#mnpg-content-wrapper.from-the-newsroom #content-container > div{margin: 0 auto;text-align: center;display: block;width: 100%}
+	#mnpg-content-wrapper.from-the-newsroom img{display: block; float: none;vertical-align: top;margin: 15px auto;display:none}
+	#mnpg-content-wrapper.from-the-newsroom p{display: block;float: none;text-align: center;margin-right: auto;margin-left: auto;margin: 6% auto}	
+	#slider2{margin: 30px 0 0;padding:0 0px 10px;height: auto}
+	#slider2 .viewport{height:auto}
+	#slider2 .overview{position: relative;padding: 10px 0;margin: 0;width: 100%;left: 0;top: 0}
+	#slider2 .overview li{width: 41%}
+	#mnpg-content-wrapper.whats-new #content-container .service-articles-panel > div{display: block;width:100%}
+	#abtus-contact-box #form, #abtus-contact-box #add {width:100%;padding: 1% 1%}
+	#abtus-contact-box #form #btm-form{width: 95%;margin: auto;background: #ffffff}
+	#abtus-contact-box #add{margin-top: 1rem}
+	#abtus-contact-box #form #btm-form input, #abtus-contact-box #form #btm-form input.ui-combobox-input, #abtus-contact-box #form #btm-form select{    width: 94%;margin-right: 0;height: 25px;border-radius: 3px;margin-bottom: 20px}
+	#abtus-contact-box #form #btm-form select{height:44px;width:100%}
+	#mnpg-content-wrapper.from-the-newsroom .hme-btn{float: none;vertical-align: top;margin-top: 4.5%;margin-left: auto;margin-right: auto}
+	#mnpg-content-wrapper #app-wrapper section > #app-holder{width:93%;padding: 12px}
+	#abtus-contact-box #form #btm-form form{float: left}
+}
+@media screen and (min-width :768px) and (max-width:999px){#mnpg-content-wrapper #content-container section #fws-story-text-holder{margin-top: 0%}
+#mnpg-content-wrapper.from-the-newsroom{padding: 0px 0}
+#mnpg-content-wrapper.from-the-newsroom #content-container > div{margin: 0 auto;text-align: center;display: block;width: 100%}
+	#mnpg-content-wrapper.from-the-newsroom img{display: block;vertical-align: top;margin: 0 auto}
+	#mnpg-content-wrapper.from-the-newsroom p{display: block;text-align:left;width: 78%;margin-left:0;float:right;font:bold 26.5px/32px Myriad W01 Regular}
+	#mnpg-content-wrapper.from-the-newsroom p b{font:bold 29px/33px verdana}
+	#mnpg-content-wrapper.from-the-newsroom p a{margin-top:13px;padding:3px 12px}
+	#mnpg-content-wrapper #app-wrapper #testimonial #text{width:80%}
+	#mnpg-content-wrapper.from-the-newsroom .hme-btn{float: none;vertical-align: top;margin-top: 2%;text-align:left}
+	#slider2{margin: 30px 0 0;padding:0 0px 10px;height: auto}
+	#slider2 .viewport{height:auto}
+	#slider2 .overview{position: relative;padding: 10px 0;margin: 0;width: 100%;left: 0;top: 0}
+	#slider2 .overview li{width: 21%}
+	#mnpg-content-wrapper #content-container section #video-holder{width:48%;height:187px}
+#mnpg-content-wrapper #content-container section #video-holder iframe{width:100%;height:186px}
+	#abtus-contact-box{width: 70%;}
+	#abtus-contact-box #form{width: 97%;padding: 1% 2%;float: left;background: #ffffff}
+	#abtus-contact-box #form #btm-form{width: 95%;margin: auto;background: #ffffff}
+	#abtus-contact-box #form #btm-form form{float: left}
+	#abtus-contact-box #form #btm-form input, #abtus-contact-box #form #btm-form input.ui-combobox-input, #abtus-contact-box #form #btm-form textarea{width:96%;min-width: 96%;max-width: 96%}
+	#abtus-contact-box #add{width: 100%;margin-top: 2rem}
+	#abtus-contact-box{    width: 70%;float: none;border:0px solid #ffffff;box-shadow:none;margin-top:0}
+	#abtus-contact-box #form{border: 7px solid #ffffff;box-shadow: 0px 0px 12px 1px #cccccc;margin-top: 20px;display: block}
+	#abtus-contact-box #form #btm-form select{width:100%;min-width: 100%;max-width: 100%}
+#mnpg-content-wrapper #app-wrapper.featured-service{background:url('/images/photoshop-editing-services.jpg') top right no-repeat !important;background-size: auto !important}
+#mnpg-content-wrapper #content-container section #fws-story-text-holder h2, #mnpg-content-wrapper #content-container section #fws-story-text-holder > span{text-align:left}	
+}
+@media screen and (min-width :1000px) and (max-width:1169px){
+	#popular-services > div{width:100%}
+	#mnpg-content-wrapper #app-wrapper section > #app-holder{box-shadow: none;background: transparent;width:79%}
+	#mnpg-content-wrapper #app-wrapper.featured-service{background-position: bottom right}
+	#mnpg-content-wrapper.from-the-newsroom{padding: 0px 0}
+	#mnpg-content-wrapper.from-the-newsroom #content-container > div{margin: 0 auto;text-align: center;display: block;width: 100%}
+	#mnpg-content-wrapper.from-the-newsroom img{display: block;vertical-align: top;margin: 0 auto}
+	#mnpg-content-wrapper.from-the-newsroom p{display: block;text-align:left;width: 69%;margin:0 auto;margin-bottom:2%;float:left;margin-left: 16%}
+	#mnpg-content-wrapper.from-the-newsroom p a{margin-top: 11px}
+	#mnpg-content-wrapper.from-the-newsroom .hme-btn{float: none;vertical-align: top;margin-top: 2%;text-align:left}
+	#slider2{margin: 30px 0 0;padding:0 0px 10px;height: auto}
+	#slider2 .viewport{height:auto}
+	#slider2 .overview{position: relative;padding: 10px 0;margin: 0;width: 100%;left: 0;top: 0}
+	#slider2 .overview li{width: 21%}
+}
+@media screen and (min-width :768px){
+#mnpg-content-wrapper #app-wrapper.featured-service{background:url('/images/photoshop-editing-services.jpg') 0 0 no-repeat;background-size:100% 100%}
+#mnpg-content-wrapper.home-bottom-form{background: url(/images/contact-us-bg.jpg) 0 0 no-repeat;background-size: cover}
+}
+
+@media screen and (min-width :1170px){
+	#mnpg-content-wrapper.home-bottom-form #content-container{width:1085px}
+#drop-icon{display: block}	
+}
+
+#banner-wrapper #home-banner-content {background:url(/images/banner-background.jpg) 0 0 no-repeat;background-size:cover}
+
+.balloon { 
+  margin: 0 auto;
+  padding-top: 0px;
+  position: relative;
+  top:0%;
+}
+.balloon > div {
+  margin: 0 auto;
+  position: absolute;
+ * -webkit-transform-origin: bottom center; 
+}
+.balloon > .balloon1{
+  left: 0; 
+  *-webkit-animation:balloon1 11s ease-in-out infinite;
+  *-moz-animation:balloon1 11s ease-in-out infinite;
+  *-o-animation:balloon1 11s ease-in-out infinite;
+  *animation:balloon1 11s ease-in-out infinite;  
+  background:url('/images/balloon-1.png') 0 0 no-repeat;
+  width:130px;
+  height:247px;
+ }
+ 
+ .balloon > .balloon2{
+  left: 15px;
+	margin-top:104px;	
+ * -webkit-animation:balloon1 11s ease-in-out infinite;
+ * -moz-animation:balloon1 11s ease-in-out infinite;
+  *-o-animation:balloon1 11s ease-in-out infinite;
+  *animation:balloon1 11s ease-in-out infinite;  
+  background:url('/images/balloon-2.png') 0 0 no-repeat;
+  width:122px;
+  height:249px;
+
+ }
+ 
+  .balloon > .balloon3{
+	left: 28px;
+	margin-top:38px;	
+  *-webkit-animation:balloon1 11s ease-in-out infinite;
+  *-moz-animation:balloon1 11s ease-in-out infinite;
+  *-o-animation:balloon1 11s ease-in-out infinite;
+  *animation:balloon1 11s ease-in-out infinite;  
+  background:url('/images/balloon-3.png') 0 0 no-repeat;
+  width:142px;
+  height:274px;
+ }
+ 
+   .balloon > .balloon4{
+  left: 5px;
+	margin-top:0px;	
+  *-webkit-animation:balloon1 11s ease-in-out infinite;
+  *-moz-animation:balloon1 11s ease-in-out infinite;
+  *-o-animation:balloon1 11s ease-in-out infinite;
+  *animation:balloon1 11s ease-in-out infinite;   
+  background:url('/images/balloon-4.png') 0 0 no-repeat;
+  width:165px;
+  height:322px;
+ }
+ 
+.balloon > .balloon1 a{bottom: 20px;width: 92%;left: 12px}
+.balloon > .balloon1 a:hover, .balloon > .balloon1 a:hover i{color:#d5beb7}
+.balloon > div a{position: absolute;text-align: center;margin: auto;font: 600 16px/20px 'Montserrat', sans-serif;color: #ffffff;text-decoration:none}
+.balloon > div a i{font-size:17px;color: #ffffff}
+
+/* Icon Pop */
+@-webkit-keyframes hvr-icon-pop {
+  50% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+@keyframes hvr-icon-pop {
+  50% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+.balloon > div a {
+  display: block;
+  /*-webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;*/
+}
+.balloon > div a i {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.balloon > div a:hover i{
+  -webkit-animation-name: hvr-icon-pop;
+  animation-name: hvr-icon-pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+	
+.balloon > .balloon2 a{bottom: 23px;width: 88%;left: 15px}
+.balloon > .balloon2 a:hover, .balloon > .balloon2 a:hover i{color:#e3f4bc}
+.balloon > .balloon3 a{bottom:27px;width:88%;left: 15px}
+.balloon > .balloon3 a:hover, .balloon > .balloon3 a:hover i{color:#ccdced}
+.balloon > .balloon4 a{bottom: 28px;width: 88%;left: 10px}
+.balloon > .balloon4 a:hover, .balloon > .balloon4 a:hover i{color:#edddc2}
+@-webkit-keyframes balloon2 {
+	0%,100%{ -webkit-transform:translateY(0) rotate(-6deg);animation: snow-1 3s ;top:0;}
+	50%{ -webkit-transform:translateY(0px) rotate(10deg);animation: snow-1 3s ;top:50%}
+}
+/*.balloon > div:before {
+  color:rgb(30,144,255);
+  position:absolute;
+  bottom:-11px;
+  left: 52px;  
+  content:"▲";
+  font-size:1em;
+}
+.balloon > :after {
+ display:inline-block;
+ top:153px;
+  top:167px;
+  position:absolute;
+  height:180px;
+  width:3px;
+  margin:0 auto;
+  content:"";
+  background:rgba(0,0,0,0.2); 
+  left: 60px;
+  pointer-events: none
+}*/
+
+/*BALLOON 1 4*/
+@-webkit-keyframes balloon1 {
+  0%,100%{ -webkit-animation: snow-1 9s; /* Safari 4.0 - 8.0 */animation: snow-1 9s ;top:-20px} 
+  50%{-webkit-animation: snow-1 9s ; /* Safari 4.0 - 8.0 */animation: snow-1 9s ;top:30px }
+}
+
+#mba-annual{background:#f3f3f0 url('/images/mba-annual-expo-bg.jpg') 0 0 no-repeat;background-size:contain;width: 100%;float:left;clear: both}
+#mba-annual>div{margin:43px auto;width:1170px}
+#mba-annual>div #panel{width:40%}
+#mba-annual>div #panel p{margin:15px auto;font:normal 16px/21px Myriad W01 Regular;letter-spacing:0}
+#mba-annual>div #panel a{background: #2eb7d6;color: #ffffff;font: normal 18px/18px Myriad W01 Regular;letter-spacing: 0px;display: inline-block;padding: 10px 20px;
+    text-decoration: none;border-radius: 3px;width: fit-content;margin: auto}
+#mba-annual>div #panel a{-webkit-transform: perspective(1px) translateZ(0);transform: perspective(1px) translateZ(0);box-shadow: 0 0 1px rgba(0, 0, 0, 0);-webkit-transition-duration: 0.1s;transition-duration: 0.1s;}
+#mba-annual>div #panel a i{  -webkit-transform: translateZ(0);transform: translateZ(0);-webkit-transition-duration: 0.1s;transition-duration: 0.1s;-webkit-transition-property: transform; transition-property: transform;-webkit-transition-timing-function: ease-out;transition-timing-function: ease-out}
+#mba-annual>div #panel a:hover i{  -webkit-transform: translateX(4px);transform: translateX(4px);}
+#mba-annual>div #panel a:hover {background:#2699b3}
+#mba-annual>div #panel a i{margin-left:5px;color:#ffffff}
+@media screen and (min-width :320px) and (max-width:999px){#mba-annual{background:#f3f3f0 url('/images/mba-annual-bg.jpg') left bottom no-repeat;    background-size: contain}
+#mba-annual>div{margin: 30px auto;width: 91%}
+#mba-annual>div #panel{width: 100%}
+}
+@media screen and (min-width :480px) and (max-width:999px){#mba-annual>div #panel img{width:50%}
+  #mba-annual>div #panel{  margin-bottom: 24px;display:inline-block}
+}
+
+@media screen and (min-width :1000px) and (max-width:1169px){#mba-annual{background:#f3f3f0 url('/images/mba-annual-bg.jpg') 0 0 no-repeat;background-size:cover;width: 100%;float:left;clear: both}
+#mba-annual>div{margin:43px auto;width:90%}
+#mba-annual>div #panel{width:60%}
+ .balloon > .balloon1{left: -21% !important}
+ .balloon > .balloon2{left: -24% !important;margin-top: 61px}
+ .balloon > .balloon3{left: -25% !important;margin-top: 23px}
+ .balloon > .balloon4{left: -32% !important;margin-top: 0px}
+}
+
+@media screen and (max-width:368px){
+#mba-annual>div #panel img{width:100%}
+}
+
+
+#covid-19-panel{width:100%;float:left;clear:both;background:#efefef url('/images/helping-hands.png') 9px center no-repeat}
+#covid-19-panel > div{width:1170px;margin: auto;display: block;position: relative;padding:1% 0;padding-bottom:0.4%}
+	#covid-19-panel > div p{color:#3b425e;margin:0 0 1% 0;letter-spacing:0;line-height:21px}
+#covid-19-panel > div p.first{font:bold 19px/21px Myriad W01 Regular}	
+#covid-19-panel > div p b{font:bold 21px/21px Myriad W01 Regular}
+#covid-19-panel > div p.last{font:bold 16px/21px Myriad W01 Regular}
+#covid-19-panel > div p a{font:normal 16px/21px Myriad W01 Regular;color:#005da1;text-decoration:underline}
+#covid-19-panel > div p a:hover{text-decoration:none}
+#covid-19-panel > div p a i{color:#005da1}
+@media screen and (min-width :320px) and (max-width:1169px){#covid-19-panel{background-image:none}#covid-19-panel > div{width:89%}
+}
+@media screen and (max-width: 479px) and (min-width: 320px){#covid-19-panel > div{padding:4% 0}
+#covid-19-panel > div p{margin:0 0 2% 0}
+}
+#covid-19-panel > div p.mobile{display:none}
+@media screen and (min-width :320px) and (max-width:767px){#covid-19-panel > div p.mobile{display:block}#covid-19-panel > div p.desktop{display:none}#covid-19-panel{margin:75px 0 0}}
+@media screen and (min-width :480px) and (max-width:767px){
+#covid-19-panel > div{padding:3% 0;padding-bottom:3%}}
+
+.google-captcha-text{border:0px solid #efefef}	
+#banner-wrapper aside #small-form p.google-captcha-text{float: right !important;position: relative;top: -32px;right: 29px;font-size: 13px;width:auto}
+
+
+@media screen and (min-width :320px) and (max-width:767px){#popular-services > div #content-panel > div{height:auto;margin-bottom:30px;display:block;    width: 100%;
+    max-width: 87%;
+    margin-left: auto;
+    margin-right: auto;padding:25px}
+#banner-wrapper #home-banner-content > div #left-access >p{padding:0 12px;margin:0 }
+}
+
+@media screen and (min-width :320px) and (max-width:767px){#popular-services > div #content-panel > div{height:auto;margin-bottom:30px;display:block;    width: 100%;
+    max-width: 87%;
+    margin-left: auto;
+    margin-right: auto;padding:25px}
+#popular-services > div #content-panel{margin-top: 9%}	
+	}

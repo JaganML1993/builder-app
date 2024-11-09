@@ -1,0 +1,309 @@
+#form-wrapper{width:100%;float:left;padding:0 0 6% 0;}
+#form-wrapper #content-container{width:1000px;margin:0 auto;padding:0;}
+#form-wrapper section{width:46.6%;float:left;}
+#form-wrapper section .form-bg{width:82%;max-width:380px;float:left;background:#054f7d;border-radius:4px 4px 0 0;padding:3% 4%;}
+#form-wrapper section .form-bg h2{font:normal 23px Myriad W01 Regular;color:#fff;margin:0 0 2px;}
+#form-wrapper section .form-bg > span{font:normal 14px Myriad W01 Regular;color:#fff;opacity:.6;margin:0 0 16px;float:left;width:100%;}
+#form-wrapper section .fields-container{width:100%;margin:0;float:left;position:relative}
+#form-wrapper section .fields-container .sticky-placeholder-label[for="FirstName"]{margin-left:60px !important;}
+#form-wrapper section .fields-container .sticky-placeholder-label{padding-top:8px !important;width:100% !important;}
+#form-wrapper section .fields-container.mobile-platform{background-color:#fff;margin-bottom:10px;border:1px solid #b7b7b7;width:94%;padding:10px;padding-bottom:5px}
+#form-wrapper section .fields-container.mobile-platform span{color:#000;font:15px Myriad W01 Regular;}
+#form-wrapper section .fields-container.mobile-platform #checkbox-panel{float:left;clear:both;margin-left:22px;}
+#form-wrapper section .fields-container.mobile-platform #checkbox-panel input[type='checkbox']{width:auto !important;height:auto !important}
+#form-wrapper section .fields-container.mobile-platform #checkbox-panel input[type='text']{height:27px;}
+#form-wrapper section .fields-container.mobile-platform #checkbox-panel span{float:none;padding-left:10px;width:auto !important;margin:0 !important;}
+#form-wrapper #content-container .breadcrumbs{margin-bottom:20px;}
+#form-wrapper section #checkbox-container{width:100%;float:left;}
+#form-wrapper section #salutation{width:56px;height:35px;float:left;font:normal 15px Myriad W01 Regular;color:#7f7f7f;border-left:1px solid #b7b7b7;border-top:1px solid #b7b7b7;border-bottom:1px solid #b7b7b7;padding:0;margin:0 2px 0 0;background:#fff;appearance:none;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;-o-appearance:none;text-overflow:"";}
+
+#form-wrapper section #salutation option{background:#fff !important;border:0 solid #b7b7b7;outline:0}
+#form-wrapper section #salutation select{font:normal 15px Myriad W01 Regular;color:#7f7f7f;background:url("https://www.flatworldsolutions.com/images/form-down-arrow.png") 92% center no-repeat #fff !important;-ms-appearance:none;-o-appearance:none;appearance:none;-moz-appearance:none;-webkit-appearance:none;overflow:hidden;text-indent:.01px;border:0;margin:0;width:100%;padding-left:4px;height:35px;}
+#form-wrapper section input{width:96%;height:35px;background:#fff;border:1px solid #b7b7b7;font:normal 15px Myriad W01 Regular;color:#7f7f7f;padding:0 6px;}
+#form-wrapper section input.name{width:80.4%;float:left;border-right:1px solid #b7b7b7;border-top:1px solid #b6b7b7;border-bottom:1px solid #b6b7b7;color:#7f7f7f;border-left:0;}
+#form-wrapper section .select-container{width:100%;margin:0;float:left;padding:0;position:relative}
+#form-wrapper section select{width:99.74%;height:35px;border:1px solid #b7b7b7;font:normal 15px Myriad W01 Regular;color:#7f7f7f;padding:7px 6px;background:url("https://www.flatworldsolutions.com/images/form-down-arrow.png") 99% center no-repeat #fff !important;appearance:none;overflow:hidden;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;-o-appearance:none;text-overflow:"";text-indent:.01px;outline:0;}
+#form-wrapper section textarea{min-width:96%;max-width:96%;height:86px;background:#fff;border:1px solid #b7b7b7;font:normal 15px Myriad W01 Regular;color:#333;padding:10px 6px;margin:0;margin-bottom:12px;}
+#form-wrapper section label{font:normal 15px Myriad W01 Regular;color:#666;text-align:left;width:270px;padding:1.5% 1% 1.4% 0;float:left;}
+#form-wrapper section label span{color:#de1c85;font-weight:bold;font-size:12px;}
+#form-wrapper section .checkbox{vertical-align:top;width:15px;height:15px;background:#fff;border:1px solid #b7b7b7;margin:0;padding:0;}
+#form-wrapper section #file_browse_wrapper{width:91px;height:44px;float:left;background:#808080 url('https://www.flatworldsolutions.com/images/upload-file-bg.jpg');border:1px solid #4c4c4c;overflow:hidden;cursor:pointer;font:normal 15px Myriad W01 Regular;color:#fff;}
+#form-wrapper section #file_browse_wrapper input#file_browse{opacity:0;filter:Alpha(opacity=0);cursor:pointer;width:98%;padding:0 1% 2%;font:normal 15px Myriad W01 Regular;color:#fff;}
+#file_browse1{opacity:0;filter:Alpha(opacity=0);cursor:pointer;margin-left:-150px;}
+#file_browse2{opacity:0;filter:Alpha(opacity=0);cursor:pointer;margin-left:-150px;}
+#browse{width:89px;height:35px;background:#474747;border:1px solid #0f0f0f;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;overflow:hidden;}
+#form-wrapper section label.info{font:normal 13px/18px Myriad W01 Regular;color:#fff;width:69%;padding:0 0 0 1.5%;float:left;border-left:1px solid #efefef}
+#form-wrapper section .form-bg p.attachedfile{font:normal 11px Myriad W01 Regular;color:#fff;float:left;}
+#form-wrapper section input.submit{width:99.5%;height:44px;box-shadow:none;background-color:#27abdc !important;border-radius:none !important;float:left;padding:0;border-top:2px solid #81d6f2;font:normal 20px Myriad W01 Regular;color:#fff;cursor:pointer;}
+#form-wrapper aside{width:45%;float:left}
+#form-wrapper aside div.career{width:100%;float:left;margin:0 0 10px 0;font:normal 22px Myriad W01 Regular;color:#000;padding-top:0px}
+#form-wrapper aside .content.secured-data{width:90%;border-bottom:0px;padding-bottom:0px; background:url('https://www.flatworldsolutions.com/images/secure-icon.jpg') no-repeat 0px 6px;padding-left:28px;margin-bottom:20px}
+#form-wrapper aside .content.call-us{background:url('/images/form-call-icon.jpg') no-repeat 0px 6px;padding-left:28px !important;display:block;margin-bottom:16px}
+#form-wrapper aside .content.call-us span, #form-wrapper .call-us span, #form-wrapper aside .content.call-us span{font:21px Myriad W01 Regular;color:#000000}
+#form-wrapper aside .content.call-us h2 span a{color:#565656 !important;font:normal 23px Myriad W01 Regular !important}
+#form-wrapper aside .content.call-us h2 span a:hover, #form-wrapper aside div.content p a:hover{color:#054f7d !important}
+#form-wrapper .call-us{background:url('https://www.flatworldsolutions.com/images/form-call-icon.jpg') no-repeat 0px 0px;padding-left:28px !important;display:none;margin-bottom:10px}
+#form-wrapper .call-us h2{font:21px Myriad W01 Regular}
+#form-wrapper aside .content.email-us{background:url('https://www.flatworldsolutions.com/images/email-icon.jpg') no-repeat 0px 6px;padding-left:28px !important;margin-bottom:16px}
+#form-wrapper aside .content.email-us .info-email{width:66%}
+#form-wrapper aside div.career.border{border-bottom:1px solid #ccc; padding-bottom:16px}
+#form-wrapper aside div.career p{font:normal 15px/20px Myriad W01 Regular;color:#000;letter-spacing:normal;margin-bottom:24px}
+#form-wrapper aside div.career .career-btn{padding:6px 10px;background:#2aa6e2;font:normal 16px Myriad W01 Regular;color:#fff;border:1px solid #125f85;float:left;}
+#form-wrapper aside div.career .career-btn{padding:6px 10px;background:#2aa6e2;font:normal 16px Myriad W01 Regular;color:#fff;border:1px solid #125f85;float:left;}
+#form-wrapper aside div.content p.margintop{margin-top:4px}
+#form-wrapper aside div.content{width:100%;float:left;margin:0 auto 14px auto;border-bottom:1px solid #ccc;padding:0 0 13px 0;text-align:center}
+#form-wrapper aside div.content h2{font:bold 18px Myriad W01 Regular;color:#b61628}
+#form-wrapper aside div.content .addres-content-left h2, #form-wrapper aside div.content .addres-content-right h2{margin-top:10px}
+#form-wrapper aside div.content p{font:normal 15px Myriad W01 Regular;color:#000;float:left;margin:0;letter-spacing:normal;line-height:21px;width:95%}
+#form-wrapper aside div.content p a{font:normal 15px Myriad W01 Regular;color:#000;text-decoration:none;}
+#form-wrapper aside div.content p a:hover{font:normal 15px Myriad W01 Regular;color:#000;text-decoration:none}
+#form-wrapper aside div #ph-form-text a{color:#2aaadc}
+
+#form-wrapper aside div #ph-form-text a span{text-decoration:underline}
+#form-wrapper aside div #ph-form-text a span, #form-wrapper aside div #ph-form-text a i{color:#2aaadc !important}
+#form-wrapper aside div #ph-form-text a i{font-size:0.9rem}
+#form-wrapper aside #form-testimonials{padding:16px 0 16px 0}
+#form-wrapper aside #form-testimonials p{font: bold 15px/20px Myriad W01 Regular;margin: 20px auto;text-align: center;width: 90%;float: none;color:#6b6b6b;    margin-top:6px}
+#form-wrapper aside #form-testimonials p i{font-weight: bold;font-size: 16px;color:#7c7c7c}
+#form-wrapper aside #form-testimonials span{display:block;font-size: 16px;color:#7c7c7c}
+#form-wrapper aside #form-testimonials span b{font-weight:bold;display:block;color:#333333}
+#form-wrapper aside #form-testimonials > i{font-size: 2.3rem;margin-top: 2%;line-height: 22px;color: #054f7d}
+#form-wrapper aside div.content.no-border{border:0;padding:0;}
+#form-wrapper aside div.content.no-border p, #form-wrapper aside div.content.gray-border-btm{clear:both}
+#form-wrapper aside div.content.gray-border{border-bottom:0;border-top:1px solid #ccc;padding:5px 0 0 0;width:100%}
+.form-bg .custom-combobox .sticky-placeholder-label{top:9px !important; width:auto !important;}
+#form-wrapper aside div.content .addres-content-right{float:left; width:45%}
+#form-wrapper aside div.content .addres-content-left{float:left; width:55%;margin-bottom:15px}
+/* .ui-button US PAGE MAP STARTS */
+#map-container{width:100%;float:left;margin:2% 0}
+#map-container p{font:normal 12px Arial;color:#333;height:70px;margin:0 0 1px 0}
+#map-container .full-width{font:normal 14px Arial;color:#333;height:76px;margin:0 10px 14px 0;width:43%;float:left;border-right:solid 1px #c9c9c9;padding-right:10px}
+#map-container .full-width p{font:normal 12px Arial;color:#333;margin:0 0 4px 0;width:100%;float:left}
+#map-container .full-width .headaddress{font:bold 12px Arial;margin:0 0 4px 0}
+#map-container .full-width1{font:normal 14px Arial;color:#333;height:55px;margin:0 10px 14px 0;width:40%;float:left}
+#map-container .full-width1 p{font:normal 12px Arial;color:#333;margin:0 0 4px 0;width:100%;float:left}
+#map-container .full-width1 .headaddress{font:bold 12px Arial;margin:0 0 4px 0}
+.headaddress{font:bold 12px Arial;margin:0 0 4px 0}
+#map-container h2{font: 18px Myriad W01 Regular; color: #B61628;width:90%;margin-bottom:10px}
+#map-container #us-add{width:45%;float:left;margin:0}
+#map-container #us-add img{box-shadow:1px 1px 2px #ccc}
+#map-container #in-add, #map-container #philippines-add, #map-container #uk-add{width:43.6%;float:left;margin:0 3% 0 0}
+#map-container #in-add img, #map-container #philippines-add img{box-shadow:1px 1px 2px #ccc}
+#map-container #philippines-add, #map-container #uk-add{margin-top:4%}
+/* CONTACT US PAGE MAP ENDS */
+.contact-address-panel{border-bottom:1px solid #cccccc; *border-top:1px solid #cccccc; float:left; clear:both; width:100%;padding-bottom:6px;padding-top:4px}
+.contact-address-panel .loc-sep{border-bottom:6px solid #efefef;margin-bottom:10px !important;padding-bottom:10px}
+.ui-autocomplete{position:absolute;cursor:default;max-height:200px;overflow-y:scroll;overflow-x:hidden;border:1px solid #adadad}
+.ui-menu{list-style:none;padding:2px;margin:0;display:block;float:left;background-color:#fff}
+.ui-menu .ui-menu{margin-top:-3px}
+.ui-menu .ui-menu-item{margin:0;padding:0;float:left;clear:left;width:100%;font-size:14px}
+.ui-menu .ui-menu-item a{text-decoration:none;display:block;padding:2px 2px;line-height:15px;color:#666}
+.ui-menu .ui-menu-item a.ui-state-hover,.ui-menu .ui-menu-item a.ui-state-active{font-weight:normal;background-color:#f2f2f2}
+.ui-combobox{position:relative;display:inline-block}
+.ui-combobox-toggle{position:absolute;top:0;bottom:0;margin-left:-1px;padding:0}
+.ui-icon-triangle-1-s{background-repeat:no-repeat;background-position:99% center;height:20px;width:5px}
+.ui-button{border:0;margin:0;padding:0;right:23px !important;width:12px;height:20px;background-image:url("https://www.flatworldsolutions.com/images/form-down-arrow.png");background-repeat:no-repeat;background-position:0 8px;background-color:transparent;float:right;top:7px !important; position:absolute}
+.ui-button-text{position:relative;margin:0;padding:0;height:20px;top:-20px}
+.fields-container  .form-service-tooltip{position:relative;display:none;float:none !important;opacity:1 !important;left:3px}
+.pricing-tool-tip{display:none}
+.res-form-service-tooltip{display:none}
+.fields-container  .form-service-tooltip>img{opacity:0.6}
+@media screen and (min-width:240px) and (max-width:319px){#form-wrapper{margin:156px 0 0;padding:0;}
+#form-wrapper #content-container{width:90%;padding:0 5%;float:left;}
+#form-wrapper section{width:100%;}
+#form-wrapper section .form-bg{width:92%;padding:3% 4%;}
+#form-wrapper section .form-bg h2{font:normal 18px Myriad W01 Regular;}
+#form-wrapper section #salutation{margin:0 0 10px 0;}
+#form-wrapper section #salutation select{width:100%;padding:7px 6px;height:35px;}
+#form-wrapper section input{width:94%;padding:0 3%;}
+#form-wrapper section input.name{width:94.4%;}
+#form-wrapper section .select-container{padding:0;margin:0;}
+#form-wrapper section select{width:101%;padding:2% 3%;}
+#form-wrapper section textarea{width:96%;min-width:96%;max-width:96%;padding:10px 4px;margin:0;margin-bottom:9px;}
+#form-wrapper section label.info{width:100%;padding:0;float:left;margin:10px 0 10px 0;}
+#form-wrapper aside{width:100%;margin:20px 0;}
+#form-wrapper aside div.career p{font:normal 18px Myriad W01 Regular;}
+#form-wrapper aside div.content p{word-wrap:break-word;width:100%;float:none;}
+#form-wrapper section .fields-container.mobile-platform{width:90%;}
+#form-wrapper section .fields-container .sticky-placeholder-label[for="FirstName"]{margin-left:6px !important;top:48px !important;}
+#map-container #us-add, #map-container #philippines-add, #map-container #in-add, #map-container #uk-add {margin:0 0 5% 0;width:100%}
+#map-container h2{font-size:23px}
+#map-container p{height:auto;margin:0 0 10px}
+#map-container #us-add img, #map-container #in-add img, #map-container #philippines-add img{width:100%;height:100%}
+}
+@media screen and (min-width :320px) and (max-width :479px){#form-wrapper{margin:20px 0 0;padding:0;}
+#form-wrapper #content-container{width:90%;padding:0 5%;float:left;}
+#form-wrapper section{width:100%;}
+#form-wrapper section .form-bg{width:92%;padding:3% 4%;}
+#form-wrapper section #salutation{margin:0 0 10px 0;}
+#form-wrapper section #salutation select{width:100%;padding:7px 6px;height:35px;}
+#form-wrapper section input{width:94%;padding:0 3%;}
+#form-wrapper section input.name{width:94.4%;}
+#form-wrapper section .select-container{padding:0;margin:0;}
+#form-wrapper section select{width:100%;padding:2% 3%;}
+#form-wrapper section textarea{width:96%;min-width:96%;max-width:96%;padding:10px 4px;margin:0;margin-bottom:9px;}
+#form-wrapper section label.info{width:100%;padding:0;float:left;margin:10px 0 10px 0;}
+#form-wrapper aside{width:100%;margin:20px 0;}
+
+#form-wrapper section .fields-container.mobile-platform{width:92.4%;}
+#form-wrapper section .fields-container .sticky-placeholder-label[for="FirstName"]{margin-left:2px !important;top:48px !important;}
+#map-container{margin:0 0 2% 0}
+#map-container #us-add, #map-container #philippines-add, #map-container #in-add, #map-container #uk-add{margin:0 0 5% 0;width:100%}
+#map-container h2{font-size:23px}
+#map-container p{height:auto;margin:0 0 10px 0}
+#map-container #us-add img, #map-container #philippines-add img, #map-container #in-add img, #map-container #uk-add img{width:100%;height:100%}
+#form-wrapper aside{margin-bottom:0}
+#form-wrapper aside div.content .addres-content-left, #form-wrapper aside div.content .addres-content-right, #form-wrapper aside div.career{width:100%}
+#form-wrapper aside div.content .addres-content-right{margin-top:10px}
+}
+@media screen and (min-width :480px) and (max-width :767px){#form-wrapper{margin:20px 0 0;padding:0;}
+#form-wrapper #content-container{width:94%;padding:0 3%;float:left;}
+#form-wrapper section{width:100%;}
+#form-wrapper section #salutation select{width:100%;padding-left:4px;height:35px;}
+#form-wrapper aside{width:100%;}
+#form-wrapper section select{width:100%;padding:2% 3%;}
+#form-wrapper section .form-bg{width:92%;padding:3% 4%;}
+#form-wrapper aside{width:100%;margin:20px 0;}
+#map-container{margin:0 0 2% 0}
+#map-container #us-add{margin:0 0 5% 0;width:100%}
+#map-container #in-add{margin:0 0 5% 0;width:100%}
+#map-container #philippines-add{margin:0 0 5% 0;width:100%}
+#map-container h2{font-size:23px}
+#map-container p{height:auto}
+#form-wrapper aside{margin-bottom:0}
+#form-wrapper aside div.career{width:100%}
+}
+@media only screen and (min-width:768px) and (max-width:999px){#form-wrapper #content-container{width:98%;padding:0 1%;float:left;}
+#form-wrapper section #salutation{margin:0 0 10px 0;}
+#form-wrapper section #salutation select{width:100%;padding:7px 6px;height:35px;}
+#form-wrapper section input.name{width:96.4%;}
+#form-wrapper section .select-container{padding:0;margin:0;}
+#form-wrapper section select{width:100%;padding:2% 3px;}
+#form-wrapper section label.info{width:100%;padding:0;float:left;margin:10px 0 10px 0;}
+#form-wrapper section textarea{width:97%;min-width:97%;max-width:97%;padding:10px 4px;margin:0;margin-bottom:6px;}
+#form-wrapper section .fields-container .sticky-placeholder-label[for="FirstName"]{margin-left:2px !important;top:48px !important;}
+#form-wrapper aside{width:49%;}
+#map-container #us-add{margin:0 0 3% 0;width:100%}
+#map-container #in-add{margin:0 0 3% 0;width:100%}
+#map-container #philippines-add{margin:0 0 5% 0;width:100%}
+#form-wrapper aside div.content .addres-content-left{width:51%}
+#form-wrapper aside div.content .addres-content-right{width:49%}
+#form-wrapper aside{width:56%}
+#form-wrapper section .form-bg{width:84%}
+#form-wrapper section{width:44%}
+#form-wrapper aside div.career{width:100%}
+}
+@media screen and (min-width:1000px) and (max-width:1030px){#form-wrapper #content-container{width:98%;padding:0 1%;float:left;}
+#form-wrapper section #salutation{margin:0 0 10px 0;}
+#form-wrapper section #salutation select{width:100%;padding:7px 6px;height:35px;}
+#form-wrapper section input.name{width:96.4%;}
+#form-wrapper section select{width:99.7%;padding:2% 2%;}
+#form-wrapper section textarea{width:97%;min-width:97%;max-width:97%;padding:10px 4px;margin:0;margin-bottom:6px;}
+#form-wrapper section #salutation select{width:100%;padding:7px 6px;height:35px;}
+#form-wrapper section .fields-container .sticky-placeholder-label[for="FirstName"]{margin-left:2px !important;top:48px !important;}
+}
+@media screen and (min-width:240px) and (max-width:1024px){#form-wrapper aside .content.email-us{padding-left:0 !important}
+#form-wrapper aside .content.email-us h2, #form-wrapper aside .content.email-us p{margin-left:28px}}	
+@media screen and (min-width:240px) and (max-width:767px){
+#form-wrapper aside .content.call-us{display:none}
+#form-wrapper .call-us{display:block}}
+
+@media screen and (min-width:1000px){
+.fields-container  .form-service-tooltip{display:inline}
+/* FORM SERVICE TOOL TIP STARTS */
+.pricing-tool-tip{display:block;text-shadow: none;visibility: hidden;-webkit-border-radius: 5px;-moz-border-radius: 5px;-o-border-radius: 5px;border-radius: 5px;text-align: left;opacity: 0;z-index: 999;padding:10px 15px;position: absolute;width: 188px;height:30px;display:block;margin-left: -160px;top: auto;bottom: 114%;left: 50%;cursor: default;	-webkit-transition: all 240ms ease-in-out;-moz-transition: all 240ms ease-in-out;-ms-transition: all 240ms ease-in-out;-o-transition: all 240ms ease-in-out;transition: all 240ms ease-in-out;border:0px solid #009add;  color:#ffffff; background:#464b56;
+	/*background:-moz-linear-gradient(top,#ffffff 0,#e3ecf2 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#ffffff),color-stop(100%,#e3ecf2));background:-webkit-linear-gradient(top,#ffffff 0,#e3ecf2 100%);background:-o-linear-gradient(top,#ffffff 0,#e3ecf2 100%);background:-ms-linear-gradient(top,#ffffff 0,#e3ecf2 100%);background:linear-gradient(to bottom,#ffffff 0,#e3ecf2 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#e3ecf2',GradientType=0);*/
+	box-shadow: 1px 1px 2px 0px #333333;font-family: Arial;font-size: 13px;color: #ffffff;margin-top:-84px;}
+/* tool tip position bottom */
+.pricing-tool-tip.bottom{top: 115%;bottom: auto;left: 60%;margin-bottom: auto;display:none}
+.pricing-tool-tip.bottom:after{position: absolute;top: -20px;left: 83% !important;margin-left: -68px;content: ' ';height: 0px;
+	width: 0px;	border: 10px solid transparent; border-top-color: transparent;border-bottom-color: rgba( 0, 154, 221, 1);	
+		border: 10px solid transparent;border-top-color: transparent;border-bottom-color: rgba( 0, 154, 221, 1);display:none}
+.pricing-tool-tip .pricing-toop-tip-img{z-index:20;position:absolute;border:0;top:50px;left:143px;background:url('https://www.flatworldsolutions.com/images/ser-name-tool-tip-head-img.png')0 0 no-repeat;display:block;width:27px;height:12px;opacity:1 !important}
+/* on hover of element containing tooltip default*/
+*:not(.on-focus):hover > .pricing-tool-tip,.on-focus input:focus + .pricing-tool-tip{visibility: visible;opacity: 1;	-webkit-transition: all 240ms ease-in-out;-moz-transition: all 240ms ease-in-out;-ms-transition: all 240ms ease-in-out;
+	-o-transition: all 240ms ease-in-out;transition: all 240ms ease-in-out}
+/* tool tip slide out */
+*:not(.on-focus) > .pricing-tool-tip.slideIn{display: block}
+.tool-tip.slideIn{z-index: 1}
+/* bottom slideIn */
+*:not(.on-focus) > .pricing-tool-tip.slideIn.bottom{top: 80%}
+*:not(.on-focus):hover > .pricing-tool-tip.slideIn.bottom{top: 115%}	
+.on-focus > input:focus + .pricing-tool-tip.slideIn.bottom{top: 100%}
+/* top slideIn */
+*:not(.on-focus) > .pricing-tool-tip.slideIn,*:not(.on-focus) > .pricing-tool-tip.slideIn.top{bottom: 50%;}
+*:not(.on-focus):hover > .pricing-tool-tip.slideIn,*:not(.on-focus):hover > .pricing-tool-tip.slideIn.top{bottom: 110%;}	
+/* FORM SERVICE TOOL TIP ENDS */
+}
+@media screen and (min-width:240px) and (max-width:999px){
+.res-form-service-tooltip{display:block;float: left;position: relative;top: -6px}
+.res-form-service-tooltip span{position: relative;top: -2px;color: #ffffff !important;font:italic 12px Arial !important;float:none !important}}
+@media screen and (min-width:240px) and (max-width:359px){.res-form-service-tooltip span{font:italic 11px Arial !important}}
+@media screen and (min-width:360px) and (max-width:479px){#form-wrapper section textarea{min-width:97%}}
+
+/* Style for Multiple File Upload 
+.multi{height: 46px;width: 110px;box-shadow: none;border: medium none;padding: 0px;background-color: transparent;border:0;opacity:0;cursor: pointer;cursor:hand;}
+.MultiFile-remove{float:right}
+div.MultiFile-label{padding: 5px 0px;border-bottom:1px solid #4c9cc9}
+#form-wrapper section .form-bg .MultiFile-label span{color:#ffffff !important;word-break: break-all;word-spacing: normal;white-space: normal;font:13px Arial !important;opacity:1; margin:0;float:none}
+.MultiFile-wrap .upload-button-wrap{width: 103px;height: 46px;float: left;border: 0px none;overflow: hidden;cursor: pointer;cursor:hand;background: transparent url("https://www.flatworldsolutions.com/images/upload-file-bg.jpg") no-repeat scroll 0px 0px;word-wrap: break-word}
+.MultiFile-list{width:99.8%;float:left;clear:both;margin-bottom: 5px}
+.MultiFile-wrap{float:left;width:100%;clear:both}
+#form-wrapper section .form-bg .MultiFile-label>span{width:92%;display:block}
+/* Style for Multiple File Upload */
+
+#form-wrapper section input.multi{height: 22px;width: 110px;box-shadow: none;border: medium none;padding: 0px;background-color: transparent;border:0;opacity:0;cursor: pointer;cursor:hand;position:absolute;top:0;left:0}
+.MultiFile-remove{float:right;*background:url('/forms/images/file-delete-icon.png') no-repeat 0 0;*width: 16px;*height: 16px;}
+	.MultiFile-remove:after{content: "\f2ed";-moz-osx-font-smoothing: grayscale;-webkit-font-smoothing: antialiased;display: inline-block;font-style: normal;font-variant: normal;text-rendering: auto;line-height: 1;font-family: "Font Awesome 5 Free";font-weight: 900;color:#efefef}
+.MultiFile-remove img{display:none}
+
+div.MultiFile-label{padding-top: 7px;border-bottom: 1px dashed #cccccc;font-size: 11px;padding-bottom: 2px}
+.MultiFile-label span{color:#ffffff !important;word-break: break-all;word-spacing: normal;white-space: normal;font:13px Arial !important}
+.MultiFile-wrap .upload-button-wrap{width: 100px;height: 20px;float: left;border: 0px none;overflow: hidden;cursor: pointer;cursor:hand;*background: transparent url("/images/browse-btn.png") no-repeat scroll 0px 0px;cursor:hand;cursor:pointer;*padding-left: 21px;text-transform: uppercase;font-weight: 600;font-size: 12px;    color: #ffffff;position:relative}
+.MultiFile-wrap .upload-button-wrap:before{content: "\f093";-moz-osx-font-smoothing: grayscale;-webkit-font-smoothing: antialiased;display: inline-block;
+    font-style: normal;font-variant: normal;text-rendering: auto;line-height: 1;font-family: "Font Awesome 5 Free";font-weight: 900;color:#73c2f8;font-size:1.1rem;padding-right:1px}
+.MultiFile-wrap .upload-button-wrap:hover{color:#73c2f8}	
+.MultiFile-list{width:100%;float:left;clear:both;margin-top: 10px;margin-bottom: 10px}
+div.MultiFile-label{margin-bottom:6px}
+.MultiFile-wrap{float:left;width:100%;clear:both}
+
+#form-wrapper section input:placeholder, input::placeholder, textarea::placeholder  { color: #000000}
+input:focus::placeholder, textarea:focus::placeholder   { color: #b1b1b1}
+#form-wrapper section .fields-container#captcha > img{margin:0 0 6px 0}
+#form-wrapper section .fields-container#captcha > a{margin: 0px 0px 0px 10px;position: relative;top: -7px}
+#form-wrapper section input.submit{margin-top:10px}
+
+#customers-box{width:92%;*height:175px;float:left;margin:20px 0 20px 0}
+#customers-box h2{font:normal 18px Myriad W01 Regular;color: #b61628;text-transform:uppercase}
+#slider2{margin:15px 0 0;overflow:hidden;position:relative;padding:0 0px 0px}
+#slider2 .viewport{overflow:hidden;position:relative;border: 1px solid #efefef;padding:10px 0}
+#slider2 .prev{left: 1%;top: 33%}
+#slider2 .next{left: 98%;top: 33%}
+#slider2 .buttons:hover{opacity:0.5}
+#slider2 .disable{visibility:hidden}
+#slider2 .overview li{float:left;margin:0 5px;padding:0 1px;height:auto;width:auto;text-align:center;background:0;padding-right:0px;width:13%}
+#slider2 .overview li img{*border:1px solid #e6e6e6; -webkit-transform: translateZ(0);transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); -webkit-backface-visibility: hidden;backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;-webkit-transition-duration: 0.3s; transition-duration: 0.3s;
+  -webkit-transition-property: transform; transition-property: transform;width:100%}
+#slider2 .overview li img:hover, #slider2 .overview li img:focus, #slider2 .overview li img:active {-webkit-transform: scale(1.1) rotate(4deg); transform: scale(1.1) rotate(4deg)}
+#slider2 .overview li span{text-align:left !important;font:normal 15px Myriad W01 Regular !important;color:#000 !important;margin:5px 0 0}
+#slider1 .overview li span:hover{text-decoration:underline}
+
+@media screen and (min-width:320px) and (max-width:767px){
+#customers-box{width:100%}
+#slider2 .viewport{padding-bottom: 2px}
+#slider2 .overview li{width: 21%}
+}
+
+@media screen and (min-width:768px) and (max-width:1000px){
+#customers-box{width:100%}	
+#slider2 .overview li{margin:0 4px;width:13%}
+}
+
+.career-panel{width:100%;height:109px;display:block;8float:left;max-width:321px;margin:10px auto 0 auto;background:url('/images/partnership-bg.jpg') 0 0 no-repeat}
+.career-panel{margin-top:0px !important;margin-bottom:0px}
+.career-panel p{font: normal 14px/19px Myriad W01 Regular !important;color: #ffffff !important;width: 65%;float: right;text-align: left;margin: 9px 10px 0 0 !important;}
+.career-panel span, .career-panel span{font-size:14px;color:#ffffff}
+.career-panel img{margin-top:5px}
+.career-panel p a, .career-panel p a{font-size:12px; font-weight:bold; text-decoration:underline;color:#33a0d9}

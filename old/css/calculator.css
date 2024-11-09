@@ -1,0 +1,200 @@
+
+#calc-container {background-color:#054f7e; width:82%; float:left; margin-left:44px; margin-top:30px; margin-bottom:20px; color:#ffffff}
+.calc-header{width:100%; float:left; border-bottom:1px solid #5897bf}
+#calc-container .calc-header .img-holder{float:left; margin:10px; margin-bottom:5px}
+#calc-container .calc-header .header-text{float:left;margin-top:5px}
+#calc-container .calc-header .header-text h1, #calc-container .calc-header .header-text h2{letter-spacing: 0;padding: 10px 0;margin: 0;  text-transform: uppercase;color:#ffffff; margin-bottom:0px; padding-bottom:0px;    font: bold 25px Myriad W01 Regular;text-align:left}
+#calc-container .calc-header .header-text span{color:#5897bf}
+#calc-container .calc-form-container{width:80%; margin:0px auto; position:relative}
+.calc-form-container .field-container{float:left; width:100%; margin-top:10px; margin-bottom:10px}
+.calc-form-container .field-container .field-container-project-type{float:left}
+.calc-form-container .field-container .img-holder {float:left;margin-top:5px}
+.calc-form-container .field-container .form-name-holder{float:left; margin-left:13px; margin-top:13px}
+.calc-form-container .field-container .field-container-border{float:right; border:1px solid #5084a4; background-color:#1e6181; padding-top:10px; padding-bottom:5px; margin-left:21px; width:78%}
+.calc-form-container .field-container .field-container-border .radio-btn{float:left}
+.calc-form-container .field-container .field-container-border .radio-btn .floatleft:first-child{padding-left:10px;height:19px !important}
+.calc-form-container .field-container .field-container-border .radio-btn .floatleft:last-child{padding-left:3px}
+.calc-form-container .field-container .field-container-border label{color:#ffffff;}
+.calc-form-container .field-container .field-container-border input[type="radio"]{margin:0px;height: 16px !important;}
+.calc-form-container .field-container .form-name-holder span{color:#ffffff; font: 15px Myriad W01 Regular;}
+.calc-form-container .field-container #inbound{width:100%; float:left; clear:both; margin-top:8px; display:block; }
+.calc-form-container .field-container #outbound-onetime, .calc-form-container .field-container #outbound-ongoing, .calc-form-container .field-container #email, .calc-form-container .field-container #chat{display:none; width:100%; float:left; clear:both; margin:8px 0;}
+.calc-form-container .field-container  .form-block{width:100%; float:left; clear:both;}
+.calc-form-container .field-container  .form-block .img-holder{/*padding:8px 0*/}
+.calc-form-container .field-container  .form-block .form-name-holder{float:left; width:35%; /*padding:8px 0;*/}
+.calc-form-container .field-container .form-block .form-value-holder{float:right; /*padding:10px 0;*/ margin-left:5px; width:56.4%}
+.calc-form-container .field-container .form-block .form-value-holder select{background: url('https://www.flatworldsolutions.com/images/form-down-white-arrow.png') no-repeat scroll 99% center #0d73a3 !important;-moz-appearance: textfield !important;padding-left:6px}
+.calc-form-container .field-container .form-block .form-value-holder select, .calc-form-container .field-container .form-block .form-value-holder option, .calc-form-container .field-container .form-block .form-value-holder input{background-color:#0d73a3 !important; color:#ffffff !important; border:0px;}
+.calc-form-container .field-container .form-block .form-value-holder input{width:97%; padding-left:7px}
+.calc-form-container .field-container .form-block .form-value-holder .sticky-placeholder-label {padding-left:7px}
+.calc-form-container  .button-panel{float:right; margin-top:0px; width:100%; clear:both}
+.calc-form-container  .button-panel .calc-button{width:56%; background-color:#0387b8; font-size:15px; color:#ffffff; font-family:arial; font-weight:bold; float:right; padding:10px 0; text-align:center; border-radius:3px; border:1px solid #07acdc;cursor:hand;cursor:pointer;background-image: -ms-linear-gradient(top, #149ccc 0%, #017ca8 100%);background-image: -moz-linear-gradient(top, #149ccc 0%, #017ca8 100%);background-image: -o-linear-gradient(top, #149ccc 0%, #017ca8 100%);background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #149ccc), color-stop(1, #017ca8));background-image: -webkit-linear-gradient(top, #149ccc 0%, #017ca8 100%);background-image: linear-gradient(to bottom, #149ccc 0%, #017ca8 100%);}
+.calc-form-container .result-panel{padding:10px 20px 10px 20px; width:94%; float:left; clear:both; background-color:#ffffff; margin-top:9px}
+.calc-form-container .result-panel p{color:#565656; font:19px Myriad W01 Regular;letter-spacing:0px; padding:0px; margin:0px}
+.calc-form-container .result-panel p i{display: block;margin: 10px auto;margin-bottom: 0;color:#217ca8}
+.calc-form-container .result-panel p b{color:#217ca8}
+.calc-form-container .result-panel span{color:#ff0000}
+.calc-form-container .contactus-panel{width:100%; text-align:center; float:left; margin-top:15px}
+.calc-form-container .contactus-panel .content{margin-left:auto; margin-right:auto; text-align:center; width:100%; padding:0px;}
+.calc-form-container .contactus-panel p{font:17px Myriad W01 Regular; letter-spacing:0px; color:#565656; text-align:center;width:93%;    margin: 0 auto;
+    margin-bottom: 19px;}
+.calc-form-container .contactus-panel input[type="submit"]{
+border:none;width:175px; height:40px;padding:0px;margin:0px 0px 10px 0px; text-align:center; background-color:#27abdc; color:#ffffff;font:bold 16px Myriad W01 Regular; cursor:hand; cursor:pointer;border-radius:3px}
+.calc-form-container .contactus-panel input[type="submit"]:hover{background-color:#2ea4d0;}
+.userguide-layout{width: 100%;clear: both;float: left;border-top: 1px solid #5897bf;}
+.userguide-layout p{width:76%; color:#ffffff; margin-left:auto; margin-right:auto; margin-top:10px}
+.userguide-layout a {vertical-align: top}
+.userguide-layout a img{margin-top:-12px; position:relative;top: 10px}
+.sampleclass{opacity:0.25 !important}
+.field-container form>.floatleft{width:100%;}
+.calc-form-container .field-container .form-value-holder select, .calc-form-container .field-container .form-value-holder input{margin: 0px 0px 9px; overflow:none !important;}
+/************ MEDIA QUERIES CSS *****************/
+@media screen and (min-width:240px) and (max-width:319px){
+#calc-container{width:100%; margin-left:0}
+.calc-header{padding-bottom: 10px}
+#calc-container .calc-header .img-holder{display:none}
+#calc-container .calc-header .header-text{width: 95%;margin-left: 5px;}
+.calc-form-container .field-container .field-container-border{width: 100%}
+.calc-form-container .field-container .field-container-border .radio-btn{width:100%; clear:both; padding:5px 0}
+.calc-form-container .field-container .form-block .form-value-holder{float: left;margin-left: 0px;width: 100%}
+.calc-form-container .field-container .form-block .form-name-holder{width:75%}
+.calc-form-container .field-container .img-holder {width: 17%}
+.calc-form-container .field-container .form-name-holder{margin-left:5px; width: 75%}
+.calc-form-container .field-container  .field-container-project-type .form-name-holder{width: 67% !important; margin-left:16px !important}
+.calc-form-container .contactus-panel .content{width:100%}
+.calc-form-container .result-panel{width:82%}
+.calc-form-container .contactus-panel .content{padding:0px}
+.calc-form-container .button-panel {margin-top: 0px}
+.calc-form-container .button-panel img{width:100%}
+.calc-form-container .result-panel{padding:10px 0; width:100%}
+.calc-form-container .result-panel p, .calc-form-container .result-panel span{padding:0 20px; display:block}
+.userguide-layout a img {margin-top: 0px; position: relative;top: 0;}
+.calc-form-container .contactus-panel input[type="submit"]{width:177px}
+.calc-form-container .field-container .form-block .form-value-holder select{background-position:97% center !important}
+.calc-form-container  .button-panel .calc-button{width:100%;}
+}
+@media screen and (min-width:320px) and (max-width:479px){
+#calc-container{width:100%; margin-left:0}
+.calc-header{padding-bottom: 10px}
+#calc-container .calc-header .img-holder{width:20%}
+#calc-container .calc-header .header-text{width:71%}
+.calc-form-container .field-container .field-container-border{width: 100%}
+.calc-form-container .field-container .field-container-border .radio-btn{width:100%; clear:both; padding:5px 0}
+.calc-form-container .field-container .form-block .form-value-holder{float: left;margin-left: 0px;width: 100%}
+.calc-form-container .field-container .form-block .form-name-holder{width:80%}
+.calc-form-container .field-container .form-name-holder{margin-left:8px}
+.calc-form-container .contactus-panel .content{width:100%}
+.calc-form-container .result-panel{width:82%}
+.calc-form-container .contactus-panel .content{padding:0px}
+.calc-form-container .button-panel {margin-top: 0px}
+.calc-form-container .button-panel img{width:100%}
+.calc-form-container .result-panel{padding:10px 0; width:100%}
+.calc-form-container .result-panel p, .calc-form-container .result-panel span{padding:0 20px; display:block}
+.userguide-layout a img {margin-top: 0px; position: relative;top: 0;}
+.calc-form-container .field-container .form-block .form-value-holder select{background-position:97% center !important}
+.calc-form-container .field-container .form-block .form-value-holder input{padding-left:0px}
+.calc-form-container .field-container .form-block .form-value-holder .sticky-placeholder-label {padding-left:0px}
+.calc-form-container .field-container .form-block .form-value-holder input{width:95%; padding-left:7px}
+.calc-form-container .field-container .form-block .form-value-holder .sticky-placeholder-label {padding-left:7px}
+.calc-form-container  .button-panel .calc-button{width:100%;}
+}
+@media screen and (min-width:480px) and (max-width:767px){
+#calc-container{width:100%; margin-left:0}
+.calc-header{padding-bottom: 10px}
+#calc-container .calc-header .img-holder{width:14%}
+#calc-container .calc-header .header-text{width:75%}
+.calc-form-container .field-container .field-container-border{width: 100%}
+.calc-form-container .field-container .field-container-border .radio-btn{width:100%; clear:both; padding:5px 0}
+.calc-form-container .field-container .form-block .form-value-holder{float: left;margin-left: 0px;width: 100%}
+.calc-form-container .field-container .form-block .form-name-holder{width:80%}
+.calc-form-container .field-container .form-name-holder{margin-left:8px}
+.calc-form-container .contactus-panel .content{width:100%}
+.calc-form-container .result-panel{width:88%}
+.calc-form-container .contactus-panel .content{padding:0px}
+.calc-form-container .button-panel {margin-top: 0px}
+.calc-form-container .button-panel img{width:100%}
+.calc-form-container .result-panel{padding:10px 0; width:100%}
+.calc-form-container .result-panel p, .calc-form-container .result-panel span{padding:0 20px}
+.userguide-layout a img {margin-top: 0px; position: relative;top: 0;}
+.calc-form-container .field-container .form-block .form-value-holder select{background-position:97% center !important}
+.calc-form-container .field-container .form-block .form-value-holder input{width:97%; padding-left:7px}
+.calc-form-container .field-container .form-block .form-value-holder .sticky-placeholder-label {padding-left:7px}
+.calc-form-container  .button-panel .calc-button{width:100%;}
+}
+
+@media screen and (min-width:768px) and (max-width:999px){
+#calc-container{width: 99%;margin-left:0;}
+#calc-container .calc-form-container{width:90%;}
+.calc-form-container .field-container .field-container-border{float: left;margin-left:11px;width: 80%;}
+.calc-form-container .button-panel {margin-top: 0px}
+.calc-form-container .button-panel img{float: right}
+.calc-form-container .result-panel{padding:10px 0; width:100%; margin-top:20px}
+.calc-form-container .result-panel p, .calc-form-container .result-panel span{padding:0 20px}
+.userguide-layout a img {margin-top: 0px; position: relative;top: 0;}
+.calc-form-container .field-container .form-block .form-value-holder select{background-position:97% center !important; text-indent:1px}
+.calc-form-container .field-container .form-block .form-value-holder{width:55%;}
+.calc-form-container .field-container .form-block .form-value-holder input{padding-left:4px; width:98%}
+.calc-form-container .field-container .form-block .form-value-holder .sticky-placeholder-label {padding-left:4px}
+.calc-form-container  .button-panel .calc-button{width: 54.6%}
+}
+
+#calc-container.cc-calc-inpage{width: 100%;margin-left:0;border-radius:3px;margin-top:10px}
+#calc-container.cc-calc-inpage .calc-form-container{width: 90%}
+#calc-container.cc-calc-inpage .calc-form-container .field-container .field-container-project-type{clear:both}
+#calc-container.cc-calc-inpage .calc-form-container .field-container .field-container-border{width:99%;clear:both;margin-bottom:8px;border-radius: 3px}
+#calc-container.cc-calc-inpage .userguide-layout p{width: 89%}
+#calc-container.cc-calc-inpage .calc-form-container .field-container .form-block .form-value-holder{margin-top: 5px}
+#calc-container.cc-calc-inpage .userguide-layout p{font:normal 14px/18px Myriad W01 Regular}
+
+
+#calc-container.cc-calc-inpage{background:-webkit-linear-gradient(left, #f1f5f7, #f6f7f9);box-shadow:1px 0px 4px 0px #cccccc}
+#calc-container.cc-calc-inpage .calc-form-container{width:93%}
+#calc-container.cc-calc-inpage .calc-form-container .field-container .form-block:nth-child(odd){margin-right:35px}
+#calc-container.cc-calc-inpage .calc-form-container .field-container .field-container-project-type{float: left;margin-bottom:8px;clear:both}
+#calc-container.cc-calc-inpage .calc-form-container .field-container .img-holder{display: none;float: left;margin-top: 5px;}
+#calc-container.cc-calc-inpage .calc-form-container .field-container .form-name-holder{float: left;margin-left: 0px;margin-top: 0px}
+#calc-container.cc-calc-inpage .calc-form-container .field-container .form-name-holder span{color: #393d46;font: 600 15px Myriad W01 Regular}
+#calc-container.cc-calc-inpage .calc-form-container .field-container .field-container-border{width: 100%;clear: both;margin-bottom: 8px;border-radius: 3px;float: right;/* border: 1px solid #5084a4; */background-color: #ffffff;padding-top: 10px;padding-bottom: 5px;margin-left: 0px;border: 1px solid #f2efef; box-shadow: 0px 0px 1px 1px #efefef}
+#calc-container.cc-calc-inpage .calc-form-container .field-container .field-container-border .radio-btn{float: left;margin-right: 15px}
+#calc-container.cc-calc-inpage .calc-form-container .field-container #outbound-onetime, #calc-container.cc-calc-inpage .calc-form-container .field-container #outbound-ongoing, #calc-container.cc-calc-inpage #calc-container.cc-calc-inpage .calc-form-container .field-container #email, #calc-container.cc-calc-inpage #calc-container.cc-calc-inpage .calc-form-container .field-container #chat{display: none;width: 100%;float: left;clear: both; margin-top: 13px}
+	#calc-container.cc-calc-inpage .calc-form-container .field-container #inbound{width: 100%;float: left;clear: both;margin-top: 13px}
+	#calc-container.cc-calc-inpage .calc-form-container .field-container .form-block .form-name-holder{float: left;width: 100%;margin-left: 0px;margin-top:0}
+	#calc-container.cc-calc-inpage .calc-form-container .field-container .form-block .form-value-holder{margin-top: 5px;float: left;padding: 0;margin-left: 0px;
+    width: 100%}
+	#calc-container.cc-calc-inpage .calc-form-container .field-container .form-block .form-value-holder select, #calc-container.cc-calc-inpage .calc-form-container .field-container .form-block .form-value-holder option, #calc-container.cc-calc-inpage .calc-form-container .field-container .form-block .form-value-holder input{   background-color: #ffffff !important; color: #333333 !important;border: 0px;height: auto;border: 1px solid #f2efef;box-shadow: 0px 0px 1px 1px #efefef}
+#calc-container.cc-calc-inpage .calc-form-container .field-container .form-block .form-value-holder select{background:url("https://www.flatworldsolutions.com/images/form-down-arrow.png") 96% center no-repeat #fff !important; -moz-appearance: textfield !important;padding-left: 6px;
+    height: 36px}
+	#calc-container.cc-calc-inpage .calc-form-container .field-container .form-block .form-value-holder input{width: 96%;padding-left: 7px;border: 1px solid #f2efef;
+    box-shadow: 0px 0px 1px 1px #efefef}
+	#calc-container.cc-calc-inpage .calc-form-container .field-container .form-block{width: 47%;float: left;clear:none;margin-left:0;height: 77px}	
+	#calc-container.cc-calc-inpage .calc-form-container .field-container .field-container-border label{color:#333333}	
+	#calc-container.cc-calc-inpage .userguide-layout{display:none}
+	#calc-container.cc-calc-inpage .calc-header .header-text h1, #calc-container .calc-header .header-text h2{letter-spacing: 0;padding: 10px 0;margin: 0;
+    text-transform: uppercase;color: #0b2f7c;margin-bottom: 0px;padding-bottom: 0px;font: bold 25px Myriad W01 Regular;text-align: left}
+#calc-container.cc-calc-inpage .calc-header .header-text span{color: #3a4c72;font-size: 17px}
+#calc-container.cc-calc-inpage .calc-header .header-text{float: left;margin-top: 5px;margin-bottom: 13px}
+#calc-container.cc-calc-inpage .calc-header .img-holder{float: left;margin: 10px;margin-bottom: 5px}
+#calc-container.cc-calc-inpage .calc-header .img-holder img{display:none}
+#calc-container.cc-calc-inpage .calc-header{background:linear-gradient(180deg, rgba(203,214,226,1) 0%, rgba(203,214,226,1) 34%, rgba(244,246,248,1) 100%);border:0px solid #ffffff}
+#calc-container.cc-calc-inpage .calc-form-container .button-panel{width: 47%;float:left;clear: none;}
+#calc-container.cc-calc-inpage .calc-form-container .button-panel .calc-button{float:left;width:100%;padding:16px 0}
+
+@media screen and (min-width:320px) and (max-width:767px){#calc-container.cc-calc-inpage .calc-form-container .field-container .form-block:nth-child(odd){margin-right:0}
+#calc-container.cc-calc-inpage .calc-form-container .field-container .form-block{width:100%}
+#calc-container.cc-calc-inpage .calc-form-container .field-container .form-block .form-value-holder input{width:95%}
+#calc-container.cc-calc-inpage .calc-form-container .button-panel{width:99%}
+#calc-container.cc-calc-inpage .calc-header .img-holder{width:auto}
+#calc-container.cc-calc-inpage .calc-header .img-holder img{display:none}
+#calc-container.cc-calc-inpage .calc-header .header-text{width:93%}
+}
+
+.send-result-email{border: none;width: 175px;height: 40px;padding: 0px;margin: 0px 0px 10px 0px;text-align: center;background-color:#ffffff;color: #333333;
+    font: bold 16px/42px Myriad W01 Regular;cursor: hand;cursor: pointer;border-radius: 3px;display: inline-block;margin-left:10px}
+	
+.send-result-email:hover{background-color:#b0c8e7}
+.EnterEmaildID{margin-top:13px}	
+.EnterEmaildID input[type="email"]{width:43%}
+.EnterEmaildID input[type="submit"]{width: 124px;height: 33px}
+@media screen and (min-width:320px) and (max-width:479px){
+.send-result-email{margin-left:0}
+.EnterEmaildID input[type="email"]{width:100%}}

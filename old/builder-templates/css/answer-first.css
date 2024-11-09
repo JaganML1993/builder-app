@@ -1,0 +1,174 @@
+@import url('/css/default.css');
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=07ead21c-169b-4103-86e3-2d92155a3417");
+@font-face{font-family:"Myriad W01 Regular";src:url("https://www.flatworldsolutions.com/font/2bd106a4-3872-4193-8627-d7af96dd4f7e.eot");src:url("https://www.flatworldsolutions.com/font/2bd106a4-3872-4193-8627-d7af96dd4f7e.eot?#iefix") format("eot"),url("https://www.flatworldsolutions.com/font/c5b1c170-d8f7-41f9-85c2-0ab670780c6b.woff") format("woff"),url("https://www.flatworldsolutions.com/font/ba1ff8f6-0c27-4e7b-8be5-818b6c3dd801.ttf") format("truetype"),url("https://www.flatworldsolutions.com/font/a379413e-a0b8-44dc-b250-1e000e4092a4.svg#a379413e-a0b8-44dc-b250-1e000e4092a4") format("svg")}
+html{overflow-y:scroll;overflow-x:hidden;-webkit-text-size-adjust:none}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:normal 14px Myriad W01 Regular;color:#454546}
+body{height:100%;margin:0;padding:0}
+body.body-bg{background:#fff url("https://www.flatworldsolutions.com/images/texure-bg.jpg") repeat-x 0 231px}
+select,input,textarea{-webkit-appearance:none;-webkit-border-radius:0}
+.header,.section, header, section , footer,aside,nav,main,article,figure{display:block !important;}
+header, .header{width:100% !important;float:left !important;height:70px !important; border-bottom:1px solid #d71920; !important; background: none !important;}
+header #top-menu-bg, .header #top-menu-bg{width:100% !important; height:74px !important;background: none !important;}
+header #logo-container, .header #logo-container{width:1000px;height:50px;margin:0 auto;padding:14px 0 10px}
+header #logo-container #logo, .header #logo-container #logo{float:left;max-width:146px}
+header #logo-container #top-menu a, .header #logo-container #top-menu a{color:#000;text-decoration:none;padding:0 13px;font:normal 13px Myriad W01 Regular;background:url('https://www.flatworldsolutions.com/images/top-menu-separator.png') right center no-repeat}
+
+h1{font:normal 24px Myriad W01 Regular;color:#035e9e;text-align:left;letter-spacing:0;padding:10px 0;margin:0}
+header #logo-container{border-bottom: 1px solid #b41f23}
+::-ms-clear{display:none}
+#form-wrapper{width:100%;float:left;padding:0 0 6% 0;}
+#form-wrapper #content-container{width:1000px;margin:15px auto;padding:0}
+#form-wrapper section{width:50%;float:left}
+#form-wrapper section .form-bg{width:75%;max-width:380px;float:left;background:#054f7d;border-radius:4px 4px 0 0;padding:3% 4%}
+
+#form-wrapper .section{width:65%;float:left}
+#form-wrapper .section .form-bg{width:100%;*max-width:380px;float:left;background:#054f7d;border-radius:4px 4px 0 0;padding:3% 4%}
+#form-wrapper .section .form-bg h2, #form-wrapper section .form-bg h2{font:normal 23px Myriad W01 Regular;color:#fff;margin:0 0 2px}
+#form-wrapper .section .form-bg > span, #form-wrapper section .form-bg > span{font:normal 14px Myriad W01 Regular;color:#fff;opacity:.6;filter:Alpha(opacity=60);margin:0 0 16px;float:left;width:100%}
+#form-wrapper .section .fields-container, #form-wrapper section .fields-container{width:55%;margin:0px 0px 10px 0px;float:right;clear:right}
+#form-wrapper .section .fields-container .sticky-placeholder-label[for="FirstName"], #form-wrapper section .fields-container .sticky-placeholder-label[for="FirstName"]{margin-left:60px !important}
+#small-form-bottom #smallform .sticky-placeholder-label[for="FirstName"]{top:2px !important}
+#smallform .sticky-placeholder-label[for="FirstName"]{top:78px !important}
+#form-wrapper .section .fields-container .sticky-placeholder-label, #form-wrapper section .fields-container .sticky-placeholder-label{padding-top:8px !important;width:100% !important}
+#form-wrapper .section .fields-container.mobile-platform, #form-wrapper section .fields-container.mobile-platform{background-color:#fff;margin-bottom:10px;border:1px solid #b7b7b7;width:94%;padding:10px;padding-bottom:5px}
+#form-wrapper .section .fields-container.mobile-platform span, #form-wrapper section .fields-container.mobile-platform span{color:#000;font-size:14px;font:14px Myriad W01 Regular}
+#form-wrapper .section .fields-container.mobile-platform #checkbox-panel, #form-wrapper section .fields-container.mobile-platform #checkbox-panel{float:left;clear:both;margin-left:22px}
+.nopadding{padding:0 !important}
+#form-wrapper .section .fields-container.mobile-platform #checkbox-panel input[type='checkbox'], #form-wrapper section .fields-container.mobile-platform #checkbox-panel input[type='checkbox']{width:auto !important;height:auto !important}
+#form-wrapper .section .fields-container.mobile-platform #checkbox-panel input, #form-wrapper section .fields-container.mobile-platform #checkbox-panel input[type='text']{height:27px}
+#form-wrapper .section .fields-container.mobile-platform #checkbox-panel span, #form-wrapper section .fields-container.mobile-platform #checkbox-panel span{float:none;padding-left:10px;width:auto !important;margin:0 !important}
+#form-wrapper #content-container .breadcrumbs{margin-bottom:20px}
+.sticky-placeholder-wrapper>label{opacity:.5;-webkit-transition:opacity .2s ease-out;-moz-transition:opacity .2s ease-out;-ms-transition:opacity .2s ease-out;transition:opacity .2s ease-out}
+.sticky-placeholder-wrapper{opacity:1 !important;margin:0 !important;padding:0 !important;float:none !important;width:auto !important}
+[placeholder]::-moz-placeholder{color:#000 !important}
+[placeholder]::-webkit-input-placeholder{color:#767174 !important}
+#form-wrapper .section #checkbox-container, #form-wrapper section #checkbox-container{width:100%;float:left}
+#form-wrapper .section #salutation, #form-wrapper section #salutation{width:56px;height:35px;float:left;font:normal 15px Myriad W01 Regular;color:#7f7f7f;border-left:1px solid #b7b7b7;border-top:1px solid #b7b7b7;border-bottom:1px solid #b7b7b7;padding:0;margin:0 2px 0 0;background:#fff;appearance:none;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;-o-appearance:none;text-overflow:""}
+#form-wrapper .section #salutation option, #form-wrapper section #salutation option{background:#fff !important;border:0 solid #b7b7b7;outline:0}
+#form-wrapper .section #salutation select, #form-wrapper section #salutation select{font:normal 15px Myriad W01 Regular;color:#7f7f7f;background:url("https://www.flatworldsolutions.com/images/form-down-arrow.png") 92% center no-repeat #fff !important;-ms-appearance:none;-o-appearance:none;appearance:none;-moz-appearance:none;-webkit-appearance:none;overflow:hidden;text-indent:.01px;border:0;margin:0;width:100%;padding-left:4px;height:35px}
+#form-wrapper .section input, #form-wrapper section input{width:96%;height:35px;background-color:#fff;border:1px solid #b7b7b7;font:normal 15px Myriad W01 Regular;color:#7f7f7f;padding:0 6px}
+#form-wrapper .section input.name, #form-wrapper section input.name{width:79.4%;float:left;border-right:1px solid #b7b7b7;border-top:1px solid #b6b7b7;border-bottom:1px solid #b6b7b7;color:#7f7f7f;border-left:0}
+#form-wrapper section .fields-container{width:100%;margin:0px 0px 10px 0px;float:left}
+
+#form-wrapper section input.name{width:80.4%;float:left;border-right:1px solid #b7b7b7;border-top:1px solid #b6b7b7;border-bottom:1px solid #b6b7b7;color:#7f7f7f;border-left:0}
+
+#form-wrapper section .select-container{width:100%;margin:0px 0px 10px 0px;float:left;padding:0;position:relative}
+
+#form-wrapper section select{width:99.74%;height:35px;border:1px solid #b7b7b7;font:normal 15px Myriad W01 Regular;color:#7f7f7f;padding:7px 2px;background:url("https://www.flatworldsolutions.com/images/form-down-arrow.png") 99% center no-repeat #fff !important;appearance:none;overflow:hidden;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;-o-appearance:none;text-overflow:"";text-indent:.01px;outline:0}
+#form-wrapper .section .fields-name{color: #FFF;font: 15px Myriad W01 Regular; float:left;padding: 10px 0px;width:43%;  margin: 0px 10px 10px 0px;clear:left}
+#form-wrapper .section .fields-name span{color: #FFF;font: 15px Myriad W01 Regular;opacity:1;float:none; width:auto}
+#form-wrapper .section .fields-name span.red{color:#ff0000}
+#form-wrapper .section .select-container{width:55%;margin:0px 0px 10px 0px;float:right;padding:0;clear:right}
+#form-wrapper .section select{width:99.74%;height:35px;border:1px solid #b7b7b7;font:normal 15px Myriad W01 Regular;color:#7f7f7f;padding:7px 2px;background:url("https://www.flatworldsolutions.com/images/form-down-arrow.png") 99% center no-repeat #fff !important;appearance:none;overflow:hidden;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;-o-appearance:none;text-overflow:"";text-indent:.01px;outline:0}
+select::-ms-expand{display:none}
+#form-wrapper .section textarea, #form-wrapper section textarea{min-width:96%;max-width:96%;height:86px;background:#fff;border:1px solid #b7b7b7;font:normal 15px Myriad W01 Regular;color:#333;padding:10px 6px;margin:0;margin-bottom:12px}
+#form-wrapper .section label, #form-wrapper section label{font:normal 12px Arial;color:#666;text-align:left;width:270px;padding:1.5% 1% 1.4% 0;float:left}
+#form-wrapper .section label span, #form-wrapper section label span{color:#de1c85;font-weight:bold;font-size:12px}
+#form-wrapper .section .checkbox, #form-wrapper section .checkbox{vertical-align:top;width:15px;height:15px;background:#fff;border:1px solid #b7b7b7;margin:0;padding:0}
+#form-wrapper .section #file_browse_wrapper, #form-wrapper section #file_browse_wrapper{width:91px;height:44px;float:left;background:#808080 url('https://www.flatworldsolutions.com/images/upload-file-bg.jpg');border:1px solid #4c4c4c;overflow:hidden;cursor:pointer;font:normal 15px Myriad W01 Regular;color:#fff}
+#form-wrapper .section #file_browse_wrapper input#file_browse, #form-wrapper section #file_browse_wrapper input#file_browse{opacity:0;filter:Alpha(opacity=0);cursor:pointer;width:98%;padding:0 1% 2%;font:normal 15px Myriad W01 Regular;color:#fff}
+#file_browse1{opacity:0;filter:Alpha(opacity=0);cursor:pointer;margin-left:-150px}
+#file_browse2{opacity:0;filter:Alpha(opacity=0);cursor:pointer;margin-left:-150px}
+#browse{width:89px;height:35px;background:#474747;border:1px solid #0f0f0f;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;overflow:hidden}
+#form-wrapper .section label.info, #form-wrapper section label.info{font:normal 13px Myriad W01 Regular;color:#fff;width:70%;padding:1% 0 1% 1.5%;float:right;border-left:1px solid #efefef}
+#form-wrapper .section .form-bg p.attachedfile, #form-wrapper section .form-bg p.attachedfile{font:normal 11px Myriad W01 Regular;color:#fff;float:left}
+#form-wrapper .section input.submit, #form-wrapper section input.submit{width:99.5%;height:44px;box-shadow:none;background-color:#27abdc !important;border-radius:none !important;float:left;padding:0;border-top:2px solid #81d6f2;font:normal 20px Myriad W01 Regular;color:#fff;cursor:pointer}
+#form-wrapper aside{width:35%;float:left}
+#form-wrapper aside div.career{width:100%;float:left;margin:0 0 20px 0;font:normal 22px Myriad W01 Regular;color:#000}
+#form-wrapper aside div.career p{font:normal 22px Myriad W01 Regular;color:#000;letter-spacing:normal}
+#form-wrapper aside div.career .career-btn{padding:6px 10px;background:#2aa6e2;font:normal 16px Myriad W01 Regular;color:#fff;border:1px solid #125f85;float:left}
+#form-wrapper aside div.content{width:100%;float:left;margin:0 0 15px 0;border-bottom:1px solid #ccc;padding:0 0 19px 0}
+#form-wrapper aside div.content h2{font:normal 18px Myriad W01 Regular;color:#b61628}
+#form-wrapper aside div.content p{font:normal 16px Myriad W01 Regular;color:#000;float:left;margin:0;letter-spacing:normal;line-height:21px}
+#form-wrapper aside div.content p a{font:normal 16px Myriad W01 Regular;color:#000;text-decoration:none}
+#form-wrapper aside div.content p a:hover{font:normal 16px Myriad W01 Regular;color:#000;text-decoration:none}
+#form-wrapper aside div.content.no-border{border:0;padding:0}
+@media screen and (min-width:240px) and (max-width:319px){#form-wrapper{margin:0;padding:0}
+#form-wrapper #content-container{width:90%;padding:0 5%;float:left}
+#form-wrapper .section{width:100%}
+#form-wrapper .section .form-bg{width:92%;padding:3% 4%}
+#form-wrapper .section .form-bg h2{font:normal 18px Myriad W01 Regular}
+#form-wrapper .section #salutation{margin:0 0 10px 0}
+#form-wrapper .section #salutation select{width:100%;padding:7px 6px;height:35px}
+#form-wrapper .section input{width:94%;padding:0 3%}
+#form-wrapper .section input.name{width:94.4%}
+#form-wrapper .section .select-container{padding:0;margin:}
+#form-wrapper .section select{width:101%;padding:2% 3%}
+#form-wrapper .section textarea{width:96%;min-width:96%;max-width:96%;padding:10px 4px;margin:0;margin-bottom:9px}
+#form-wrapper .section label.info{width:100%;padding:0;float:left;margin:10px 0 10px 0}
+#form-wrapper aside{width:100%;margin:20px 0}
+#form-wrapper aside div.career p{font:normal 18px Myriad W01 Regular}
+#form-wrapper aside div.content p{word-wrap:break-word;width:100%;float:none}
+#form-wrapper .section .fields-container.mobile-platform{width:90%;}
+#form-wrapper .section .fields-container .sticky-placeholder-label[for="FirstName"]{margin-left:6px !important;top:48px !important}
+}
+@media screen and (min-width :320px) and (max-width :479px){#form-wrapper{margin:0;padding:0}
+#form-wrapper #content-container{width:90%;padding:0 5%;float:left}
+#form-wrapper .section{width:100%}
+#form-wrapper .section .form-bg{width:92%;padding:3% 4%}
+#form-wrapper .section #salutation{margin:0 0 10px 0}
+#form-wrapper .section #salutation select{width:100%;padding:7px 6px;height:35px}
+#form-wrapper .section input{width:94%;padding:0 3%}
+#form-wrapper .section input.name{width:94.4%}
+#form-wrapper .section .select-container, #form-wrapper section .select-container{padding:0;margin:0}
+#form-wrapper .section select, #form-wrapper section select{width:100%;padding:2% 3%}
+#form-wrapper .section textarea, #form-wrapper section textarea{width:96%;min-width:96%;max-width:96%;padding:10px 4px;margin:0;margin-bottom:9px}
+#form-wrapper .section label.info, #form-wrapper section label.info{width:100%;padding:0;float:left;margin:10px 0 10px 0}
+#form-wrapper aside{width:100%;margin:20px 0}
+#form-wrapper aside div.career p{font:normal 18px Myriad W01 Regular}
+#form-wrapper .section .fields-container.mobile-platform, #form-wrapper section .fields-container.mobile-platform{width:92.4%}
+#form-wrapper .section .fields-container .sticky-placeholder-label[for="FirstName"], #form-wrapper section .fields-container .sticky-placeholder-label[for="FirstName"]{margin-left:2px !important;top:48px !important}
+header #logo-container{width:100%;}
+header #logo-container img{margin-left:15px}
+}
+@media screen and (min-width :480px) and (max-width :767px){#form-wrapper{margin:10px 0 0;padding:0}
+#form-wrapper #content-container{width:94%;padding:0 3%;float:left}
+#form-wrapper .section, #form-wrapper section{width:100%}
+#form-wrapper .section #salutation select, #form-wrapper section #salutation select{width:100%;padding-left:4px;height:35px}
+#form-wrapper aside{width:100%}
+#form-wrapper .section select, #form-wrapper section select{width:100%;padding:2% 3%}
+#form-wrapper .section .form-bg, #form-wrapper section .form-bg{width:92%;padding:3% 4%}
+#form-wrapper aside{width:100%;margin:20px 0}
+}
+@media only screen and (min-width:768px) and (max-width:999px){#form-wrapper #content-container{width:98%;padding:0 1%;float:left}
+#form-wrapper .section #salutation, #form-wrapper section #salutation {margin:0 0 10px 0}
+#form-wrapper .section #salutation select, #form-wrapper section #salutation select{width:100%;padding:7px 6px;height:35px}
+#form-wrapper .section input.name, #form-wrapper section input.name{width:96.4%}
+#form-wrapper .section .select-container, #form-wrapper section .select-container{padding:0;margin:0}
+#form-wrapper .section select, #form-wrapper section select{width:100%;padding:2% 3px}
+#form-wrapper .section label.info, #form-wrapper section label.info{width:100%;padding:0;float:left;margin:10px 0 10px 0}
+#form-wrapper .section textarea, #form-wrapper section textarea{width:97%;min-width:97%;max-width:97%;padding:10px 4px;margin:0;margin-bottom:6px}
+#form-wrapper .section .fields-container .sticky-placeholder-label[for="FirstName"], #form-wrapper section .fields-container .sticky-placeholder-label[for="FirstName"]{margin-left:2px !important;top:48px !important}
+.sticky-placeholder-wrapper>label,select{padding-left:6px !important}
+#form-wrapper aside{width:49%}
+}
+@media screen and (min-width:1000px) and (max-width:1030px){#form-wrapper #content-container{width:98%;padding:0 1%;float:left}
+/*#form-wrapper .section #salutation{margin:0 0 10px 0}*/
+#form-wrapper .section #salutation select, #form-wrapper section #salutation select{width:100%;padding:7px 6px;height:35px}
+#form-wrapper .section input.name{width:79.4%}
+#form-wrapper section input.name{width:96.4%}
+#form-wrapper .section select, #form-wrapper section select{width:99.7%;padding:2% 2%}
+#form-wrapper .section textarea, #form-wrapper section textarea{width:97%;min-width:97%;max-width:97%;padding:10px 4px;margin:0;margin-bottom:6px}
+#form-wrapper .section #salutation select, #form-wrapper section #salutation select{width:100%;padding:7px 6px;height:35px}
+#form-wrapper .section .fields-container .sticky-placeholder-label[for="FirstName"], #form-wrapper section .fields-container .sticky-placeholder-label[for="FirstName"]{margin-left:2px !important;top:48px !important}
+}
+
+#form-wrapper section .select-container .ui-button{background-position: 0px 7px  !important;right: 1% !important;top:17% !important}
+.search-icon{background-image:url('/images/search-icon-gray.png');background-position:340px 11px; background-repeat:no-repeat}	
+
+.multi{height: 22px;width: 110px;box-shadow: none;border: medium none;padding: 0px;background-color: transparent;border:0;opacity:0;cursor: pointer;cursor:hand;position:absolute;top:0;left:0}
+.MultiFile-remove{float:right;*background:url('/forms/images/file-delete-icon.png') no-repeat 0 0;*width: 16px;*height: 16px;}
+	.MultiFile-remove:after{content: "\f2ed";-moz-osx-font-smoothing: grayscale;-webkit-font-smoothing: antialiased;display: inline-block;font-style: normal;font-variant: normal;text-rendering: auto;line-height: 1;font-family: "Font Awesome 5 Free";font-weight: 900;color:#efefef}
+.MultiFile-remove img{display:none}
+
+div.MultiFile-label{padding-top: 7px;border-bottom: 1px dashed #cccccc;font-size: 11px;padding-bottom: 2px}
+.MultiFile-label span{color:#ffffff !important;word-break: break-all;word-spacing: normal;white-space: normal;font:13px Arial !important}
+.MultiFile-wrap .upload-button-wrap{width: 100px;height: 20px;float: left;border: 0px none;overflow: hidden;cursor: pointer;cursor:hand;*background: transparent url("/images/browse-btn.png") no-repeat scroll 0px 0px;cursor:hand;cursor:pointer;*padding-left: 21px;text-transform: uppercase;font-weight: 600;font-size: 12px;    color: #ffffff;position:relative}
+.MultiFile-wrap .upload-button-wrap:before{content: "\f093";-moz-osx-font-smoothing: grayscale;-webkit-font-smoothing: antialiased;display: inline-block;
+    font-style: normal;font-variant: normal;text-rendering: auto;line-height: 1;font-family: "Font Awesome 5 Free";font-weight: 900;color:#73c2f8;font-size:1.1rem;padding-right:1px}
+.MultiFile-wrap .upload-button-wrap:hover{color:#73c2f8}	
+.MultiFile-list{width:100%;float:left;clear:both;margin-top: 10px;margin-bottom: 10px}
+div.MultiFile-label{margin-bottom:6px}
+.MultiFile-wrap{float:left;width:100%;clear:both}
+#form-wrapper section .fields-container.last{margin:0px 0px 1px 0px}
