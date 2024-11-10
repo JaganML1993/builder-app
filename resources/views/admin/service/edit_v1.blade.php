@@ -17,8 +17,11 @@
   <section class="section">
     <div class="section-body">
       <div class="row">
-        <a href="javascript:void(0);" onclick="window.history.back();" class="btn btn-primary mb-2 mr-2" style="margin-left: 15px !important;"><i class="fas fa-arrow-left"></i>
-          Back</a>
+        <a href="{{ route('admin.service.index') }}" class="btn btn-primary mb-2 mr-2" style="margin-left: 15px !important;">
+          <i class="fas fa-arrow-left"></i> Back
+      </a>
+      
+      
         @if ($errors->any())
         <div class="alert alert-danger">More Services
           <ul>
@@ -46,7 +49,7 @@
                     <button class="btn btn-primary btn-pub" type="submit" name="action" value="save">Save</button>
                   </div>
                   <div class="col-sm-2 col-md-2 text-right">
-                    <button class="btn btn-danger btn-pub" type="submit" name="action" value="close">Close</button>
+                    <a href="{{ route('admin.service.index') }}"  class="btn btn-danger btn-pub" type="submit" name="action" value="close">Close</a>
                   </div>
                 </div>
                 <input type="hidden" name="id" value="{{ $service->id }}" />
@@ -229,7 +232,7 @@
                     <div class="additional-field row mb-4 mx-auto">
                       <div class="col-3">
                         <label class="">Service List Item Image</label>
-                        <input type="file" class="form-control" name="service_list_item_image[]">
+                        <input type="file" class="form-control" name="service_list_item_image[]" value="{{ $item->image }}" >
                         @isset($item->image)
                         <img src="{{ asset($item->image) }}" height="50">
                         @endisset
@@ -586,7 +589,7 @@
                     <div class="additional-article-field-template row mb-4">
                       <div class="col-3">
                         <label class="">Article Item Image</label>
-                        <input type="file" class="form-control art-img" name="article_item_image[]">
+                        <input type="file" class="form-control art-img" name="article_item_image[]"   >
                         @isset($item->image)
                         <img src="{{ asset($item->image) }}" height="50">
                         @endisset
@@ -1437,32 +1440,39 @@
   });
 </script>
 <script>
-  $(document).ready(function() {
-    $('.delete-tech-image').click(function() {
-      var button = $(this);
-      var image = button.closest('.tech-image-item').data('image');
-      var serviceId = "{{ $service->id }}";
-      var token = '{{ csrf_token() }}';
+$(document).ready(function() {
+  $('.delete-tech-image').click(function() {
+    var button = $(this);
+    var image = button.closest('.tech-image-item').data('image');
+    var serviceId = "{{ $service->id }}";
+    var token = '{{ csrf_token() }}';
 
-      $.ajax({
-        url: '/services/' + serviceId + '/tech-image/' + image,
-        type: 'DELETE',
-        data: {
-          _token: token
-        },
-        success: function(response) {
-          if (response.success) {
-            button.closest('.tech-image-item').remove();
-          } else {
-            alert('Failed to delete the image.');
-          }
-        },
-        error: function(xhr) {
-          alert('An error occurred while deleting the image.');
+    console.log('Image:', image);
+    console.log('Service ID:', serviceId);
+    console.log('Token:', token);
+
+    $.ajax({
+      url: '/services/' + serviceId + '/tech-image/' + image,
+      type: 'DELETE',
+      data: {
+        _token: token
+      },
+      success: function(response) {
+        if (response.success) {
+          console.log('Image deleted successfully');
+          button.closest('.tech-image-item').remove();
+        } else {
+          alert('Failed to delete the image.');
         }
-      });
+      },
+      error: function(xhr, status, error) {
+        console.log('AJAX error:', error);
+        alert('An error occurred while deleting the image.');
+      }
     });
   });
+});
+
 </script>
 <script>
   document.addEventListener('DOMContentLoaded', function() {

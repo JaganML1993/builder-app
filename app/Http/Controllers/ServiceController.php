@@ -374,22 +374,22 @@ class ServiceController extends Controller
         // Faq 
 
         $moreserviceJson = null;
-        if(!empty($validatedData['more_service_items'][0])){
+        if (!empty($validatedData['more_service_items'][0])) {
             if (isset($validatedData['more_service_items']) && count($validatedData['more_service_items']) > 0) {
                 $faqListItems = [];
                 foreach ($validatedData['more_service_items'] as $index => $file) {
                     $more_service_items = $validatedData['more_service_items'][$index];
                     $more_service_items_link = $validatedData['more_service_items_link'][$index];
-    
+
                     $serviceListItem = [
                         'title' => $more_service_items,
                         'link' => $more_service_items_link,
                     ];
-    
+
                     // Add the service item to the array
                     $moreserviceItems[] = $serviceListItem;
                 }
-    
+
                 // Convert the array to JSON format
                 $moreserviceJson = json_encode($moreserviceItems);
             }
@@ -463,14 +463,14 @@ class ServiceController extends Controller
         $service->process_flow_contents = $processFlowJson;
 
         //Industries We serve
-        if(!empty($validatedData['industry_items'][0])){
+        if (!empty($validatedData['industry_items'][0])) {
             $service->industry_main_title = $validatedData['industry_main_title'] ?? null;
             $service->industry_items = isset($validatedData['industry_items']) ? json_encode($validatedData['industry_items']) : null;
-        }else{
+        } else {
             $service->industry_main_title = null;
             $service->industry_items = null;
         }
-        
+
 
         //Why Choose Us
         $service->why_choose_title = $validatedData['why_choose_title'] ?? null;
@@ -534,7 +534,7 @@ class ServiceController extends Controller
 
         $id = $service->id;
 
-       
+
 
         switch ($action) {
             case 'publish':
@@ -591,8 +591,15 @@ class ServiceController extends Controller
 
     public function saveFileToFolder($file, $path)
     {
+        // Check if file is an instance of UploadedFile
+        if (!($file instanceof \Illuminate\Http\UploadedFile)) {
+            throw new \Exception('Expected an UploadedFile object, received: ' . gettype($file));
+        }
+
+        // Get the original file name
         $filename = $file->getClientOriginalName();
 
+        // Set the directory path
         $directory = public_path($path);
 
         // Check if the directory exists, if not, create it
@@ -603,9 +610,10 @@ class ServiceController extends Controller
         // Move the uploaded file to the specified directory
         $file->move($directory, $filename);
 
-        // Store the filename in the validated data
+        // Return the relative path
         return '/storage/' . basename($path) . '/' . $filename;
     }
+
 
 
     public function delete($id)
@@ -739,7 +747,7 @@ class ServiceController extends Controller
 
     public function update(Request $request, $id)
     {
-          
+
 
         $validatedData = $request->validate([
             'service_slug' => 'nullable',
@@ -775,7 +783,7 @@ class ServiceController extends Controller
             'more_service_main_title' => 'nullable|string|max:255',
             'more_service_items' => 'nullable|array',
             'more_service_items.*' => 'nullable|string|max:255',
-            'more_service_items_link'=>'nullable|array',
+            'more_service_items_link' => 'nullable|array',
             'more_service_items_link.*' => 'nullable|string|max:255',
 
 
@@ -801,6 +809,7 @@ class ServiceController extends Controller
             // Article
             'article_main_title' => 'nullable|string',
             'article_item_image.*' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp',
+            'article_item_image_old' => 'nullable',
             'article_item_description.*' => 'nullable|string',
             'article_item_link.*' => 'nullable|string',
 
@@ -933,27 +942,35 @@ class ServiceController extends Controller
         }
 
         // Article
-        $articleJson = $service->article_contents; // Default to existing data
-        if (isset($validatedData['article_item_image']) && count($validatedData['article_item_image']) > 0) {
+        $articleJson = $service->article_contents;
+        if (isset($validatedData['article_item_image_old']) && count($validatedData['article_item_image_old']) > 0) {
+
             $articleListItems = [];
-            foreach ($validatedData['article_item_image'] as $index => $file) {
+            foreach ($validatedData['article_item_image_old'] as $index => $file) {
                 $articleDescription = $validatedData['article_item_description'][$index];
                 $articleLink = $validatedData['article_item_link'][$index];
 
+                $imagePath = null;
+
+                if (is_file($file)) {
+                    $imagePath = $this->saveFileToFolder($file, 'storage/article_item_images');
+                } else {
+
+                    $imagePath = $file;
+                }
+
                 $serviceListItem = [
-                    'image' => $this->saveFileTofolder($file, 'storage/article_item_images'), // file, path
+                    'image' => $imagePath,
                     'description' => $articleDescription,
-                    'link' => $articleLink,
+                    'link' => $articleLink
                 ];
 
-                // Add the service item to the array
                 $articleListItems[] = $serviceListItem;
             }
 
-            // Convert the array to JSON format
+            // Convert the array of items into JSON format
             $articleJson = json_encode($articleListItems);
         }
-
         // Additional Services
         $additionalServicesJson = $service->additional_services_contents; // Default to existing data
         if (isset($validatedData['additional_services_item_title']) && count($validatedData['additional_services_item_title']) > 0) {
@@ -1043,7 +1060,7 @@ class ServiceController extends Controller
 
         // moreservice
         $moreserviceJson = $service->more_service_items; // Default to existing data
-    
+
         if (isset($validatedData['more_service_items']) && count($validatedData['more_service_items']) > 0) {
             $moreserviceListItems = [];
             // dd($validatedData['more_service_items_link']);
@@ -1167,7 +1184,7 @@ class ServiceController extends Controller
         $service->save();
 
         $action = $request->input('action');
-       
+
         if ($action == 'save') {
             return redirect()->route('admin.service.index')->with('success', 'Service updated successfully');
         } else if ($action == 'close') {
